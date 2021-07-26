@@ -6,7 +6,7 @@ sections:
   - Equipe
 ---
 
-Trabalho realizado na disciplina de Requisitos de Software da Universidade de Brasília no período de 2020/2 (segundo semestre do ano de 2020)
+Trabalho realizado na disciplina de Arquitetura e Desenho de Software da Universidade de Brasília no período de 2021/1.
 
 ### A disciplina
 
@@ -71,7 +71,7 @@ Pedro Henrique Vieira</p>
 
 <div class="" style="display:flex; flex-direction: column; justify-content: center; align-items: center;border-radius: 50%; flex-basis: 26%">
 <div class="screenshot-holder">
-  <img class="img-circle" src="https://avatars.githubusercontent.com/u/49600484?s=460&u=ad5d9200becfdaf0208f6ad33d49ecd728248367&v=4">{: .img-responsive}
+  <img class="img-circle" src="https://avatars.githubusercontent.com/u/48574832?v=4">{: .img-responsive}
   <a style="display: flex; justify-content: center; align-content: center; align-items: center; color: white; background-color: #33333365; font-size: 1.65rem; font-weight: 600; transition: all 0.1s; border-radius: 50%">github.com/SamuelNoB</a>{: .mask}
 </div>
   <p style="font-size: 1.5rem; font-weight: 600">Samuel Nogueira</p>
@@ -79,7 +79,7 @@ Pedro Henrique Vieira</p>
 
 <div class="" style="display:flex; flex-direction: column; justify-content: center; align-items: center;border-radius: 50%; flex-basis: 26%">
 <div class="screenshot-holder">
-  <img class="img-circle" src="https://avatars.githubusercontent.com/u/49600484?s=460&u=ad5d9200becfdaf0208f6ad33d49ecd728248367&v=4">{: .img-responsive}
+  <img class="img-circle" src="https://avatars.githubusercontent.com/u/54087048?s=64&v=4">{: .img-responsive}
   <a style="display: flex; justify-content: center; align-content: center; align-items: center; color: white; background-color: #33333365; font-size: 1.65rem; font-weight: 600; transition: all 0.1s; border-radius: 50%">github.com/JangoMatos</a>{: .mask}
 </div>
   <p style="font-size: 1.5rem; font-weight: 600">João Matos</p>
@@ -87,7 +87,7 @@ Pedro Henrique Vieira</p>
 
 <div class="" style="display:flex; flex-direction: column; justify-content: center; align-items: center;border-radius: 50%; flex-basis: 26%">
 <div class="screenshot-holder">
-  <img class="img-circle" src="https://avatars.githubusercontent.com/u/49600484?s=460&u=ad5d9200becfdaf0208f6ad33d49ecd728248367&v=4">{: .img-responsive}
+  <img class="img-circle" src="https://avatars.githubusercontent.com/u/31159235?v=4">{: .img-responsive}
   <a style="display: flex; justify-content: center; align-content: center; align-items: center; color: white; background-color: #33333365; font-size: 1.65rem; font-weight: 600; transition: all 0.1s; border-radius: 50%">github.com/giovannabbottino</a>{: .mask}
 </div>
   <p style="font-size: 1.5rem; font-weight: 600">Giovanna Bottino</p>
