@@ -1,9 +1,7 @@
 ---
 title: >
 sections:
-   - Introducao
    - Metodologia
-   - Kanban
    - Democracia
    - Atividades em pares
    - Revisao
@@ -14,29 +12,17 @@ sections:
    - Historico de Versao
 ---
 
-## Introdução {#introducao}
-
-Para o planejamento do projeto de Requisitos de software, foi definido por meio de reuniões abordando os seguintes tópicos:
-
-* Metodologia
-* Cronograma
-* Horários de Disponibilidade
-* Ferramentas
-
 ## Metodologia
 
-Os próximos tópicos desta página buscam mostrar a maneira de trabalho do grupo, a organização dos integrantes.
-
-### Kanban {#kanban}
-
-Como metodologia de trabalho nós optamos pelo Kanban, por diversos motivos, como:
+Como metodologia de trabalho nós optamos pelo Scrum utilizando o quadro do Kanban, por diversos motivos, como:
 
 * Sua facilidade de aplicação no projeto.
 * Sua boa adaptabilidade para imprevistos que possam ocorrer durante o trabalho.
 * Facilidade de visualização do trabalho dos demais integrantes.
 * Melhoria contínua proposta pela metodologia.
 
-Para realização do Kanban do grupo será usado um quadro no [Trello](https://trello.com/) com o intuito de ser o quadro de atividades da equipe.
+Para realização do Kanban do grupo será usado um quadro no [github](https://github.com/UnBArqDsw2021-1/2021.1_G7_Mychine_docs/projects/1) com o intuito de 
+ser o quadro de atividades da equipe.
 
 ### Democrácia {#democracia}
 
@@ -60,6 +46,14 @@ do projeto que será entregue ao fim.
 
 ## Cronograma
 
+<div class="table-responsive">
+
+{: .table .table-striped }
+| Sprint | Período | Atividades |
+| -- | -- | -- |
+| Sprint 1  | **Início:** <br> 26 de Julho <br> **Término:** <br> 02 de Agosto |  #1 Rich Picture <br> #2 Mapa Mental <br> #3 Causa e Efeito <br> #4 Plano de Ação <br> #5 Design Sprint <br>  #6 Modelagem BPMN <br>  #7 Metodologia |
+
+</div>
 
 ## Horários de Disponibilidade {#horarios-de-disponibilidade}
 
@@ -67,21 +61,19 @@ Para identificar os horários mais adequados para nossos encontros foi realizado
 
 ## Ferramentas
 
-A seguir estão listados os principais softwares que utilizaremos, além do [Trello](https://trello.com/) e do aplicativo do Wikipéia (versão Android), que possui uma descrição no [*card* sobre o projeto](https://requisitos-de-software.github.io/2020.2-Wikipedia/about.html).
+A seguir estão listados os principais softwares que utilizaremos:
 
 <div class="table-responsive">
 
 {: .table .table-striped }
 | # | Ferramenta | Utilidade |
 | -- | -- | -- |
-| ![Teams](assets/images/logos/Teams.png)  | [Teams](https://www.microsoft.com/pt-br/microsoft-teams/free) | Gravações de apresentações |
+| ![Teams](assets/images/logos/Teams.png)  | [Teams](https://www.microsoft.com/pt-br/microsoft-teams/free) | Gravações de apresentações e reuniões|
 | ![Discord](assets/images/logos/Discord.png)  | [Discord](https://discord.com/) | Reuniões |
-| ![Excel](assets/images/logos/Excel.png)  | [Excel](https://www.microsoft.com/pt-br/microsoft-365/free-office-online-for-the-web) | Criação de tabelas |
-| ![Word](assets/images/logos/Word.png)  | [Word](https://www.microsoft.com/pt-br/microsoft-365/free-office-online-for-the-web) | Criação de documentos |
 | ![Github](assets/images/logos/Github.png)  | [Github](https://github.com/) | Versionamento do projeto |
 | ![Telegram](assets/images/logos/Telegram.png)  | [Telegram](https://telegram.org/) | Comunicação rápida e mais informal |
 | ![Draw.io](assets/images/logos/Draw-io.png)  | [Draw.io](https://www.diagrams.net/) | Criação de diagramas |
-| ![YouTube](assets/images/logos/YouTube.png)  | [Youtube](https://www.youtube.com/) | Disponibilização dos vídeos de apresentação do [*card* apresentação](https://requisitos-de-software.github.io/2020.2-Wikipedia/apresentacoes.html) |
+| ![YouTube](assets/images/logos/YouTube.png)  | [Youtube](https://www.youtube.com/) | Disponibilização dos vídeos de apresentação |
 
 </div>
 
