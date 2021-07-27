@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Página Inicial
-tagline: 
+tagline: Arquitetura e Desenho de Software
 heading: Bem vindos!
 navigation:
   - /about

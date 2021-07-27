@@ -9,6 +9,7 @@ branding:
 markdown: kramdown
 kramdown:
   auto_ids: true
+  auto_id_stripping: false
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
@@ -24,7 +25,7 @@ kramdown:
 collections:
   doc:
     output: true
-    permalink: /:path.html
+    permalink: /:path
 
 
 #

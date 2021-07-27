@@ -309,8 +309,9 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sub
 .landing-page .header a { color: #fff; }
 .landing-page .branding { text-transform: uppercase; margin-bottom: 20px; }
 .landing-page .branding .logo { font-size: 38px; margin-top: 0; margin-bottom: 0; }
+.landing-page .branding .logo a { display: flex; align-items: center; justify-content: center; }
 .landing-page .branding .text-bold { font-weight: 800; color: #fff; }
-.landing-page .branding .icon { font-size: 32px; color: #00fff2; }
+.landing-page .branding .icon { font-size: 32px; color: #00fff2; margin-right: 1rem; }
 .landing-page .tagline { font-weight: 600; font-size: 20px; }
 .landing-page .tagline p { margin-bottom: 5px; }
 .landing-page .tagline .text-highlight { color: #266f71; }
