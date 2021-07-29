@@ -7,6 +7,7 @@ navigation:
   - /about
   - /apresentacoes
   - /planejamento
+  - /metodologia
 ---
 
 Esta é a wiki do projeto da disciplina de **Arquitetura e Desenho de Software** do grupo 7 do segundo semestre do ano de 2021/1.
