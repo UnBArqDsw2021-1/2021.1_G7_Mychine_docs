@@ -1,7 +1,6 @@
 ---
 title: >
 sections:
-   - Metodologia
    - Democracia
    - Atividades em pares
    - Revisao
@@ -12,19 +11,8 @@ sections:
    - Historico de Versao
 ---
 
-## Metodologia
 
-Como metodologia de trabalho nós optamos pelo Scrum utilizando o quadro do Kanban, por diversos motivos, como:
-
-* Sua facilidade de aplicação no projeto.
-* Sua boa adaptabilidade para imprevistos que possam ocorrer durante o trabalho.
-* Facilidade de visualização do trabalho dos demais integrantes.
-* Melhoria contínua proposta pela metodologia.
-
-Para realização do Kanban do grupo será usado um quadro no [github](https://github.com/UnBArqDsw2021-1/2021.1_G7_Mychine_docs/projects/1) com o intuito de 
-ser o quadro de atividades da equipe.
-
-### Democrácia {#democracia}
+### Democrácia 
 
 Todas as escolhas do grupo são feitas democraticamente no grupo do telegram da equipe ou em reunião com todos os membros,onde todos os integrantes debatem sobre as opções de escolhas e depois é feita uma votação utilizando o telegram.
 
@@ -38,7 +26,7 @@ A divisão das duplas será feita de maneira aleatória, sempre alternando as
 duplas para que todos os membros do trabalho possuam conhecimento sobre
 todas as partes do projeto.
 
-### Revisão {#revisao}
+### Revisão 
 
 Durante o decorrer do projeto será atribuído a tarefa de revisar o trabalho
 feito durante o período entre entregas, visando assim uma maior qualidade
@@ -55,7 +43,7 @@ do projeto que será entregue ao fim.
 
 </div>
 
-## Horários de Disponibilidade {#horarios-de-disponibilidade}
+## Horários de Disponibilidade 
 
 Para identificar os horários mais adequados para nossos encontros foi realizado em conjunto uma tabela que determina horários livres de cada integrante.
 
@@ -77,11 +65,11 @@ A seguir estão listados os principais softwares que utilizaremos:
 
 </div>
 
-## Referências {#referencias}
+## Referências 
 
 > Metodologia Kanban. Disponível [aqui](https://blog.runrun.it/o-que-e-kanban/#b). Acesso em 19 de fev. de 2021
 
-## Histórico de Versão {#historico-de-versao}
+## Histórico de Versão 
 
 {: .table .table-striped .table-bordered}
 | Versão | Data | Modificação | Autor(es) |
