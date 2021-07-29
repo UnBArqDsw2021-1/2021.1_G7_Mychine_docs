@@ -6,6 +6,7 @@
 |-------|------|-------------|-----------|
 |0.1|27/07/2021| Abertura do documento 5W2H| Giovanna B Bottino|
 |0.2|27/07/2021| Adiciona diagrama de ishikawa | Giovanna B Bottino e Kess Jhones Gomes Tavares|
+|0.3|29/07/2021| Altera caminho da imagem | Giovanna B Bottino |
 
 ## Diagrama de Ishikawa
 O Diagrama de Causa e Efeito ou Diagrama de Ishikawa é um gráfico utilizado para analisar problemas. Conforme o diagrama, esses problemas podem ser classificados em 6 tipos: 
@@ -20,7 +21,7 @@ O Diagrama de Causa e Efeito ou Diagrama de Ishikawa é um gráfico utilizado pa
 Nossa equipe decidiu utilizar esse diagrama, porque ele é de fácil entendimento e permite uma análise maior sobre o problema. Importante lembrar que nem sempre é utilizado todos os M's.
 
 ## Diagrama de Ishikawa - Mychine V1
-![](imagens/diagrama.png)
+![](./../../../assets/images/ishikawa.png)
 
 ## Referências
 
