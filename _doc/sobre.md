@@ -7,5 +7,8 @@ icon:
   name: fa-info-circle
 color: purple
 sections:
-  - /sobre/about
+  - /sobre/intro
+  - /sobre/disciplina
+  - /sobre/mychine
+  - /sobre/equipe
 ---
