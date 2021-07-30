@@ -1,8 +1,6 @@
 ---
 layout: home
-title: Página Inicial
-tagline: Arquitetura e Desenho de Software
-heading: Bem vindos!
+tagline: Desenho de Software (Base)
 navigation:
   - /base/modulo1
   - /base/modulo2

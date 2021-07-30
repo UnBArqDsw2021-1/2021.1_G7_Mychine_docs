@@ -1,6 +1,6 @@
 ---
 title: Desenho de Software (Base)
-excerpt: Técnicas de Elicitação, Artefatos Independentes de Metodologia e Esboço da Baseline de Requisitos (Priorizada)
+excerpt: Técnicas de Elicitação, Artefatos, Requisitos e Metodologia
 date: 2021-07-26
 icon:
   name: icon_puzzle_alt

@@ -4,12 +4,11 @@ title: Página Inicial
 tagline: Arquitetura e Desenho de Software
 heading: Bem vindos!
 navigation:
-  - /about
-  - /apresentacoes
-  - /planejamento
+  - /sobre
+  - /base
 ---
 
-Esta é a wiki do projeto da disciplina de **Arquitetura e Desenho de Software** do grupo 7 do segundo semestre do ano de 2021/1.
+Esta é a wiki do projeto da disciplina de **Arquitetura e Desenho de Software** do grupo 7 do primeiro semestre do ano de 2021.
 
 <div class="cta-container">
 
