@@ -1,3 +1,0 @@
----
-title: Plano de ação
----

@@ -1,3 +1,0 @@
----
-title: Causa e Efeito
----
