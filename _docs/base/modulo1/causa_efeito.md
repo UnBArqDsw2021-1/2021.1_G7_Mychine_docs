@@ -11,12 +11,13 @@ Diagrama de Causa e Efeito
 
 ## Versionamento
 
-|Versão | Data | Comentários | Autor(es) |
-|-------|------|-------------|-----------|
-|0.1|27/07/2021| Abertura do documento 5W2H| Giovanna B Bottino|
-|0.2|27/07/2021| Adiciona diagrama de ishikawa | Giovanna B Bottino e Kess Jhones Gomes Tavares|
-|0.3|29/07/2021| Altera caminho da imagem | Giovanna B Bottino |
-|1.0|31/07/2021| Revisão | Matheus Gabriel A Rodrigues |
+| Versão | Data       | Comentários                   | Autor(es)                                      |
+| ------ | ---------- | ----------------------------- | ---------------------------------------------- |
+| 0.1    | 27/07/2021 | Abertura do documento 5W2H    | Giovanna B Bottino                             |
+| 0.2    | 27/07/2021 | Adiciona diagrama de ishikawa | Giovanna B Bottino e Kess Jhones Gomes Tavares |
+| 0.3    | 29/07/2021 | Altera caminho da imagem      | Giovanna B Bottino                             |
+| 1.0    | 31/07/2021 | Revisão                       | Matheus Gabriel A Rodrigues                    |
+| 1.1    | 31/07/2021 | Correção do caminho da imagem | Eduardo Picolo                                 |
 
 ## Diagrama de Ishikawa
 
@@ -33,7 +34,10 @@ Nossa equipe decidiu utilizar esse diagrama, porque ele é de fácil entendiment
 
 ## Diagrama de Ishikawa - Mychine V1
 
-![Diagrama de ishikawa](./../../../assets/images/ishikawa.png)
+<a href="{{ site.baseurl }}/assets/images/ishikawa.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/ishikawa.png" class="img-fluid" />
+</a>
+
 
 ## Referências
 
