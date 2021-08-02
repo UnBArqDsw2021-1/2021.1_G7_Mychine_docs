@@ -9,6 +9,13 @@ nav_order: 7
 Design Sprint
 {: .fs-9}
 
+## Versionamento
+
+| Versão | Data       | Comentários                   | Autor(es)                                      |
+| ------ | ---------- | ----------------------------- | ---------------------------------------------- |
+| 0.1    | 02/08/2021 | Abertura do documento de Design de sprint  | Matheus Gabriel, Roberto da Nóbrega e Igor Lima |
+| 0.2    | 02/08/2021 | Adicionando versionamento | Matheus Gabriel |
+
 ## Introdução
 
 O design sprint é uma técnica, que normalmente dura cerca de 5 dias, que tem como objetivo
