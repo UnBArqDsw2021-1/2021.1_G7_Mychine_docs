@@ -3,6 +3,7 @@ title: >
 sections:
    - Metodologia
    - BPMN
+   - Historico de Versao
 ---
 
 ## Metodologia
@@ -37,3 +38,10 @@ Abaixo está o fluxo de desenvolvimento de projeto esperado.
 <i class="icon fa fa-search-plus" style="width: auto; height: auto"></i>
 </a>
 </div>
+
+## Histórico de Versão 
+
+{: .table .table-striped .table-bordered}
+| Versão | Data | Modificação | Autor(es) |
+|--|--|--|--|
+| 0.1 | 28/07/2021 | Criação da página e Adição do BPNM | Eduardo e Samuel |
