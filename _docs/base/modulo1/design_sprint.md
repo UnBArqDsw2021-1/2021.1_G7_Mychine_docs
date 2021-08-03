@@ -9,12 +9,18 @@ nav_order: 7
 Design Sprint
 {: .fs-9}
 
+1. TOC
+{:toc}
+
 ## Versionamento
+
+{: .no_toc}
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 02/08/2021 | Abertura do documento de Design de sprint  | Matheus Gabriel, Roberto da Nóbrega e Igor Lima |
 | 0.2    | 02/08/2021 | Adicionando versionamento | Matheus Gabriel |
+| 0.3    | 03/08/2021 | Criação do protótipo de média fidelidade | Matheus Gabriel, Eduardo Nunes e Pedro Henrique |
 
 ## Introdução
 
@@ -33,19 +39,38 @@ O tempo utilizado para cada etapa foi:
 * Prototype: Terça
 * Testing: Quarta
 
-## Unpack
+### Unpack
 
 Nessa etapa foi feito um brainstorming para levantar funcionalidades e ideias
 do projeto.
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_l4Xq45Q=/?moveToViewport=-2651,-1273,6306,2817" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
-## Sketch
+### Sketch
 
 <iframe width="768" height="432" src="https://miro.com/app/embed/o9J_l4XzDM4=/?pres=1&frameId=3074457362033560450" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
-## Decision
+### Decision
 
 Depois de analisar os desenhos formulados pelo grupo foi decidido utilizar o desenho do Igor Lima.
 
 <img src="{{ site.baseurl }}/assets/images/storyboard.png">
+
+### Prototype:
+
+Com base nas discussões anteriores o grupo começou a elaboração dos protótipos do sistema,
+começando com um protótipo de baixa-fidelidade, mostrado em seguida:
+
+#### Protótipo de baixa fidelidade
+
+<img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade.png">
+
+<img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-busca.png">
+
+<img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-produto.png">
+
+## Referências
+
+The design sprint Disponivel em: [https://www.gv.com/sprint/](https://www.gv.com/sprint/) Acesso em: 27 de julho de 2021.
+
+SERRANO, Milene. Design Sprint, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 03 de agosto de 2021.
