@@ -13,6 +13,7 @@ Requisitos
 | Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
 | 0.1 | 05/08/2021 | Abertura do documento de mapa mental | Matheus Gabriel e Roberto Nóbrega |
+| 1.0 | 05/08/2021 | Revisão | Eduardo Picolo e Igor Q. |
 
 ## Introdução
 
