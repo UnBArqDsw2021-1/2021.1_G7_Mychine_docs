@@ -1,5 +1,7 @@
 # Mychine
 
+[![GitHub license](https://img.shields.io/github/license/UnBArqDsw2021-1/2021.1_G7_Mychine_docs?style=flat-square)](https://github.com/UnBArqDsw2021-1/2021.1_G7_Mychine_docs/blob/gh-pages/LICENSE)
+
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 07<br>
 
@@ -53,9 +55,28 @@ Adicione o(s)s vídeo(s) da Entrega Final.
 **Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
 
 ## O Projeto está rodando?
-( ) SIM
+(X) SIM
 ( ) NÃO
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados em consultar o projeto.
+
+### Pre-Requisitos
+
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- [Bundler](https://bundler.io/)
+
+### Execução
+1. Instale as dependencias.
+```
+bundle install
+```
+
+2. Inicie a aplicação.
+```
+bundle exec jekyll serve --livereload
+```
+
+A aplicação estará rodando em http://localhost:4000/.
+
+---
 
 ## Informações Complementares 
 Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
