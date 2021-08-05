@@ -9,7 +9,10 @@ nav_order: 1
 Metodologia
 {: .fs-9}
 
-# Metodologia
+| Versão | Data       | Comentários                   | Autor(es)                                      |
+| ------ | ---------- | ----------------------------- | ---------------------------------------------- |
+| 0.1    | 05/08/2021 | Abertura do documento         | Samuel Nogueira e Eduardo Picolo               |
+| 1.0    | 05/08/2021 | Revisão                       | Igor Q Lima                                    |
 
 Como metodologia de trabalho nós optamos pelo Scrum, alem de algumas práticas oriundas do XP por diversos motivos, como:
 
