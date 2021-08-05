@@ -15,12 +15,14 @@ Cenários
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 05/08/2021 | Abertura do documento de cenários   | Igor Lima e Pedro Henrique |
 | 0.2    | 05/08/2021 | Criação dos cenários | Igor Lima e Pedro Henrique|
+| 1.0    | 05/08/2021 | Revisão  | Matheus Gabriel |
 
 ### Introdução
 
 É uma narrativa textual rica em detalhes contextual, de uma situação de uso da aplicação, envolvendo usuários, processos e dados reais ou potenciais. Cenários são poderosos, requerem menos tempo quando comparados a modelos e protótipos complexos.
 
 ### Template
+
 {: .no_toc}
 
 | Elemento      | Resposta                                        |
@@ -85,7 +87,7 @@ Cenários
 | **Atores**    | Usuário                                                                      |
 | **Recursos**  | Acesso a internet.                                                           |
 | **Exceção**   | Pesquisa sem resultados.                                                     |
-| **Episódios** | O usuario abre a aplicação.<br>Seleciona a barra de pesquisa.<br>Digita o nome do produto a ser procurado.<br>Pressiona enter.   |
+| **Episódios** | O usuário abre a aplicação.<br>Seleciona a barra de pesquisa.<br>Digita o nome do produto a ser procurado.<br>Pressiona enter.   |
 
 ### C6 - Recuperar senha
 

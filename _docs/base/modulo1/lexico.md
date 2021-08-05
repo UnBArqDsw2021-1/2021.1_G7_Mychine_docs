@@ -11,17 +11,18 @@ Léxico
 1. TOC
 {:toc}
 
-
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 05/08/2021 | Abertura do documento de léxicos   | Igor Lima e Pedro Henrique |
 | 0.2    | 05/08/2021 | Criação dos léxicos | Igor Lima e Pedro Henrique |
+| 1.0    | 05/08/2021 | Revisão | Matheus Gabriel |
 
 ### Introdução
 
 Léxicos consistem em símbolos compostos por palavras ou frases que representem termos particulares de um determinado domínio, podendo ser de quatro tipos: objeto, sujeito, verbo e estado. Têm como objetivo expressar a linguagem do universo de um problema sem levar em consideração o problema, e sim o seu contexto.
 
 ### Template
+
 {: .no_toc}
 
 | Classificação       | Noção     | Impacto   | Sinônimo(s) |
@@ -80,7 +81,7 @@ Léxicos consistem em símbolos compostos por palavras ou frases que representem
 
 | Classificação       | Noção     | Impacto   | Sinônimo(s) |
 | ------------------- | --------- | --------- | ----------- |
-| Objeto | Conta de usuário com privilégios | Poderar manter os produtos | Gerente |
+| Objeto | Conta de usuário com privilégios | Poderá manter os produtos | Gerente |
 
 ### L10 - Carrinho
 
@@ -92,7 +93,7 @@ Léxicos consistem em símbolos compostos por palavras ou frases que representem
 
 | Classificação       | Noção     | Impacto   | Sinônimo(s) |
 | ------------------- | --------- | --------- | ----------- |
-| Objeto | Serviço de correio eletronico | Vínculo de cadastro da conta de usuário | Correio eletronico, Gmail, Hotmail, etc... |
+| Objeto | Serviço de correio eletrônico | Vínculo de cadastro da conta de usuário | Correio eletrônico, Gmail, Hotmail, etc... |
 
 ### L12 - Conta de usuário
 
