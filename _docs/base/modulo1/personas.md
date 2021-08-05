@@ -11,6 +11,7 @@ Personas
 |Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
 |0.1|05/08/2021|Abertura do documento Personas|Igor Lima e Matheus Gabriel|
+|1.0|05/08/2021|Revisão|Eduardo Picolo e Samuel Nogueira|
 
 ## Introdução
 
