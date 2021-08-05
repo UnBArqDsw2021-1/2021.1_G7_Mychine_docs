@@ -10,9 +10,9 @@ Requisitos
 
 ## Versionamento
 
-|Versão | Data | Comentários | Autor(es) |
+| Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
-|0.1|05/08/2021|Abertura do documento de mapa mental | Matheus Gabriel e Roberto Nóbrega |
+| 0.1 | 05/08/2021 | Abertura do documento de mapa mental | Matheus Gabriel e Roberto Nóbrega |
 
 ## Introdução
 
