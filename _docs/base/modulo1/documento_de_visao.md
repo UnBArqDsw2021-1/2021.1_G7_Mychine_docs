@@ -15,8 +15,9 @@ Documento de visão
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
-| 0.1    | 05/08/2021 | Abertura do documento de visão | Kess Jhones|
-| 0.2    | 05/08/2021 | Adicionando documento de visão | Kess Jhones|
+| 0.1    | 05/08/2021 | Abertura do documento de visão | Kess Jhones |
+| 0.2    | 05/08/2021 | Adicionando documento de visão | Kess Jhones |
+| 1.0    | 05/08/2021 | Revisão | Eduardo Picolo e Ceilandia |
 
 ## 1. Introdução
 
