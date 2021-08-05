@@ -1,14 +1,13 @@
 ---
 layout: default
 title: Política de Contribuição
-parent: Extras
-nav_order: 1
+nav_order: 4
 ---
 
 Como Contribuir
 {: .fs-9}
 
-## Versionamento
+#### Versionamento
 
 |Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
@@ -57,3 +56,25 @@ Cada pull request deve possuir ao menos dois revisores.
 Cada revisor deve comentar uma checklist com seus critérios de revisão e se foram aprovados.
 
 `#<número_da_issue>` `<título da issue fonte>`.
+
+
+## Testando a wiki localmente
+
+### Pre-Requisitos
+
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+- [Bundler](https://bundler.io/)
+
+### Execução
+
+1. Instale as dependencias.
+```
+bundle install
+```
+
+2. Inicie a aplicação.
+```
+bundle exec jekyll serve --livereload
+```
+
+A aplicação estará rodando em http://localhost:4000/.

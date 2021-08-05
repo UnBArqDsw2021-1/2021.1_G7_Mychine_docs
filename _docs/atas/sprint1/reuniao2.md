@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reunião 2
-grand_parent: Ata
+grand_parent: Atas
 parent: Sprint 1
 nav_order: 2
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ata
+title: Atas
 nav_order: 2
 has_children: true
 permalink: /ata

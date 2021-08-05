@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sprint 1
-parent: Ata
+parent: Atas
 has_children: true
 nav_order: 1
 ---

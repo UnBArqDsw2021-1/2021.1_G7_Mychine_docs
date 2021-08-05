@@ -11,6 +11,8 @@ Léxico
 1. TOC
 {:toc}
 
+#### Versionamento
+
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 05/08/2021 | Abertura do documento de léxicos   | Igor Lima e Pedro Henrique |

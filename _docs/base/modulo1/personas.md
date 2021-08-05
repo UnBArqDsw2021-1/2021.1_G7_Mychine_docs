@@ -8,6 +8,8 @@ parent: Projeto Não Orientado a Abordagens Específicas
 Personas
 {: .fs-9}
 
+#### Versionamento
+
 |Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
 |0.1|05/08/2021|Abertura do documento Personas|Igor Lima e Matheus Gabriel|
