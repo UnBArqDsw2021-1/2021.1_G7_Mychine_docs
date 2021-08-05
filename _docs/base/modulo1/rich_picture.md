@@ -9,7 +9,7 @@ nav_order: 1
 Rich Picture
 {: .fs-9}
 
-## Versionamento
+#### Versionamento
 
 |Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
