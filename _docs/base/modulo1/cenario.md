@@ -11,6 +11,9 @@ Cenários
 1. TOC
 {:toc}
 
+#### Versionamento
+{: .no_toc}
+
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 05/08/2021 | Abertura do documento de cenários   | Igor Lima e Pedro Henrique |

@@ -9,7 +9,7 @@ nav_order: 4
 Diagrama de Causa e Efeito
 {: .fs-9}
 
-## Versionamento
+#### Versionamento
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
