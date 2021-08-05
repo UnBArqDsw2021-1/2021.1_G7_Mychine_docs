@@ -22,6 +22,7 @@ Design Sprint
 | 0.2    | 02/08/2021 | Adicionando versionamento | Matheus Gabriel |
 | 0.3    | 03/08/2021 | Criação do protótipo de baixa fidelidade | Matheus Gabriel, Eduardo Nunes e Pedro Henrique |
 | 0.4    | 05/08/2021 | Correções | Igor Q lima |
+| 1.0    | 05/08/2021 | Revisão | Matheus Gabriel |
 
 ## Introdução
 
