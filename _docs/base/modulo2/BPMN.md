@@ -13,6 +13,7 @@ nav_order: 2
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 05/08/2021 | Abertura do documento         | Samuel Nogueira e Eduardo Picolo               |
+| 1.0    | 05/08/2021 | Revisão                       | Igor Q Lima                                    |
 
 
 # Introdução
@@ -28,8 +29,8 @@ Resultado
 
 ## Referências
 
-Business Process Model and Notation (BPMN) Version 2.0.2. OMG (2013). Disponível em: https://www.omg.org/spec/BPMN. Acesso em: 02 de Agosto de 2021.
+Business Process Model and Notation (BPMN) Version 2.0.2. OMG (2013). Disponível em: <https://www.omg.org/spec/BPMN>. Acesso em: 02 de Agosto de 2021.
 
-Business Process Model and Notation. Wikipedia.org. Disponível em: https://pt.wikipedia.org/wiki/Business_Process_Model_and_Notation. Acesso em: 5 Aug. 2021.
+Business Process Model and Notation. Wikipedia.org. Disponível em: <https://pt.wikipedia.org/wiki/Business_Process_Model_and_Notation>. Acesso em: 5 Aug. 2021.
 
 SERRANO, Milene. BPMN, 2021. Videoaulas disponibilizadas no moodle da disciplina de Arquitetura e Desenho de Software do curso de Engenharia de Software da UnB, FGA. Acesso em: 02 de Agosto de 2021.
