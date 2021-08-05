@@ -3,7 +3,7 @@ layout: default
 title: Documento de visão
 grand_parent: Desenho de Software (Base)
 parent: Projeto Não Orientado a Abordagens Específicas
-nav_order: 9
+nav_order: 1
 ---
 
 Documento de visão

@@ -3,7 +3,11 @@ layout: default
 title: Guia de Estilo
 grand_parent: Desenho de Software (Base)
 parent: Projeto Não Orientado a Abordagens Específicas
+nav_order: 11
 ---
+
+Iniciativa extra
+{: .label .label-purple }
 
 Guia de Estilo
 {: .fs-9}

@@ -3,7 +3,7 @@ layout: default
 title: Mapa Mental
 grand_parent: Desenho de Software (Base)
 parent: Projeto Não Orientado a Abordagens Específicas
-nav_order: 2
+nav_order: 3
 ---
 
 Mapa Mental
@@ -17,6 +17,7 @@ Mapa Mental
 |0.2|03/08/2021|Adição do mapa mental|Igor Lima, Pedro Henrique e Roberto Nóbrega|
 |1.0|05/08/2021|Revisão|Matheus Gabriel e Eduardo Picolo|
 
+## Introdução
 
 Um mapa mental é um tipo de diagrama com foco na gestão de informações, conhecimento, ideias, solução de problemas, aprendizado, entre outros. Ele consiste na criação de resumos acerca de uma ideia inicial e da criação de ramos a partir desta mesma ideia. O mapa mental possui como objetivo mostrar o relacionamento conceitual entre informações. Nele são utilizados, setas, cores, elementos, etc… para facilitar e destacar informações.
 
