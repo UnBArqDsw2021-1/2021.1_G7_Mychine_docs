@@ -46,6 +46,7 @@ Será utilizado um quadro (estilo Kanban) no [github](https://github.com/UnBArqD
 <a href="{{ site.baseurl }}/assets/images/kanban.jpg" data-toggle="lightbox" > 
     <img src="{{ site.baseurl }}/assets/images/kanban.jpg" class="img-fluid" />
 </a>
+
 ## Devops
 
 Por fim também serão adotadas algumas práticas e ferramentas da cultura DevOps, tais como: 
