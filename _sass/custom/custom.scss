@@ -80,7 +80,9 @@ td {
       height: 100%;
     }
   }
-
+  &.persona {
+      width: 150px;
+  }
   img {
     display: block;
   }
