@@ -16,7 +16,8 @@ Metodologia
 | 0.1    | 05/08/2021 | Abertura do documento         | Samuel Nogueira e Eduardo Picolo               |
 | 1.0    | 05/08/2021 | Revisão                       | Igor Q Lima                                    |
 | 1.1    | 05/08/2021 | Pequenos ajustes e adição da imagem | Matheus Gabriel e Eduardo Picolo |
-| 2.0    | 05/08/2021 | Revisão | João Gabriel de Matos |
+| 1.2    | 05/08/2021 | Revisão                       | João Gabriel de Matos |
+| 1.3    | 05/08/2021 | Revisão                       | Giovanna B Bottino |
 
 
 ## Introdução
@@ -33,7 +34,7 @@ por diversos motivos, como:
 
 O grupo optou por utilizar as seguintes técnicas:
 
-* Sprints com duração flexível, de acordo com as entregas da disciplina.
+* Sprints com duração flexível, conforme as entregas da disciplina.
 * Plannings semanais.
 * Retrospectivas semanais.
 * Pair programming.
