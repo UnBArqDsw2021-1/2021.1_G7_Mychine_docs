@@ -63,11 +63,17 @@ começando com um protótipo de baixa-fidelidade, mostrado em seguida:
 
 #### Protótipo de baixa fidelidade
 
-<img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade.png">
+<a href="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade.png" style="height: 650px; width: 500px;">
+</a>
 
-<img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-busca.png">
+<a href="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-busca.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-busca.png" style="height: 650px; width: 500px;">
+</a>
 
-<img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-produto.png">
+<a href="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-produto.png" data-toggle="lightbox" >
+  <img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-produto.png" style="height: 650px; width: 500px;">
+</a>
 
 ## Referências
 
