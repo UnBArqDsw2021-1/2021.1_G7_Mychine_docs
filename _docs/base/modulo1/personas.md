@@ -9,6 +9,9 @@ nav_order: 6
 Personas
 {: .fs-9}
 
+Iniciativa extra
+{: .label .label-purple }
+
 #### Versionamento
 
 |Versão | Data | Comentários | Autor(es) |

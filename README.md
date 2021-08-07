@@ -25,36 +25,15 @@ Uma aplicação web chamada Mychine, permite alugar equipamentos como pequenos t
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 
-<div class="row justify-content-center">
-    <div class="col-md-12">
-        <div class="row">
-            <a href="{{ site.baseurl }}/assets/images/entrega1/screenshot1.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="{{ site.baseurl }}/assets/images/entrega1/screenshot1.png">
-            </a>
-            <a href="{{ site.baseurl }}/assets/images/entrega1/screenshot2.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="{{ site.baseurl }}/assets/images/entrega1/screenshot2.png">
-            </a>
-            <a href="{{ site.baseurl }}/assets/images/entrega1/screenshot3.png" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="{{ site.baseurl }}/assets/images/entrega1/screenshot3.png">
-            </a>
-        </div>
-    </div>
-</div>
+| | | |
+| - | - | - |
+|![screenshot1](/assets/images/entrega1/screenshot1.png)|![screenshot2](/assets/images/entrega1/screenshot1.png)| ![screenshot3](/assets/images/entrega1/screenshot1.png) |
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
 
-<div class="row justify-content-center">
-    <div class="col-md-12">
-        <div class="row">
-            <a href="https://youtu.be/4YzhoC3aw-4" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6">
-                <img src="{{ site.baseurl }}/assets/images/entrega1/screenshot_video1.png">
-            </a>
-            <a href="https://youtu.be/L85OCHXZnOU" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-6">
-                <img src="{{ site.baseurl }}/assets/images/entrega1/screenshot_video2.png">
-            </a>
-        </div>
-    </div>
-</div>
+| | |
+| - | - |
+|[![Vídeo 1 - Artefatos gerados](/assets/images/entrega1/screenshot_video1.png)](https://youtu.be/4YzhoC3aw-4) | [![Vídeo 2 - Metodologia e BPMN](/assets/images/entrega1/screenshot_video2.png)](https://youtu.be/L85OCHXZnOU)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 
