@@ -6,19 +6,23 @@ parent: Projeto Não Orientado a Abordagens Específicas
 nav_order: 11
 ---
 
-Iniciativa extra
-{: .label .label-purple }
-
 Guia de Estilo
 {: .fs-9}
 
+Iniciativa extra
+{: .label .label-purple }
+
+<br>
+1. TOC
+{:toc}
+
 #### Versionamento
+{: .no_toc }
 
 |Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
 |0.1|04/08/2021| Criação do Guia de Estilo| Roberto Martins da Nóbrega|
 |1.0|05/08/2021| Revisão | Eduardo Picolo e Kess Jhone |
-
 
 ## 1. Introdução
 
@@ -61,7 +65,7 @@ Segue abaixo o protótipo elaborado:
 <br/>
 
 <a href="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade.png" data-toggle="lightbox">
-  <img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade.png" style="height: 650px; width: 500px;">
+  <img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade.png" width="500px">
 </a>
 
 ### 3.2 Janelas
@@ -69,26 +73,26 @@ Segue abaixo o protótipo elaborado:
 Ao selecionar alguma categoria de produto as janelas seguirão o seguinte padrão de grid:
 
 <a href="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-busca.png" data-toggle="lightbox">
-  <img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-busca.png" style="height: 650px; width: 500px;">
+  <img src="{{ site.baseurl }}/assets/images/prototipo-baixaFidelidade-busca.png" width="500px">
 </a>
 
 ### 3.3 Tipografia
 
 Em relação à tipografia, o site utiliza as seguintes fontes:
 
- * Títulos
+* Títulos
 
  <a href="{{ site.baseurl }}/assets/images/titulos.PNG" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/titulos.PNG">
 </a>
 
- * Menus
+* Menus
 
  <a href="{{ site.baseurl }}/assets/images/menus.PNG" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/menus.PNG">
 </a>
 
- * Confirmações
+* Confirmações
 
  <a href="{{ site.baseurl }}/assets/images/confirmacoes.PNG" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/confirmacoes.PNG">
@@ -104,11 +108,11 @@ O site apresentará os seguintes icones não tipográficos:
 
 Esses símbolos representam, respectivamente, os seguintes itens:
 
-- Linkedin
-- Twitter
-- Facebook
-- Youtube
-- Instagram
+-Linkedin
+-Twitter
+-Facebook
+-Youtube
+-Instagram
 
 ### 3.5 Cores
 
@@ -118,11 +122,12 @@ As cores base do site serão:
 * <div style="width: 20px; height: 20px; background-color: #ffa500; float: left; margin-right: 5px"></div><span>Laranja</span>
 * <div style="width: 20px; height: 20px; background-color: #ffcb31; float: left; margin-right: 5px"></div><span>Amarelo</span>
 * <div style="width: 20px; height: 20px; background-color: #fff; float: left; border: 1px solid; margin-right: 5px"></div><span>Branco</span>
+
 ### 3.6 Animações
 
 Efeitos de zoom ao passar o mouse sobre os pordutos nos cards.
 
-## 4. Elementos de interação {#elementos-de-interacao}
+## 4. Elementos de interação
 
 ### 4.1 Estilos de interação
 
@@ -131,7 +136,6 @@ Estilos de interação utilizados no sistema:
 * Menus: possibilitando navegação do usuário pelo site;
 * Barra de pesquisa: facilitando encontrar determinado produto;
 * Linguagem natural: situando o usuário e o que pode fazer;
-
 
 ### 4.2 Seleção de um estilo
 
@@ -145,7 +149,7 @@ Não será utilizado nenhuma tecla de atalho no sistema.
 
 ### 5.1 Preenchimento de campos
 
-O sistema oferece sugestão de auto preenchimento nas barras de pesquisa e de campos de cadastro/corfirmação.
+O sistema oferece sugestão de auto preenchimento nas barras de pesquisa e de campos de cadastro/confirmação.
 
 ### 5.2 Seleção
 
@@ -168,3 +172,7 @@ O site utiliza da tela padrão na maior parte de suas páginas o que dá ao usu�
 ### 6.3 Sequências de diálogos
 
 Devem ser apresentados diálogos de confirmação ao cadastrar-se no sistema, ao selecionar produtos para por no carrinho e para confirmar o pedido de aluguel.
+
+## Referências
+
+BARBOSA, Simone; SILVA, Bruno. “Interação Humano-Computador”. Elsevier Editora Ltda, 2010.

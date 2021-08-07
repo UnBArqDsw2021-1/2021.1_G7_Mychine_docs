@@ -9,10 +9,15 @@ nav_order: 9
 Léxico
 {: .fs-9}
 
+Iniciativa extra
+{: .label .label-purple }
+
+<br>
 1. TOC
 {:toc}
 
 #### Versionamento
+{: .no_toc }
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
@@ -42,7 +47,7 @@ Léxicos consistem em símbolos compostos por palavras ou frases que representem
 
 | Classificação       | Noção     | Impacto   | Sinônimo(s) |
 | ------------------- | --------- | --------- | ----------- |
-| Objeto | Ferramentas e maquinários disponíveis para ser alugada na aplicação | Usuário poderá encontrar produtos para alugar | Maquinário, Ferramentas |
+| Objeto | Ferramentas e maquinários disponíveis para serem alugados na aplicação | Usuário poderá encontrar produtos para alugar | Maquinário, Ferramentas |
 
 ### L3 - Logar
 

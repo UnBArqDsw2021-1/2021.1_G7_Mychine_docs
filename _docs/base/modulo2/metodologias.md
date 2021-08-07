@@ -9,7 +9,12 @@ nav_order: 1
 Metodologia
 {: .fs-9}
 
+<br>
+1. TOC
+{:toc}
+
 #### Versionamento
+{: .no_toc }
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
@@ -19,18 +24,16 @@ Metodologia
 | 1.2    | 05/08/2021 | Revisão                       | João Gabriel de Matos |
 | 1.3    | 05/08/2021 | Revisão                       | Giovanna B Bottino |
 
-
 ## Introdução
 
-Como metodologia de trabalho nós optamos pela utilização do Scrum, além de algumas práticas oriundas da metodologia XP 
-por diversos motivos, como:
+Como metodologia de trabalho nós optamos pela utilização do Scrum, além de algumas práticas oriundas da metodologia XP por diversos motivos, como:
 
 * Sua facilidade de aplicação no projeto.
 * Sua boa adaptabilidade para re-planejamentos, caso necessário.
 * Facilidade de visualização do trabalho dos demais integrantes.
 * Melhoria contínua proposta pela metodologia.
 
-## Técnicas 
+## Técnicas
 
 O grupo optou por utilizar as seguintes técnicas:
 
@@ -57,3 +60,7 @@ Por fim também serão adotadas algumas práticas e ferramentas da cultura DevOp
 * Integração contínua.
 * Testagem no decorrer do desenvolvimento.
 * Entrega contínua.
+
+## Referência
+
+Integrando XP as principais metodologias ágeis. DEVMEDIA. Disponível em: <https://www.devmedia.com.br/integrando-xp-as-principais-metodologias-ageis/30989>. Acesso em: 6 de agosto de 2021.

@@ -9,6 +9,9 @@ nav_order: 6
 Personas
 {: .fs-9}
 
+Iniciativa extra
+{: .label .label-purple }
+
 #### Versionamento
 
 |Versão | Data | Comentários | Autor(es) |
@@ -18,12 +21,10 @@ Personas
 
 ## Introdução
 
-O desenvolvimento das personas está no início do projeto, pois as personas podem informar a funcionalidade do site, 
-ajudar a descobrir lacunas ou destacar novas oportunidades. 
+O desenvolvimento das personas está no início do projeto, pois as personas podem informar a funcionalidade do site, ajudar a descobrir lacunas ou destacar novas oportunidades.
 
-Personas são arquétipos, personagens ficcionais, concebidos 
-a partir da síntese de comportamentos observados entre consumidores com perfis extremos. Representam as motivações, 
-desejos, expectativas e necessidades, reunindo características significativas de um grupo mais abrangente.
+Personas são arquétipos, personagens ficcionais, concebidos
+a partir da síntese de comportamentos observados entre consumidores com perfis extremos. Representam as motivações, desejos, expectativas e necessidades, reunindo características significativas de um grupo mais abrangente.
 
 ## Personas
 
@@ -56,4 +57,3 @@ desejos, expectativas e necessidades, reunindo características significativas d
 ## Referências
 
 Personas. Disponível em: <https://www.usability.gov/how-to-and-tools/methods/personas.html>. Acesso em: 02 de agosto de 2021.
-

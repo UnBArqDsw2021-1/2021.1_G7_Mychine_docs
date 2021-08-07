@@ -7,7 +7,15 @@ nav_order: 4
 Como Contribuir
 {: .fs-9}
 
+Iniciativa extra
+{: .label .label-purple }
+
+<br>
+1. TOC
+{:toc}
+
 #### Versionamento
+{: .no_toc }
 
 |Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
@@ -57,7 +65,6 @@ Cada revisor deve comentar uma checklist com seus critérios de revisão e se fo
 
 `#<número_da_issue>` `<título da issue fonte>`.
 
-
 ## Testando a wiki localmente
 
 ### Pre-Requisitos
@@ -67,14 +74,16 @@ Cada revisor deve comentar uma checklist com seus critérios de revisão e se fo
 
 ### Execução
 
-1. Instale as dependencias.
-```
-bundle install
-```
+1. Instale as dependências.
+
+    ```bash
+    bundle install
+    ```
 
 2. Inicie a aplicação.
-```
-bundle exec jekyll serve --livereload
-```
 
-A aplicação estará rodando em http://localhost:4000/.
+    ```bash
+    bundle exec jekyll serve --livereload
+    ```
+
+A aplicação estará rodando em <http://localhost:4000/>.
