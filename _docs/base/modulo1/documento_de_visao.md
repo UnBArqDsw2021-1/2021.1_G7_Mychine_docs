@@ -42,10 +42,11 @@ Produzido com base no processo RUP (Rational Unified Process), este documento é
 ## 2. Posicionamento
 
 ### 2.1 Oportunidade de Negócios
-A escolhas dos equipamentos certos na contrução civil é fundamental para a otimização das atividades, assim a escolha dos equipamentos deve visar a qualidade, suporte técnico e agilidade para manter a eficácia do projeto. Porém adquirir uma rede de maquinários pode está fora da realidade financeira do executor da obra e nesses casos o aluguel de equipamentos pode ser a melhor opção para a empreitada. 
 
+A escolhas dos equipamentos certos na construção civil é fundamental para a otimização das atividades, assim a escolha dos equipamentos deve visar a qualidade, suporte técnico e agilidade para manter a eficácia do projeto. Porém adquirir uma rede de maquinários pode está fora da realidade financeira do executor da obra e nesses casos o aluguel de equipamentos pode ser a melhor opção para a empreitada.
 
 ### 2.2: Relato de Problema
+
 O aluguel de equipamentos para construção civil é oferecido por poucas empresas e a maioria realiza todo o procedimento de forma presencial, sendo necessário o contato por telefone ou rede social para fazer orçamentos e verificar disponibilidade do produto. Assim o Mychine visa descomplicar parte desse serviço, oferecendo agendamento de aluguel e orçamento, de um ou vários equipamentos, diretamente na plataforma de forma pratica.
 
 ## 3. Descrição dos Envolvidos e dos Usuários
@@ -65,6 +66,7 @@ Clientes | Empresa de aluguel de máquinas para construção civil | Informar os
 |Locador| Empresa ou pessoa que realiza o aluguel de maquinário de construção civil.|
 
 ### 3.3 Ambiente do Usuário
+
 Será necessário ter acesso a um dispositivo com acesso à internet, com algum navegador como, por exemplo, Chrome, Firefox ou Safari.
 
 ### 3.4 Equipe de Desenvolvimento e Gestão do Projeto
@@ -112,6 +114,7 @@ Rede de franquias focada em aluguel de equipamentos para construção civil, é 
 ## 4. Visão Geral do Produto
 
 ### 4.1 Perspectiva do Produto
+
 Ser uma plataforma de que facilite o aluguel de equipamentos para construção civil, tendo como principal diferencial o gerenciamento da agenda dos equipamentos diretamente na plataforma.
 
 ### 4.2 Resumo das Capacidades
