@@ -9,10 +9,15 @@ nav_order: 9
 Léxico
 {: .fs-9}
 
+Iniciativa extra
+{: .label .label-purple }
+
+<br>
 1. TOC
 {:toc}
 
 #### Versionamento
+{: .no_toc }
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
