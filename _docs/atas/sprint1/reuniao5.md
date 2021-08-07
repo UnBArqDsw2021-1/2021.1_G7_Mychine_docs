@@ -14,6 +14,7 @@ Reunião 5
 |Versão | Data | Comentários | Autor(es) |
 |-------|------|-------------|-----------|
 |0.1|06/08/2021| Abertura do documento | Igor Q Lima|
+|1.0|06/08/2021| Revisão | Kess Jhones|
 
 __Data de realização:__ 06/08/2021
 
