@@ -15,10 +15,9 @@ nav_order: 2
 | 0.1    | 05/08/2021 | Abertura do documento         | Samuel Nogueira e Eduardo Picolo               |
 | 1.0    | 05/08/2021 | Revisão                       | Igor Q Lima                                    |
 
+## Introdução
 
-# Introdução
-
-Business Process Model and Notation (BPMN) (em português Modelo e Notação de Processos de Negócio) é uma metodológia de modelagem gráfica de processos de negocios baseado em flowchart, muito similar a diagramas de atividade do Unified Modeling Language (UML). O objetivo do BPMN é dar suporte ao gerenciamento de processos de negocios, provendo uma notação intuitiva e capaz de representar semânticas complexas de processos.
+Business Process Model and Notation (BPMN) (em português Modelo e Notação de Processos de Negócio) é uma metodológia de modelagem gráfica de processos de negócios baseado em flowchart, muito similar a diagramas de atividade do Unified Modeling Language (UML). O objetivo do BPMN é dar suporte ao gerenciamento de processos de negócios, provendo uma notação intuitiva e capaz de representar semânticas complexas de processos.
 
 Resultado
 {: .fs-6 .fw-300}

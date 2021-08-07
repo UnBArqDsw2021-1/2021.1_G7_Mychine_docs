@@ -19,18 +19,16 @@ Metodologia
 | 1.2    | 05/08/2021 | Revisão                       | João Gabriel de Matos |
 | 1.3    | 05/08/2021 | Revisão                       | Giovanna B Bottino |
 
-
 ## Introdução
 
-Como metodologia de trabalho nós optamos pela utilização do Scrum, além de algumas práticas oriundas da metodologia XP 
-por diversos motivos, como:
+Como metodologia de trabalho nós optamos pela utilização do Scrum, além de algumas práticas oriundas da metodologia XP por diversos motivos, como:
 
 * Sua facilidade de aplicação no projeto.
 * Sua boa adaptabilidade para re-planejamentos, caso necessário.
 * Facilidade de visualização do trabalho dos demais integrantes.
 * Melhoria contínua proposta pela metodologia.
 
-## Técnicas 
+## Técnicas
 
 O grupo optou por utilizar as seguintes técnicas:
 

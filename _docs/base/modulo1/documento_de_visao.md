@@ -17,32 +17,30 @@ Documento de visão
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 05/08/2021 | Abertura do documento de visão | Kess Jhones |
 | 0.2    | 05/08/2021 | Adicionando documento de visão | Kess Jhones |
-| 1.0    | 05/08/2021 | Revisão | Eduardo Picolo e Ceilandia |
+| 1.0    | 05/08/2021 | Revisão | Eduardo Picolo e Pedro Henrique |
 
 ## 1. Introdução
 
-### 1.1 Finalidade: 
+### 1.1 Finalidade
 
 Este documento tem como finalidade manter uma visão comum para os envolvidos no projeto, Mychine, expondo as ideias necessárias para seu desenvolvimento.
 
-### 1.2 Escopo:
+### 1.2 Escopo
 
 Conterá nesse documento os elementos necessários para a elaboração da aplicação, de forma que que possam ser compreendidos sem o total conhecimento dos termos técnicos utilizados por desenvolvedores.
 
-### 1.3 Visão Geral:
+### 1.3 Visão Geral
 
 Produzido com base no processo RUP (Rational Unified Process), este documento é organizado com as ideias, recursos, descrição e posicionamento do produto. Apresentando uma visão geral do produto, seus requisitos e a relação com os envolvidos e usuários do produto.
 
 ## 2. Posicionamento
 
-### 2.1 Oportunidade de Negócios:
+### 2.1 Oportunidade de Negócios
 A escolhas dos equipamentos certos na contrução civil é fundamental para a otimização das atividades, assim a escolha dos equipamentos deve visar a qualidade, suporte técnico e agilidade para manter a eficácia do projeto. Porém adquirir uma rede de maquinários pode está fora da realidade financeira do executor da obra e nesses casos o aluguel de equipamentos pode ser a melhor opção para a empreitada. 
 
 
-### 2.2: Relato de Problema:
+### 2.2: Relato de Problema
 O aluguel de equipamentos para construção civil é oferecido por poucas empresas e a maioria realiza todo o procedimento de forma presencial, sendo necessário o contato por telefone ou rede social para fazer orçamentos e verificar disponibilidade do produto. Assim o Mychine visa descomplicar parte desse serviço, oferecendo agendamento de aluguel e orçamento, de um ou vários equipamentos, diretamente na plataforma de forma pratica.
-
-
 
 ## 3. Descrição dos Envolvidos e dos Usuários
 
@@ -60,7 +58,7 @@ Clientes | Empresa de aluguel de máquinas para construção civil | Informar os
 |Administrador| Responsável por gerir as máquinas a serem alugadas. |
 |Locador| Empresa ou pessoa que realiza o aluguel de maquinário de construção civil.|
 
-### 3.3 Ambiente do Usuário:
+### 3.3 Ambiente do Usuário
 Será necessário ter acesso a um dispositivo com acesso à internet, com algum navegador como, por exemplo, Chrome, Firefox ou Safari.
 
 ### 3.4 Equipe de Desenvolvimento e Gestão do Projeto
@@ -107,10 +105,10 @@ Rede de franquias focada em aluguel de equipamentos para construção civil, é 
 
 ## 4. Visão Geral do Produto
 
-### 4.1 Perspectiva do Produto:
+### 4.1 Perspectiva do Produto
 Ser uma plataforma de que facilite o aluguel de equipamentos para construção civil, tendo como principal diferencial o gerenciamento da agenda dos equipamentos diretamente na plataforma.
 
-### 4.2 Resumo das Capacidades:
+### 4.2 Resumo das Capacidades
 
 Benefícios para o cliente   | Recurso de suporte
 :---: | :---:
@@ -126,8 +124,8 @@ Carrinho | Os usuários poderão colocar um ou mais equipamentos em seu carrinho
 Agendamento | O usuário poderá agendar a locação do equipamento e realizar a renovação, quando possível.|
 Gerenciamento | O administrador realizara a gestão do estoque, adicionando, retirando e verificando o agendamento das máquinas|
 
-
 ## 6. Restrições
+
 - O projeto deverá ser desenvolvido ao decorrer da matéria de Arquitetura e Desenho de Software, da Faculdade do Gama, Universidade de Brasília, e o mesmo deve ser produzido pelos alunos(as) designados(as).
 - O acesso á internet é obrigatório para o uso da plataforma.
 - O cadastro é obrigatório para a locação de equipamento.
