@@ -9,7 +9,12 @@ nav_order: 1
 Metodologia
 {: .fs-9}
 
+<br>
+1. TOC
+{:toc}
+
 #### Versionamento
+{: .no_toc }
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
@@ -55,3 +60,7 @@ Por fim também serão adotadas algumas práticas e ferramentas da cultura DevOp
 * Integração contínua.
 * Testagem no decorrer do desenvolvimento.
 * Entrega contínua.
+
+## Referência
+
+Integrando XP as principais metodologias ágeis. DEVMEDIA. Disponível em: <https://www.devmedia.com.br/integrando-xp-as-principais-metodologias-ageis/30989>. Acesso em: 6 de agosto de 2021.

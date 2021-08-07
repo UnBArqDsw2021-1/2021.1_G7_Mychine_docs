@@ -9,8 +9,14 @@ nav_order: 1
 Documento de visão
 {: .fs-9}
 
-#### Versionamento
+Iniciativa extra
+{: .label .label-purple }
 
+<br>
+1. TOC
+{:toc}
+
+#### Versionamento
 {: .no_toc}
 
 | Versão | Data       | Comentários                   | Autor(es)                                      |
@@ -130,3 +136,7 @@ Gerenciamento | O administrador realizara a gestão do estoque, adicionando, ret
 - O acesso á internet é obrigatório para o uso da plataforma.
 - O cadastro é obrigatório para a locação de equipamento.
 - Ser capaz de rodar nos principais navegadores.
+
+## Referências
+
+SOMMERVILLE, Ian. Engenharia de Software. São Paulo: Pearson Prentice Hall. 9ª edição. 2011.
