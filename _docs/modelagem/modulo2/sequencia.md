@@ -18,9 +18,9 @@ Diagrama de Sequência
 
 ## O Diagrama de Sequência
 
-O Diagrama de sequência é um tipo de UML dinamica que mostra uma sequencia de eventos. Isso é, enfatiza a ordenação temporal das mensagens ao mostrar interações na ordem em que ocorrem. Baseia-se no Caso de Uso relacionado e utiliza o Diagrama de Clases para definir os objetos envolvidos. 
+O Diagrama de sequência é uma categoria de UML dinâmica que mostra uma sequência de eventos. Isso é, enfatiza a ordenação temporal das mensagens ao mostrar interações na ordem em que ocorrem. Baseia-se no Caso de Uso relacionado e utiliza o Diagrama de Classes para definir os objetos envolvidos. 
 
-Esse tipo de Diagrama auxilia a entender os requisitos de um sistema e mostrar detalhes em Casos de Uso. Além disso, mostra como mensagens são trocadas entre os componentes. 
+Essa categoria de Diagrama auxilia a entender os requisitos de um sistema e mostrar detalhes em Casos de Uso. Além disso, mostra como mensagens são trocadas entre os componentes. 
 
 É um diagrama complexo composto por diversos elementos, normalmente contem: 
 - Atores
@@ -31,7 +31,7 @@ Esse tipo de Diagrama auxilia a entender os requisitos de um sistema e mostrar d
 - Foco de Controle 
 - Gate
 
-Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto e aplicação. Com ele podemos identificar como os objetos no sistema interagem uns com os outros oara implementar nossas funcionalidades.
+Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto e aplicação. Com ele pode-se identificar como os objetos no sistema interagem uns com os outros para implementar nossas funcionalidades.
 
 ## Diagrama de Sequência - Mychine V1
 
