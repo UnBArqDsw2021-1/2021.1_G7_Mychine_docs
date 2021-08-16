@@ -14,15 +14,22 @@ Diagrama de Estado
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 16/08/2021 | Abertura do documento         | Pedro Henrique Vieira                          |
-| 0.2    | 16/08/2021 | Adicionando introdução        | Pedro Henrique Vieira                          |
+| 0.2    | 16/08/2021 | Adicionando introdução        | Pedro Henrique Vieira, Eduardo Picolo, Samuel Nogueira         |
+| 0.3    | 16/08/2021 | Adicionando diagrama          | Pedro Henrique Vieira, Eduardo Picolo, Samuel Nogueira         |
 
 
 
 ### Introdução
 
-Um diagrama de estados é um diagrama que possui como objetivo mapear os estados de um objeto durante seu ciclo de vida ou um processo. O estado do objeto é modificado por meio de transições.
+Um diagrama de estados é um diagrama que possui como objetivo mapear os estados de um objeto durante seu ciclo de vida ou um processo. O estado do objeto é modificado por meio de transições. O diagrama de estados nos ajudará a identificar e esclarecer os caminhos de um determinado processo em nossa aplicação.
 
-### Diagrama
+
+### Diagrama de estados - aluguel
+
+<a href="{{ site.baseurl }}/assets/images/diagrama-de-estados.svg" data-toggle="lightbox"> 
+    <img src="{{ site.baseurl }}/assets/images/diagrama-de-estados.svg" class="img-fluid" />
+</a>
+
 
 
 ## Referências
