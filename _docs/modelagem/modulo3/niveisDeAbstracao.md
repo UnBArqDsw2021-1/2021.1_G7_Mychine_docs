@@ -70,7 +70,8 @@ Serão escritos da seguinte forma:
 | US11 | Eu, como usuário, desejo renovar a locação dos produtos que estou atualmente alugando para que eu consiga prorrogar o aluguel de um ou mais produtos | **A aplicação deve:** {::nomarkdown}</br> - Possuir agenda de reservas para cada produto</br> - Permitir a renovação dos produtos{:/} **O usuário deve:** {::nomarkdown}</br> - Possuir conta cadastrada</br> - Possuir produtos alugados{:/} |
 | US12 | Eu, como administrador, desejo adicionar produtos novos no catálogo do sistema de modo que eu consiga incluir novos produtos junto ao sistema | **A aplicação deve:** {::nomarkdown}</br> - Possuir usuários administradores</br> - Possuir página para criação de produtos{:/} |
 | US13 | Eu, como administrador, desejo editar produtos do sistema de modo que eu consiga manter o sistema atualizado | **A aplicação deve:** {::nomarkdown}</br> - Possuir usuários administradores</br> - Possuir página para edição de produtos{:/} |
-| US13 | Eu, como administrador, desejo editar quantidades e disponibilidade de produtos do sistema de modo que eu consiga manter o sistema atualizado com meu estoque | **A aplicação deve:** {::nomarkdown}</br> - Possuir usuários administradores</br> - Possuir página para edição de produtos{:/} |
+| US14 | Eu, como administrador, desejo editar quantidades e disponibilidade de produtos do sistema de modo que eu consiga manter o sistema atualizado com meu estoque | **A aplicação deve:** {::nomarkdown}</br> - Possuir usuários administradores</br> - Possuir página para edição de produtos{:/} |
+| US15 | Eu, como usuário, desejo adicionar vários produtos do meu interesse ao meu carrinho para que eu consiga alugar eles de maneira conjunta | **A aplicação deve:** {::nomarkdown}</br> - Possuir agenda de reservas para cada produto</br>{:/} |
 
 ## Referências
 
