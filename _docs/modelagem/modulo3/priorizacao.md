@@ -58,6 +58,6 @@ Foram usadas as Personas e as definições obtidas com o MoSCoW para definir as 
 
 ## Referências
 
-C. Flavio. Técnica MoSCoW na Priorização dos Requisitos. Site Campus. 21 de jun. de 2018. Disponível aqui. Acesso em 11 de mar. de 2021.
+C. Flavio. Técnica MoSCoW na Priorização dos Requisitos. Site Campus. 21 de jun. de 2018. Disponível aqui. Acesso em 17 de Agosto de 2021.
 
-Karl E. Wiegers. First Things First: Prioritizing Requirements. Disponível aqui. Acesso em 11 de mar. de 2021.
+Karl E. Wiegers. First Things First: Prioritizing Requirements. Disponível aqui. Acesso em 17 de Agosto de 2021.

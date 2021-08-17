@@ -36,13 +36,18 @@
       overflow: hidden;
       box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 
+      &:hover {
+        transition: all 45s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        box-shadow: rgba(17, 12, 46, 0.4) 0px 8px 10px 0px;
+      }
+
       img {
         object-fit: contain;
         border-radius: 50%;
 
         &:hover {
-          transform: scale(1.15);
-          transition: all 7s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+          transform: scale(2);
+          transition: all 60s cubic-bezier(0.25, 0.45, 0.45, 0.95);
         }
       }
     }

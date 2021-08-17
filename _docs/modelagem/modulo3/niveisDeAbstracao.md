@@ -72,11 +72,12 @@ Serão escritos da seguinte forma:
 | US13 | Eu, como administrador, desejo editar produtos do sistema de modo que eu consiga manter o sistema atualizado | **A aplicação deve:** {::nomarkdown}</br> - Possuir usuários administradores</br> - Possuir página para edição de produtos{:/} |
 | US14 | Eu, como administrador, desejo editar quantidades e disponibilidade de produtos do sistema de modo que eu consiga manter o sistema atualizado com meu estoque | **A aplicação deve:** {::nomarkdown}</br> - Possuir usuários administradores</br> - Possuir página para edição de produtos{:/} |
 | US15 | Eu, como usuário, desejo adicionar vários produtos do meu interesse ao meu carrinho para que eu consiga alugar eles de maneira conjunta | **A aplicação deve:** {::nomarkdown}</br> - Possuir agenda de reservas para cada produto</br>{:/} |
+| US13 | Eu, como administrador, desejo editar quantidades e disponibilidade de produtos do sistema de modo que eu consiga manter o sistema atualizado com meu estoque | **A aplicação deve:** {::nomarkdown}</br> - Possuir usuários administradores</br> - Possuir página para edição de produtos{:/} |
 
 ## Referências
 
-NUNES, Daniel. O QUE SÃO ÉPICOS, TEMAS E ESTÓRIAS DE USUÁRIOS?. ERPAgile. Disponível em: http://erpagile.com.br/EAP/o-que-sao-epicos-temas-e-estorias-de-usuarios/. Acesso em: 31 de março de 2021.
+NUNES, Daniel. O QUE SÃO ÉPICOS, TEMAS E ESTÓRIAS DE USUÁRIOS?. ERPAgile. Disponível em: http://erpagile.com.br/EAP/o-que-sao-epicos-temas-e-estorias-de-usuarios/. Acesso em: 17 de Agosto de 2021.
 
-REHKOPF, Max. Histórias de usuários com exemplos e template. Atlassian. Disponível em: https://www.atlassian.com/br/agile/project-management/user-stories. Acesso em: 31 de março de 2021.
+REHKOPF, Max. Histórias de usuários com exemplos e template. Atlassian. Disponível em: https://www.atlassian.com/br/agile/project-management/user-stories. Acesso em: 17 de Agosto de 2021.
 
-VENTURA, Plínio. Epic, Feature e User Story (Épico, Funcionalidade e História de Usuário). Até o momento. Disponível em: https://www.ateomomento.com.br/epic-feature-e-user-story/. Acesso em: 31 de março de 2021.
+VENTURA, Plínio. Epic, Feature e User Story (Épico, Funcionalidade e História de Usuário). Até o momento. Disponível em: https://www.ateomomento.com.br/epic-feature-e-user-story/. Acesso em: 17 de Agosto de 2021.
