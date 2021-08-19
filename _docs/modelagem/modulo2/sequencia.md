@@ -37,9 +37,13 @@ Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto 
 
 Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequencia como guia. 
 ### Feed de Produtos
+
+
 <a href="{{ site.baseurl }}/assets/images/sequencia/feed.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/feed.png" class="img-fluid" />
 </a>
+
+##### Feito por: Giovanna B
 
 ### Manter Produto
 
