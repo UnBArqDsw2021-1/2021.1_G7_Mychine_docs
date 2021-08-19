@@ -36,11 +36,10 @@ Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto 
 ## Diagrama de Sequência - Mychine V1
 
 Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequencia como guia. 
-### Manter conta de usuário
-
 ### Feed de Produtos
-
-### Agendamento Cliente
+<a href="{{ site.baseurl }}/assets/images/sequencia/feed.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/feed.png" class="img-fluid" />
+</a>
 
 ### Manter Produto
 
