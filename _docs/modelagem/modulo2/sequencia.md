@@ -15,6 +15,7 @@ Diagrama de Sequência
 |-------|------|-------------|-----------|
 |0.1|15/08/2021| Abertura do documento| Giovanna B Bottino|
 |0.2|15/08/2021| Adiciona introdução ao diagrama de sequência| Giovanna B Bottino|
+|0.3|19/08/2021| Adiciona diagrama de sequência - Feed de Produtos| Giovanna B Bottino|
 
 ## O Diagrama de Sequência
 
@@ -22,7 +23,7 @@ Segundo o vídeo "Curso de UML - O que é um Diagrama de Sequência" do Bóson T
 
 Essa categoria de Diagrama auxilia a entender os requisitos de um sistema e mostrar detalhes em Casos de Uso. Além disso, mostra como mensagens são trocadas entre os componentes. 
 
-De acordo com o material apresentado pela professora Milene é um diagrama complexo composto por diversos elementos que normalmente contem: 
+Conforme o material apresentado pela professora Milene é um diagrama complexo composto por diversos elementos que normalmente contem: 
 - Atores
 - Objetos que participam da interação 
 - Mensagens trocadas 
@@ -35,9 +36,9 @@ Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto 
 
 ## Diagrama de Sequência - Mychine V1
 
-Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequencia como guia. 
+Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequência como guia. 
 ### Feed de Produtos
-
+O diagrama de sequência do feed de produtos apresenta a sequência que o ator usuário faz para listar todos os produtos, o usuário tem a opção de filtrar ou ordenar os produtos. 
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/feed.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/feed.png" class="img-fluid" />
