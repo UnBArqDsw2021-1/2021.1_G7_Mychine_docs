@@ -16,6 +16,7 @@ Diagrama de Sequência
 |0.1|15/08/2021| Abertura do documento| Giovanna B Bottino|
 |0.2|15/08/2021| Adiciona introdução ao diagrama de sequência| Giovanna B Bottino|
 |0.3|19/08/2021| Adiciona diagrama de sequência - Feed de Produtos| Giovanna B Bottino|
+|0.4|19/08/2021| Adiciona diagrama de sequência - Visualizar Produto| Giovanna B Bottino|
 
 ## O Diagrama de Sequência
 
@@ -42,6 +43,15 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/feed.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/feed.png" class="img-fluid" />
+</a>
+
+##### Feito por: Giovanna B
+
+### Visualizar Produto
+O diagrama de sequência de visualizar produto apresenta a sequência que o ator usuário faz para visualizar um único produto.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" class="img-fluid" />
 </a>
 
 ##### Feito por: Giovanna B
