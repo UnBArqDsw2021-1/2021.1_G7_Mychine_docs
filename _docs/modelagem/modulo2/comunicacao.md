@@ -15,6 +15,7 @@ Diagrama de Comunicação
 |-------|------|-------------|-----------|
 |0.1|19/08/2021| Abertura do documento Diagrama de Comunicação| Giovanna B Bottino|
 |0.2|19/08/2021| Adiciona descrição do diagrama de comunicação| Giovanna B Bottino|
+|0.3|19/08/2021| Adiciona diagrama de comunicação| Giovanna B Bottino|
 
 ## O Diagrama de Comunicação
 
@@ -25,6 +26,16 @@ Segundo as especificações do _OMG™ Unified Modeling Language™ (OMG UML®)_
 Além de usar o diagrama de sequência nossa equipe decidiu utilizar esse modelo para aprendizagem e uma demostração mais genérica.
 
 ## Diagrama de Comunicação - Mychine V1
+
+Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos o UML Communication Diagrams Overview diagrama de comunicação como guia. Foi feito um rascunho e validado durante chamada de voz.
+
+Esse diagrama apresenta o ator usuário e seu aluguel no Mychine. Tem duas sequencias, a de visualizar produtos e a de finalizar. Na de visualizar é possível visualizar uma lista de produtos, apenas um produto e adicionar ele ao carrinho. Na de finalizar o sistema deve alugar os itens no carrinho.
+
+<a href="{{ site.baseurl }}/assets/images/comunicacao/comunicacao.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/comunicacao/comunicacao.png" class="img-fluid" />
+</a>
+
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima e Samuel Nogueira
 
 ## Referências
 
