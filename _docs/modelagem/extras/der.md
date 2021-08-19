@@ -11,7 +11,7 @@ DE-R
 Diagrama Entidade-Relacionamento
 {: .fs-9}
 
-<br>
+
 
 #### Versionamento
 {: .no_toc}
@@ -23,13 +23,13 @@ Diagrama Entidade-Relacionamento
 ## Introdução
 
 O propósito do Diagrama Entidade-Relacionamento é de facilitar na implementação do banco de dados, abstraindo o ME-R - Modelo Entidade-Relacionamento em um diagrama de fácil visualização e interpretação o modelo conceitual do projeto.
-<br>
+
 
 ## Metodologia
 
 O grupo em pleno acordo e utilizando da ferramenta <a href="https://app.diagrams.net/">draw.io</a>,  decidiu utilizar da notação Diagrama Pé de Galinha em detrimento da Peter Chen por facilitar a compreensão e em um mesmo documento exibir as informações que seriam obtidas tanto no DE-R - Diagrama Entidade-Relacionamento como no DLD - Diagrama Lógico de Dados, facilitando a observação da documentação do projeto para o banco de dados.
 
-<br>
+
 
 ## DER - Diagrama Entidade Relacionamento
 
@@ -38,3 +38,7 @@ Utilizando do Diagrama Pé de Galinha que pode ser observado logo abaixo podemos
 <a href="{{ site.baseurl }}/assets/images/DER.svg" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/DER.svg" width="500px">
 </a>
+
+## Referências
+
+RODRIGUES, J. MER e DER: Modelagem de Bancos de Dados. Disponível em: <https://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332>. Acesso em: 19 ago. 2021.
