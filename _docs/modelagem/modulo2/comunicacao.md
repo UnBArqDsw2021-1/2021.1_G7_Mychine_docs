@@ -16,12 +16,13 @@ Diagrama de Comunicação
 |0.1|19/08/2021| Abertura do documento Diagrama de Comunicação| Giovanna B Bottino|
 |0.2|19/08/2021| Adiciona descrição do diagrama de comunicação| Giovanna B Bottino|
 |0.3|19/08/2021| Adiciona diagrama de comunicação| Giovanna B Bottino|
+|1.0|19/08/2021| Revisão | Kess Jhones|
 
 ## O Diagrama de Comunicação
 
 Conforme apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA, o diagrama de comunicação é um diagrama dinâmico. Ele mostra as interações entre objetos usando mensagens sequenciadas de forma livre, com ênfase na ordem das mensagens e geralmente com um cenário de uso. 
 
-Segundo as especificações do _OMG™ Unified Modeling Language™ (OMG UML®)_  corresponde a um diagrama de sequência simples sem mecanismos de estruturação, como usos de interação e fragmentos combinados. É composto pelos principais elementos: quadro, linha de vida e mensagem.
+Segundo as especificações do _OMG™ Unified Modeling Language™ (OMG UML®)_ corresponde a um diagrama de sequência simples sem mecanismos de estruturação, como usos de interação e fragmentos combinados. É composto pelos principais elementos: quadro, linha de vida e mensagem.
 
 Além de usar o diagrama de sequência nossa equipe decidiu utilizar esse modelo para aprendizagem e uma demostração mais genérica.
 
