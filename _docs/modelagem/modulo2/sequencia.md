@@ -18,6 +18,7 @@ Diagrama de Sequência
 |0.3|19/08/2021| Adiciona diagrama de sequência - Feed de Produtos| Giovanna B Bottino|
 |0.4|19/08/2021| Adiciona diagrama de sequência - Visualizar Produto| Giovanna B Bottino|
 |0.5|19/08/2021| Adiciona diagrama de sequência - Buscar Produto| Giovanna B Bottino|
+|0.6|19/08/2021| Adiciona diagrama de sequência - Manter Produto| Giovanna B Bottino|
 
 ## O Diagrama de Sequência
 
@@ -39,7 +40,9 @@ Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto 
 ## Diagrama de Sequência - Mychine V1
 
 Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequência como guia. 
+
 ### Feed de Produtos
+
 O diagrama de sequência do feed de produtos apresenta a sequência que o ator usuário faz para listar todos os produtos, o usuário tem a opção de filtrar ou ordenar os produtos. 
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/feed.png" data-toggle="lightbox">
@@ -49,6 +52,7 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 ##### Feito por: Giovanna B
 
 ### Visualizar Produto
+
 O diagrama de sequência de visualizar produto apresenta a sequência que o ator usuário faz para visualizar um único produto.
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" data-toggle="lightbox">
@@ -58,6 +62,7 @@ O diagrama de sequência de visualizar produto apresenta a sequência que o ator
 ##### Feito por: Giovanna B
 
 ### Buscar Produto
+
 O diagrama de sequência de buscar produto apresenta a sequência que o ator usuário faz para procurar um produto pelo nome.
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/buscar.png" data-toggle="lightbox">
@@ -67,6 +72,34 @@ O diagrama de sequência de buscar produto apresenta a sequência que o ator usu
 ##### Feito por: Giovanna B
 
 ### Manter Produto
+
+Para o manter o produto, decidimos dividir em três diagramas diferentes: Criar, Editar e Deletar. 
+
+Os três diagramas visam mostrar a sequência onde o ator admin cria ou edita, ou deleta um produto. A seguir é possível observar esses diagramas. 
+
+#### Criar Produto
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/criar.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/criar.png" class="img-fluid" />
+</a>
+
+##### Feito por: Giovanna B
+
+#### Editar Produto
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/editar.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/editar.png" class="img-fluid" />
+</a>
+
+##### Feito por: Giovanna B
+
+### Deletar Produto
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/deletar.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/deletar.png" class="img-fluid" />
+</a>
+
+##### Feito por: Giovanna B
 
 ## Referências
 
