@@ -37,11 +37,11 @@ Conforme o material apresentado pela professora Milene é um diagrama complexo c
 
 Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto e aplicação. Com ele pode-se identificar como os objetos no sistema interagem uns com os outros para implementar nossas funcionalidades.
 
-## Diagrama de Sequência - Mychine V1
+## Diagrama de Sequência - Mychine 
 
-Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequência como guia. 
+Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequência como guia. Foi feito um rascunho e validado durante chamada de voz.
 
-### Feed de Produtos
+### Feed de Produtos V1
 
 O diagrama de sequência do feed de produtos apresenta a sequência que o ator usuário faz para listar todos os produtos, o usuário tem a opção de filtrar ou ordenar os produtos. 
 
@@ -49,9 +49,9 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
   <img src="{{ site.baseurl }}/assets/images/sequencia/feed.png" class="img-fluid" />
 </a>
 
-##### Feito por: Giovanna B
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
 
-### Visualizar Produto
+### Visualizar Produto V1
 
 O diagrama de sequência de visualizar produto apresenta a sequência que o ator usuário faz para visualizar um único produto.
 
@@ -59,9 +59,9 @@ O diagrama de sequência de visualizar produto apresenta a sequência que o ator
   <img src="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" class="img-fluid" />
 </a>
 
-##### Feito por: Giovanna B
-
-### Buscar Produto
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
+ 
+### Buscar Produto V1
 
 O diagrama de sequência de buscar produto apresenta a sequência que o ator usuário faz para procurar um produto pelo nome.
 
@@ -69,7 +69,7 @@ O diagrama de sequência de buscar produto apresenta a sequência que o ator usu
   <img src="{{ site.baseurl }}/assets/images/sequencia/buscar.png" class="img-fluid" />
 </a>
 
-##### Feito por: Giovanna B
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
 
 ### Manter Produto
 
@@ -77,29 +77,29 @@ Para o manter o produto, decidimos dividir em três diagramas diferentes: Criar,
 
 Os três diagramas visam mostrar a sequência onde o ator admin cria ou edita, ou deleta um produto. A seguir é possível observar esses diagramas. 
 
-#### Criar Produto
+#### Criar Produto V1
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/criar.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/criar.png" class="img-fluid" />
 </a>
 
-##### Feito por: Giovanna B
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
 
-#### Editar Produto
+#### Editar Produto V1
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/editar.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/editar.png" class="img-fluid" />
 </a>
 
-##### Feito por: Giovanna B
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
 
-### Deletar Produto
+### Deletar Produto V1
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/deletar.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/deletar.png" class="img-fluid" />
 </a>
 
-##### Feito por: Giovanna B
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
 
 ## Referências
 
