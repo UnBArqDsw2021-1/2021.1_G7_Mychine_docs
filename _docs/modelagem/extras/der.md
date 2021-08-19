@@ -17,7 +17,7 @@ Diagrama Entidade-Relacionamento
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 19/08/2021 | Criação do Diagrama Entidade-Relacionamento  | Roberto Nóbrega, Pedro Henrique e Igor Lima |
-| 1.0    | 19/08/2021 | Revisão  | Kess Jhones|
+| 1.0    | 19/08/2021 | Revisão  | Kess Jhones, Samuel Nogueira |
 
 ## Introdução
 
