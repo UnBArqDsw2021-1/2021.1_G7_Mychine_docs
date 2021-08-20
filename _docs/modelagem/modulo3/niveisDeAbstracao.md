@@ -15,6 +15,7 @@ Níveis de abstração
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 16/08/2021 | Abertura do documento Níveis de abstração    | Matheus Gabriel |
 | 0.2    | 16/08/2021 | Criação dos Épicos, Features e US    | Matheus Gabriel e Eduardo Picolo |
+| 0.3    | 17/08/2021 | Realizando mudanças solicitadas e arrumando referências  | Matheus Gabriel e Eduardo Picolo |
 
 ## Introdução
 

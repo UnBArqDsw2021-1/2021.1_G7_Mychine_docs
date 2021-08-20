@@ -17,6 +17,7 @@ Priorização
 | 0.2    | 16/08/2021 | Modificando ordenação no sumário    | Matheus Gabriel e Eduardo Picolo |
 | 0.3    | 17/08/2021 | Criação do MoSCoW    | Matheus Gabriel e Eduardo Picolo |
 | 0.4    | 17/08/2021 | Criação do First Things First   | Matheus Gabriel e Eduardo Picolo |
+| 0.5    | 17/08/2021 | Realizando mudanças solicitadas e arrumando referências  | Matheus Gabriel e Eduardo Picolo |
 
 ## MoSCoW
 

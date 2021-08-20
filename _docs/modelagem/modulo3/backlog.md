@@ -17,6 +17,7 @@ Backlog
 | 0.2    | 16/08/2021 | Modificando ordenação no sumário    | Matheus Gabriel e Eduardo Picolo |
 | 0.3    | 17/08/2021 | Criação do backlog do produto    | Matheus Gabriel e Eduardo Picolo |
 | 0.4    | 19/08/2021 | Adição da introdução e referências    | Eduardo Picolo e Matheus Gabriel  |
+| 0.5    | 19/08/2021 | Realizando revisões textuais e nas referências    | Eduardo Picolo e Matheus Gabriel  |
 
 ## Backlog
 
