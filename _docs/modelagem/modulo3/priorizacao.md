@@ -22,8 +22,8 @@ Priorização
 
 Durante a elicitação vários requisitos são levantados, para ordenar o desenvolvimento, gerar valor desde o início e otimizar recursos, é necessário priorizar os requisitos. Para isso usaremos a técnica MosCoW.
 
-A técnica é muito simples: para cada requisito ou item do seu backlog, você deverá atribuir uma 
-das quatro palavras: Must (Tem que ter), Should (Deveria ter), Could (Poderia ter) ou Would (Interessante ter).
+A técnica é muito simples: para cada requisito ou item do seu backlog, você deverá atribuir uma das quatro palavras: Must (Tem que ter), Should (Deveria ter), Could (Poderia ter) ou Would (Interessante ter). [1]
+
 Resultados obtidos com o MoSCoW:
 
 | ID do Requisito | Requisito | MoSCoW |
@@ -41,11 +41,10 @@ Resultados obtidos com o MoSCoW:
 
 ## First Things First
 
-O método First Things First permite quantificar os requisitos baseado na estimativa de beneficio, penalidade, custo e risco de cada item.
+O método First Things First permite quantificar os requisitos baseado na estimativa de beneficio, penalidade, custo e risco de cada item. [2]
 
-A técnica consiste em: para cada requisito ou item do seu backlog, deverá ser atribuido, em uma escala de 
-1 a 9, o beneficio relativo ao cliente, a penalidade que a falta da funcionalidade causa ao cliente, 
-o custo estimado de implementação e o risco ou dificuldade de implementação.
+A técnica consiste em: para cada requisito ou item do seu backlog, deverá ser atribuido, em uma escala de 1 a 9, o beneficio relativo ao cliente, a penalidade que a falta da funcionalidade causa ao cliente, o custo estimado de implementação e o risco ou dificuldade de implementação.[2]
+
 Foram usadas as Personas e as definições obtidas com o MoSCoW para definir as prioridades usadas na Matriz de prioridades.
 
 #### Matriz de prioridades
@@ -56,6 +55,6 @@ Matriz de prioridades relacionando requisitos com seus benefícios e riscos rela
 
 ## Referências
 
-C. Flavio. Técnica MoSCoW na Priorização dos Requisitos. Site Campus. 21 de jun. de 2018. Disponível aqui. Acesso em 17 de Agosto de 2021.
+[1] C. Flavio. Técnica MoSCoW na Priorização dos Requisitos. Site Campus. 21 de jun. de 2018. Disponível aqui. Acesso em 17 de Agosto de 2021.
 
-Karl E. Wiegers. First Things First: Prioritizing Requirements. Disponível aqui. Acesso em 17 de Agosto de 2021.
+[2] Karl E. Wiegers. First Things First: Prioritizing Requirements. Disponível aqui. Acesso em 17 de Agosto de 2021.
