@@ -15,6 +15,7 @@ Diagrama de Classe
 | ------ | ---------- | ---------------------------------------- | ----------------------------------------------- |
 | 0.1    | 19/08/2021 | Abertura do documento                    | Igor Q Lima                                     |
 | 0.2    | 19/08/2021 | Criação do Diagrama de Classe Preliminar | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N |
+| 0.3    | 20/08/2021 | Criação do Diagrama de Classe | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N, Giovanna B, Roberto |
 
 ## Introdução
 
@@ -24,7 +25,17 @@ O diagrama de classes é um diagrama de estrutura UML que mostra a estrutura do 
 
 Primeiramente foi criado um Diagrama de Classe preliminar para que pudéssemos realizar outros diagramas em paralelo e realizar modificações entre o processo quando sentíssemos necessidades, neste diagrama tivemos apenas a preocupação da criação das entidades.
 
-<img src="{{ site.baseurl }}/assets/images/diagramaDeClassePreliminar.svg">
+<a href="{{ site.baseurl }}/assets/images/diagramaDeClassePreliminar.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaDeClassePreliminar.svg">
+</a>
+
+## Diagrama de Classe
+
+Após necessidades para realizarmos outros artefatos ficou mais perceptível as alterações que deveriam ser feitas. Após uma reunião concluímos um novo diagrama de classe.
+
+<a href="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg">
+</a>
 
 ## Referência
 
