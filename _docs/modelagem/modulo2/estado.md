@@ -16,6 +16,7 @@ Diagrama de Estado
 | 0.1    | 16/08/2021 | Abertura do documento         | Pedro Henrique Vieira                          |
 | 0.2    | 16/08/2021 | Adicionando introdução        | Pedro Henrique Vieira, Eduardo Picolo, Samuel Nogueira         |
 | 0.3    | 16/08/2021 | Adicionando diagrama          | Pedro Henrique Vieira, Eduardo Picolo, Samuel Nogueira         |
+| 1.0    | 19/08/2021 | Revisão          | Matheus Gabriel |
 
 
 
