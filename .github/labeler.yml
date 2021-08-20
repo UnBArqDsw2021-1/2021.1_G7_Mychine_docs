@@ -1,7 +1,7 @@
-# Add 'extra' label
 extra:
-- any: ['_docs/**/**/extra', '_docs/**/extra', '_docs/extra', '_docs/**/*/extra', '_docs/**/extra' ]
+- '_docs/**/**/extra/*'
+- '_docs/**/extra/*'
+- 'extra/**/*'
 
-# Add 'documentation' label to any change to files within the _docs dir
 documentation:
-- _docs/**/*
+- '_docs/**/*'
