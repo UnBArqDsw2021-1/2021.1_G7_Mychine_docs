@@ -17,6 +17,7 @@ Diagrama de Classe
 | 0.2    | 19/08/2021 | Criação do Diagrama de Classe Preliminar | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N |
 | 0.3    | 20/08/2021 | Criação do Diagrama de Classe | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N, Giovanna B, Roberto |
 | 1.0    | 20/08/2021 | Revisão | João Gabriel de Matos |
+| 1.1    | 20/08/2021 | Revisão | Kess Jhones |
 
 
 
