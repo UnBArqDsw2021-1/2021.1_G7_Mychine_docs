@@ -19,6 +19,7 @@ Diagrama de Sequência
 |0.4|19/08/2021| Adiciona diagrama de sequência - Visualizar Produto| Giovanna B Bottino|
 |0.5|19/08/2021| Adiciona diagrama de sequência - Buscar Produto| Giovanna B Bottino|
 |0.6|19/08/2021| Adiciona diagrama de sequência - Manter Produto| Giovanna B Bottino|
+|0.7|21/08/2021| Adiciona diagrama de sequência - Cadastrar Cliente| Kess Jhones |
 
 ## O Diagrama de Sequência
 
@@ -40,6 +41,24 @@ Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto 
 ## Diagrama de Sequência - Mychine 
 
 Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequência como guia. Foi feito um rascunho e validado durante chamada de voz.
+
+### Cadastro Cliente V0.1
+
+O diagrama de sequência do cadastro de clientes apresenta a seguência que o ator usuário faz para criar uma conta na plataforma.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/cadastrov01.jpg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/cadastrov01.jpg" class="img-fluid" />
+</a>
+
+##### Feito por: Giovanna B Bottino
+
+### Cadastro Cliente V1
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" class="img-fluid" />
+</a>
+
+##### Feito por: Kess Jhones
 
 ### Feed de Produtos V1
 
