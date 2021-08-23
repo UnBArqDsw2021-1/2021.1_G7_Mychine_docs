@@ -19,6 +19,7 @@ Diagrama de Estado
 | 1.0    | 19/08/2021 | Revisão                | Matheus Gabriel                                        |
 | 1.1    | 20/08/2021 | Revisão                | João Gabriel, Igor Q Lima                              |
 | 1.2    | 23/08/2021 | Adicionando referência | Pedro Henrique                                         |
+| 1.3    | 23/08/2021 | Revisando | Matheus Gabriel |
 
 ## Introdução
 
