@@ -8,8 +8,12 @@ nav_order: 1
 
 ME-R
 {: .fs-9}
+
 Modelo Entidade-Relacionamento
 {: .fs-9}
+
+Iniciativa extra
+{: .label .label-purple }
 
 #### Versionamento
 {: .no_toc}
@@ -18,7 +22,7 @@ Modelo Entidade-Relacionamento
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 19/08/2021 | Criação do Modelo Entidade-Relacionamento  | Roberto Nóbrega, Pedro Henrique e Samuel Nogueira |
 | 1.0    | 22/08/2021 | Revisão  | João Gabriel de Matos, Kess Jhones |
-
+| 1.1    | 23/08/2021 | Revisão  | Igor Q Lima, Roberto Nóbrega |
 
 ## Introdução
 
@@ -30,32 +34,29 @@ Os participantes dessa entrega fazendo uso de reunião via Discord e utilizando 
 
 ## ME-R Modelo Entidade-Relacionamento
 
-
 ### Entidades
 
-* USER
-* CATEGORY
-* PRODUCT
+- USER
+- CATEGORY
+- PRODUCT
 
 ### Atributos
 
-* USER (<u>userId</u>, email, password, name, phone, phone, cpf, isAdm, createdAt, updatedAt, {address(cep, city, state, street, number, complement)})
+- USER (<u>userId</u>, email, password, name, phone, cpf, isAdm, createdAt, updatedAt, {address(cep, city, state, street, number, complement)})
 
-* CATEGORY (<u>categoryId</u>, name, description)
+- CATEGORY (<u>categoryId</u>, name, description)
 
-* PRODUCT (<u>productId</u>, name, description, lastMaintenance, price, status, image, createdAt, updatedAt)
+- PRODUCT (<u>productId</u>, name, description, lastMaintenance, price, status, image, createdAt, updatedAt)
 
 ### Relacionamentos
 
-* USER - rent - PRODUCT 
-    * Um USER pode alugar um ou vários PRODUCT mas cada PRODUCT pode ser alugado por um e apenas um USER por vez.
-    * Cardinalidade: 1:N
+- USER - rent - PRODUCT
+  - Um USER pode alugar um ou vários PRODUCT mas cada PRODUCT pode ser alugado por um e apenas um USER por vez.
+  - Cardinalidade: 1:N
 
-
-* PRODUCT - has - CATEGORY
-    * Um PRODUCT possui uma e apenas uma CATEGORY mas CATEGORY pode pertencer a nenhum, um ou vários PRODUCT.
-    * Cardinalidade: N:1
-
+- PRODUCT - has - CATEGORY
+  - Um PRODUCT possui uma e apenas uma CATEGORY mas CATEGORY pode pertencer a nenhum, um ou vários PRODUCT.
+  - Cardinalidade: N:1
 
 ## Referências
 

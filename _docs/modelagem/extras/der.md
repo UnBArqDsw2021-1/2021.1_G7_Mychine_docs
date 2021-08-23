@@ -8,8 +8,12 @@ nav_order: 2
 
 DE-R
 {: .fs-9}
+
 Diagrama Entidade-Relacionamento
 {: .fs-9}
+
+Iniciativa extra
+{: .label .label-purple }
 
 #### Versionamento
 {: .no_toc}
@@ -22,6 +26,7 @@ Diagrama Entidade-Relacionamento
 | 2.0   | 21/08/2021 | Revisão  | Kess Jhones, Samuel Nogueira |
 | 2.1   | 23/08/2021 | Adição de legenda  | Roberto Nóbrega, Pedro Henrique |
 | 3.0   | 23/08/2021 | Revisão  | Kess Jhones, Samuel Nogueira |
+| 3.1   | 23/08/2021 | Revisão  | Roberto Nóbrega, Igor Q Lima|
 
 ## Introdução
 
@@ -31,8 +36,7 @@ O propósito do Diagrama Entidade-Relacionamento é de facilitar na implementaç
 
 O grupo em pleno acordo e utilizando da ferramenta <a href="https://app.diagrams.net/">draw.io</a>,  decidiu utilizar da notação Diagrama Pé de Galinha em detrimento da Peter Chen por facilitar a compreensão e em um mesmo documento exibir as informações que seriam obtidas tanto no DE-R - Diagrama Entidade-Relacionamento como no DLD - Diagrama Lógico de Dados, facilitando a observação da documentação do projeto para o banco de dados.
 
-
-Tabelas:
+**Tabelas:**
 
 Caixa alta representa entidade
 
@@ -42,7 +46,7 @@ PK - Chave Primária
 
 FK - Chave Estrangeira
 
-Cardinalidade:
+**Cardinalidade:**
 
 <img src="{{ site.baseurl }}/assets/images/um.png" width="200px"> Um
 
@@ -56,8 +60,6 @@ Cardinalidade:
 
 <img src="{{ site.baseurl }}/assets/images/zeroum.png" width="200px"> Zero ou um
 
-
-
 ## DER - Diagrama Entidade Relacionamento
 
 Utilizando do Diagrama Pé de Galinha que pode ser observado logo abaixo podemos observar todas as tabelas presentes no banco de dados bem como suas chaves, seus atributos e seus relacionamentos.
@@ -66,8 +68,7 @@ Utilizando do Diagrama Pé de Galinha que pode ser observado logo abaixo podemos
   <img src="{{ site.baseurl }}/assets/images/DER.svg" width="500px">
 </a>
 
-<h5>Feito por Pedro Henrique, Roberto Nóbrega e Igor Lima utilizando o <a href="https://app.diagrams.net/">draw.io</a> </h5> 
-
+<h5>Feito por Pedro Henrique, Roberto Nóbrega e Igor Lima utilizando o <a href="https://app.diagrams.net/">draw.io</a> </h5>
 
 ## Referências
 

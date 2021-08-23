@@ -8,3 +8,6 @@ nav_order: 1
 
 Atividades Extras
 {: .fs-9}
+
+Iniciativa extra
+{: .label .label-purple }
