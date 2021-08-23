@@ -15,6 +15,7 @@ Diagrama de Atividade
 | 0.2    | 22/08/2021 | Criação do Diagrama de Atividades               | Igor Q Lima, Matheus G, Giovanna B |
 | 0.3    | 22/08/2021 | Criação do Diagrama de Atividades - Nova versão | Igor Q Lima, Matheus G, Giovanna B |
 | 1.0    | 23/08/2021 | Revisão | Pedro Henrique, Roberto Nóbrega |
+| 1.1    | 23/08/2021 | Adicionado legenda | Igor Q Lima |
 
 ## Introdução
 
@@ -40,6 +41,8 @@ Utilizando da ferramenta <a href="https://app.diagrams.net/">draw.io</a>, realiz
     <img src="{{ site.baseurl }}/assets/images/diagrama-de-atividades.svg" class="img-fluid" />
 </a>
 
+##### Feito por Igor Q Lima, Matheus G, Giovanna B.
+
 ### Diagrama de Atividades - Nova versão
 
 Após análises notamos que deveríamos especificar melhor algumas etapas de finalização do processo, com isso foi gerado um novo diagrama:
@@ -47,6 +50,8 @@ Após análises notamos que deveríamos especificar melhor algumas etapas de fin
 <a href="{{ site.baseurl }}/assets/images/diagrama-de-atividades-v2.svg" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/diagrama-de-atividades-v2.svg" class="img-fluid" />
 </a>
+
+##### Feito por Igor Q Lima, Matheus G, Giovanna B.
 
 ## Referências
 
