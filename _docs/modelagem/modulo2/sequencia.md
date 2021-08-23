@@ -20,14 +20,15 @@ Diagrama de Sequência
 |0.5|19/08/2021| Adiciona diagrama de sequência - Buscar Produto| Giovanna B Bottino|
 |0.6|19/08/2021| Adiciona diagrama de sequência - Manter Produto| Giovanna B Bottino|
 |0.7|21/08/2021| Adiciona diagrama de sequência - Cadastrar Cliente| Kess Jhones |
+|0.8|23/08/2021| Referencia informações | Giovanna B Bottino |
 
 ## O Diagrama de Sequência
 
-Segundo o vídeo "Curso de UML - O que é um Diagrama de Sequência" do Bóson Treinamentos o Diagrama de sequência é uma categoria de UML dinâmica que mostra uma sequência de eventos. Isso é, enfatiza a ordenação temporal das mensagens ao mostrar interações na ordem em que ocorrem. Baseia-se no Caso de Uso relacionado e utiliza o Diagrama de Classes para definir os objetos envolvidos. 
+Segundo o vídeo "Curso de UML - O que é um Diagrama de Sequência" do Bóson Treinamentos o Diagrama de sequência é uma categoria de UML dinâmica que mostra uma sequência de eventos [[1]](#ref1). Isso é, enfatiza a ordenação temporal das mensagens ao mostrar interações na ordem em que ocorrem. Baseia-se no Caso de Uso relacionado e utiliza o Diagrama de Classes para definir os objetos envolvidos. 
 
-Essa categoria de Diagrama auxilia a entender os requisitos de um sistema e mostrar detalhes em Casos de Uso. Além disso, mostra como mensagens são trocadas entre os componentes. 
+Essa categoria de Diagrama auxilia a entender os requisitos de um sistema e mostrar detalhes em Casos de Uso. Além disso, mostra como mensagens são trocadas entre os componentes [[1]](#ref1). 
 
-Conforme o material apresentado pela professora Milene é um diagrama complexo composto por diversos elementos que normalmente contem: 
+Conforme o material apresentado pela professora Milene é um diagrama complexo composto por diversos elementos que normalmente contem [[3]](#ref3) : 
 - Atores
 - Objetos que participam da interação 
 - Mensagens trocadas 
@@ -40,7 +41,7 @@ Escolhemos utilizar esse diagrama nos permite um melhor entendimento do projeto 
 
 ## Diagrama de Sequência - Mychine 
 
-Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequência como guia. Foi feito um rascunho e validado durante chamada de voz.
+Utilizamos da ferramenta [Drawio](https://app.diagrams.net/) para desenvolver o diagrama e também usamos do tutorial de diagrama de sequência como guia [[2]](#ref2). Foi feito um rascunho e validado durante chamada de voz.
 
 ### Cadastro Cliente V0.1
 
@@ -122,8 +123,11 @@ Os três diagramas visam mostrar a sequência onde o ator admin cria ou edita, o
 
 ## Referências
 
-BÓSON Treinamentos. Curso de UML - O que é um Diagrama de Sequência. Disponível em: https://www.youtube.com/watch?v=UVkj3ed0ZuM&t=991s. Acesso em: 15 de agosto de 2021.
+[1] BÓSON Treinamentos. Curso de UML - O que é um Diagrama de Sequência. Disponível em: https://www.youtube.com/watch?v=UVkj3ed0ZuM&t=991s. Acesso em: 15 de agosto de 2021. 
+{: #ref1}
 
-BLOG Creately. Sequence Diagram Tutorial – Complete Guide with Examples, Dispovível em: https://creately.com/blog/diagrams/sequence-diagram-tutorial/. Acesso em: 19 agosto de 2021.
+[2] BLOG Creately. Sequence Diagram Tutorial – Complete Guide with Examples, Dispovível em: https://creately.com/blog/diagrams/sequence-diagram-tutorial/. Acesso em: 19 agosto de 2021.
+{: #ref2}
 
-SERRANO, Milene. 5W2H, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 15 de agosto de 2021.
+[3] SERRANO, Milene. 5W2H, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 15 de agosto de 2021.
+{: #ref3}
