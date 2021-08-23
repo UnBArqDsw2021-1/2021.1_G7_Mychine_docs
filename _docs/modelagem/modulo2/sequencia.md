@@ -24,6 +24,7 @@ Diagrama de Sequência
 |0.9|23/08/2021| Referencia informações | Giovanna B Bottino |
 |1.0|23/08/2021| Adiciona diagrama de sequência - Atualizar Cadastro| Kess Jhones |
 |1.1|23/08/2021| Adiciona diagrama de sequência - Recuperar Senha| Kess Jhones |
+|1.2|23/08/2021| Revisão| João Gabriel de Matos, Roberto Nóbrega  |
 
 ## O Diagrama de Sequência
 
