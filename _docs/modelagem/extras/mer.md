@@ -17,6 +17,8 @@ Modelo Entidade-Relacionamento
 | Versão | Data       | Comentários                   | Autor(es)                                      |
 | ------ | ---------- | ----------------------------- | ---------------------------------------------- |
 | 0.1    | 19/08/2021 | Criação do Modelo Entidade-Relacionamento  | Roberto Nóbrega, Pedro Henrique e Samuel Nogueira |
+| 1.0    | 22/08/2021 | Revisão  | João Gabriel de Matos |
+
 
 ## Introdução
 
