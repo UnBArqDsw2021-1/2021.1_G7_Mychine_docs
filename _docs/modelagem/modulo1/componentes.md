@@ -8,15 +8,18 @@ nav_order: 3
 
 Diagrama de Componentes
 {: .fs-9}
+
+#### Versionamento
+
 | Versão | Data       | Comentários                                     | Autor(es)                          |
 | ------ | ---------- | ----------------------------------------------- | ---------------------------------- |
 | 0.1    | 23/08/2021 | Abertura do documento Diagrama de Componentes   | Samuel Nogueira                    |
 | 0.2    | 23/08/2021 | Criação do diagrama de componentes              | Samuel Nogueira, João Gabriel      |
-
+| 1.0    | 23/08/2021 | Revisão                                         | Pedro Henrique, Kess Jhones        |
 
 ## Introdução
 
-O diagrama de componentes mostra o relacionamento entre diferentes componentes de um software. O diagrama ajuda a fornecer uma visualização de alto nível da estrutura física do sistema além de enfatizar o comportamento servico quanto a interface.[[2]](#ref2)
+O diagrama de componentes mostra o relacionamento entre diferentes componentes de um software. O diagrama ajuda a fornecer uma visualização de alto nível da estrutura física do sistema além de enfatizar o comportamento de serviços quanto a interface.[[2]](#ref2)
 
 ## Diagrama de componentes
 
@@ -26,7 +29,7 @@ O diagrama de componentes mostra o relacionamento entre diferentes componentes d
 
 ##### Feito por: Samuel Nogueira, João Gabriel.
 
-## Referencias 
+## Referências 
 
 [1] SERRANO, Milene. Diagrama de componentes, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 21 de Agosto de 2021.
 {: #ref1}
