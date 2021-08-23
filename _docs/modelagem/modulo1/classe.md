@@ -19,6 +19,8 @@ Diagrama de Classe
 | 1.0    | 20/08/2021 | Revisão | João Gabriel de Matos |
 | 1.1    | 23/08/2021 | Revisão | Kess Jhones |
 | 1.2    | 23/08/2021 | Adicionado legenda | Kess Jhones |
+| 1.3    | 23/08/2021 | Revisão | João Gabriel de Matos |
+
 
 ## Introdução
 
