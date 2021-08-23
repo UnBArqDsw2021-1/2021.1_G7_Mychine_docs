@@ -21,6 +21,7 @@ Diagrama Entidade-Relacionamento
 | 1.1   | 21/08/2021 | Correção do diagrama  | Roberto Nóbrega, Pedro Henrique e Igor Lima |
 | 2.0   | 21/08/2021 | Revisão  | Kess Jhones, Samuel Nogueira |
 | 2.1   | 23/08/2021 | Adição de legenda  | Roberto Nóbrega, Pedro Henrique |
+| 3.0   | 23/08/2021 | Revisão  | Kess Jhones, Samuel Nogueira |
 
 ## Introdução
 
