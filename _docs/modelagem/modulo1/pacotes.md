@@ -11,9 +11,10 @@ Diagrama de Pacotes
 
 #### Versionamento
 
-| Versão | Data       | Comentários           | Autor(es)             |
-| ------ | ---------- | --------------------- | --------------------- |
-| 0.1    | 22/08/2021 | Abertura do documento | João Gabriel de Matos |
+| Versão | Data       | Comentários                        | Autor(es)             |
+| ------ | ---------- | ---------------------------------- | --------------------- |
+| 0.1    | 22/08/2021 | Abertura do documento              | João Gabriel de Matos |
+| 0.2    | 22/08/2021 | Atualização do diagrama de pacotes | João Gabriel de Matos |
 
 ## Introdução
 
