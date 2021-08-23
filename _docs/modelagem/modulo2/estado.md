@@ -31,7 +31,7 @@ Um diagrama de estados é um diagrama que possui como objetivo mapear os estados
     <img src="{{ site.baseurl }}/assets/images/diagrama-de-estados.svg" class="img-fluid" />
 </a>
 
-Feito por: Pedro Henrique Vieira, Eduardo Picolo, Samuel Nogueira
+##### Feito por: Pedro Henrique Vieira, Eduardo Picolo, Samuel Nogueira
 
 ## Referências
 
