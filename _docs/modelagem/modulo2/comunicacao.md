@@ -16,6 +16,11 @@ Diagrama de Comunicação
 |0.1|19/08/2021| Abertura do documento Diagrama de Comunicação| Giovanna B Bottino|
 |0.2|19/08/2021| Adiciona descrição do diagrama de comunicação| Giovanna B Bottino|
 |0.3|19/08/2021| Adiciona diagrama de comunicação| Giovanna B Bottino|
+|1.0|19/08/2021| Revisão | Kess Jhones|
+|1.1|20/08/2021| Revisão | João Gabriel de Matos|
+|1.2|23/08/2021| Arruma referencia | Giovanna B Bottino|
+
+
 
 ## O Diagrama de Comunicação
 
