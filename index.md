@@ -70,7 +70,7 @@ A equipe é composta por 9 membros, responsáveis por aplicar os conhecimentos e
     <div class="avatar">
       <img class="img-circle" src="https://avatars.githubusercontent.com/u/48574832?v=4" />
     </div>
-    <label>Samuel Nogeira</label>
+    <label>Samuel Nogueira</label>
   </div>
 
   <div class="member">
