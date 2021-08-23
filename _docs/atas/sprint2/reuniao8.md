@@ -11,9 +11,10 @@ Reunião 8
 
 ## Versionamento
 
-|Versão | Data | Comentários | Autor(es) |
-|-------|------|-------------|-----------|
-|0.1| 23/08/2021 | Abertura do documento | Matheus Gabriel A Rodrigues|
+| Versão | Data       | Comentários           | Autor(es)                   |
+| ------ | ---------- | --------------------- | --------------------------- |
+| 0.1    | 23/08/2021 | Abertura do documento | Matheus Gabriel A Rodrigues |
+| 1.0    | 23/02/2021 | Revisão               | Igor Q Lima, Samuel Nogueira |
 
 __Data de realização:__ 18/08/2021
 
@@ -39,4 +40,3 @@ __Data de realização:__ 18/08/2021
 
 1. Criação de um novo diagrama de classes
 2. Decisão de como comportar-se de maneira para manter rastro dos debates
-

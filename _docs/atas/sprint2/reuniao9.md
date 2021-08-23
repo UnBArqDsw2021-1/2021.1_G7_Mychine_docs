@@ -11,9 +11,10 @@ Reunião 9
 
 ## Versionamento
 
-|Versão | Data | Comentários | Autor(es) |
-|-------|------|-------------|-----------|
-|0.1|06/08/2021| Abertura do documento | Matheus Gabriel A Rodrigues|
+| Versão | Data       | Comentários           | Autor(es)                    |
+| ------ | ---------- | --------------------- | ---------------------------- |
+| 0.1    | 06/08/2021 | Abertura do documento | Matheus Gabriel A Rodrigues  |
+| 1.0    | 23/02/2021 | Revisão               | Igor Q Lima, Samuel Nogueira |
 
 __Data de realização:__ 23/08/2021
 
