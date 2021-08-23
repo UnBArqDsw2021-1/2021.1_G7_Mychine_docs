@@ -20,6 +20,7 @@ Diagrama de Comunicação
 |1.1|20/08/2021| Revisão | João Gabriel de Matos|
 |1.2|23/08/2021| Arrumada referencias | Giovanna B Bottino|
 |2.0|23/08/2021| Revisado | Matheus Gabriel |
+|2.1|23/08/2021| Revisado | Pedro Henrique |
 
 ## O Diagrama de Comunicação
 
