@@ -16,6 +16,7 @@ Diagrama de Atividade
 | 0.3    | 22/08/2021 | Criação do Diagrama de Atividades - Nova versão | Igor Q Lima, Matheus G, Giovanna B |
 | 1.0    | 23/08/2021 | Revisão | Pedro Henrique, Roberto Nóbrega |
 | 1.1    | 23/08/2021 | Adicionado legenda | Igor Q Lima |
+| 1.2    | 23/08/2021 | Revisão | Pedro Henrique |
 
 ## Introdução
 
