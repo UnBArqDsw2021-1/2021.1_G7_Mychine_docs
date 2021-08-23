@@ -22,6 +22,7 @@ Diagrama de Sequência
 |0.7|21/08/2021| Adiciona diagrama de sequência - Cadastrar Cliente| Kess Jhones |
 |0.8|22/08/2021| Adiciona diagrama de sequência - Login/Logout| Kess Jhones |
 |0.9|23/08/2021| Referencia informações | Giovanna B Bottino |
+|1.0|22/08/2021| Adiciona diagrama de sequência - Atualizar Cadastro| Kess Jhones |
 
 ## O Diagrama de Sequência
 
@@ -58,6 +59,16 @@ O diagrama de sequência do cadastro de clientes apresenta a seguência que o at
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" class="img-fluid" />
+</a>
+
+##### Feito por: Kess Jhones
+
+### Atualizar Cadastro V1
+
+O diagrama de sequência do atualizar cadastro apresenta a seguência que o ator usuário faz para atualizar seu cadastro na plataforma.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/upCadastro.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/upCadastro.png" class="img-fluid" />
 </a>
 
 ##### Feito por: Kess Jhones
