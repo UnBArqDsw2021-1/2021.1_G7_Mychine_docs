@@ -19,7 +19,7 @@ Diagrama de Estado
 | 1.0    | 19/08/2021 | Revisão                | Matheus Gabriel                                        |
 | 1.1    | 20/08/2021 | Revisão                | João Gabriel, Igor Q Lima                              |
 | 1.2    | 23/08/2021 | Adicionando referência | Pedro Henrique                                         |
-| 1.3    | 23/08/2021 | Revisando | Matheus Gabriel |
+| 1.3    | 23/08/2021 | Revisão                | Matheus Gabriel, Igor Q Lima                           |
 
 ## Introdução
 
@@ -37,5 +37,6 @@ Um diagrama de estados é um diagrama que possui como objetivo mapear os estados
 
 Abdala, Daniel. Diagrama de Estados. facom.ufu, “[2015?]”. Disponível em: <http://www.facom.ufu.br/~abdala/DAS5312/Diagrama%20de%20Estados.pdf>. Acesso em: 16 agosto 2021. 
 {: #ref1}
+
 Diagrama de Estados. dsc.ufcg.edu, “[2015?]”. Disponível em: <http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/estado/diag_estados.htm>. Acesso em: 16 agosto 2021
 {: #ref2}
