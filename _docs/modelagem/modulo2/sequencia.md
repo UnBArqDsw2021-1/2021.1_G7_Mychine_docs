@@ -20,6 +20,7 @@ Diagrama de Sequência
 |0.5|19/08/2021| Adiciona diagrama de sequência - Buscar Produto| Giovanna B Bottino|
 |0.6|19/08/2021| Adiciona diagrama de sequência - Manter Produto| Giovanna B Bottino|
 |0.7|21/08/2021| Adiciona diagrama de sequência - Cadastrar Cliente| Kess Jhones |
+|0.8|22/08/2021| Adiciona diagrama de sequência - Login/Logout| Kess Jhones |
 
 ## O Diagrama de Sequência
 
@@ -56,6 +57,16 @@ O diagrama de sequência do cadastro de clientes apresenta a seguência que o at
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" class="img-fluid" />
+</a>
+
+##### Feito por: Kess Jhones
+
+### Realizar Login/Logout V1
+
+O diagrama de sequência do Login/Logout de clientes apresenta a seguência que o ator usuário faz para realizar login e logout na plataforma.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" class="img-fluid" />
 </a>
 
 ##### Feito por: Kess Jhones
