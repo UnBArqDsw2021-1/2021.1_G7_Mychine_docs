@@ -7,17 +7,17 @@
 
 ## Alunos
 
-|Matrícula | Aluno |
-| -- | -- |
+| Matrícula  | Aluno                           |
+| ---------- | ------------------------------- |
 | 18/0106970 | Matheus Gabriel Alves Rodrigues |
-| 18/0113151 | Eduardo Nunes Picolo |
-| 17/0011267 | Giovanna Borges Bottino |
-| 18/0122258 | Igor Queiroz Lima |
-| 18/0042238 | João Gabriel de Matos |
-| 18/0124498 | Kess Jhones Gomes Tavares |
-| 18/0129287 | Pedro Henrique Vieira de Lima |
-| 14/0065547 | Roberto Martins da Nóbrega |
-| 18/0130722 | Samuel Nogueira Bacelar |
+| 18/0113151 | Eduardo Nunes Picolo            |
+| 17/0011267 | Giovanna Borges Bottino         |
+| 18/0122258 | Igor Queiroz Lima               |
+| 18/0042238 | João Gabriel de Matos           |
+| 18/0124498 | Kess Jhones Gomes Tavares       |
+| 18/0129287 | Pedro Henrique Vieira de Lima   |
+| 14/0065547 | Roberto Martins da Nóbrega      |
+| 18/0130722 | Samuel Nogueira Bacelar         |
 
 ## Sobre
 
@@ -27,7 +27,7 @@ Uma aplicação web chamada Mychine, permite alugar equipamentos como pequenos t
 
 | | | |
 | - | - | - |
-|![screenshot1](/assets/images/entrega1/screenshot1.png)|![screenshot2](/assets/images/entrega1/screenshot1.png)| ![screenshot3](/assets/images/entrega1/screenshot1.png) |
+|![screenshot1](/assets/images/entrega1/screenshot1.png)|![screenshot2](/assets/images/entrega1/screenshot2.png)| ![screenshot3](/assets/images/entrega1/screenshot3.png) |
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
 
@@ -37,11 +37,18 @@ Uma aplicação web chamada Mychine, permite alugar equipamentos como pequenos t
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+| | | |
+| - | - | - |
+|[![screenshot1](/assets/images/entrega2/screenshot1.png)](/modelagem/modulo1/classe)|![screenshot2](/assets/images/entrega2/screenshot2.png)| ![screenshot3](/assets/images/entrega2/screenshot3.png) |
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
 
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+| | |
+| - | - |
+|[![Vídeo 1 - Módulo Notação UML – Diagramas Estáticos](/assets/images/entrega2/screenshot_video1.png)](https://www.youtube.com/watch?v=9th4pmXcSyI) | [![Vídeo 2 - Módulo Notação UML – Diagramas Dinâmicos](/assets/images/entrega2/screenshot_video2.png)](https://www.youtube.com/watch?v=rC8qg-thVbA)|
+|[![Vídeo 3 - Módulo Modelagem Ágil](/assets/images/entrega2/screenshot_video3.png)](https://www.youtube.com/watch?v=eQyDNE7EDNM) | [![Vídeo 4 - Iniciativas Extras](/assets/images/entrega2/screenshot_video4.png)](https://www.youtube.com/watch?v=0nEs0w4qyDY)|
+
+<!--
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 
@@ -59,12 +66,14 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 
 Adicione o(s)s vídeo(s) da Entrega Final.
 
-## Descritivo dos Principais Aspectos Técnicos 
+-->
 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
-**Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
-**Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
+## Descritivo dos Principais Aspectos Técnicos
+
+**Principal(is) Metodologia(s) Adotada(s)**: Metodologia: Scrum e Kanban<br>
+**Principais Linguagens Utilizadas e/ou Pretendidas**: Javascript<br>
+**Principais Tecnologias Utilizadas e/ou Pretendidas**: [Node](https://nodejs.org/en/) e [React (JS)](https://pt-br.reactjs.org/)<br>
+<!-- **Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br> -->
 
 ## O Projeto está rodando?
 
@@ -93,7 +102,10 @@ Adicione o(s)s vídeo(s) da Entrega Final.
 A aplicação estará rodando em <http://localhost:4000/.>
 
 ---
-
+<!--
 ## Informações Complementares
 
 Quaisquer outras informações sobre seu projeto podem ser descritas nessa seção.
+-->
+
+[⬆ Voltar ao topo](#mychine)<br>
