@@ -35,8 +35,8 @@ Um diagrama de estados é um diagrama que possui como objetivo mapear os estados
 
 ## Referências
 
-Abdala, Daniel. Diagrama de Estados. facom.ufu, “[2015?]”. Disponível em: <http://www.facom.ufu.br/~abdala/DAS5312/Diagrama%20de%20Estados.pdf>. Acesso em: 16 agosto 2021. 
+[1] Abdala, Daniel. Diagrama de Estados. facom.ufu, “[2015?]”. Disponível em: <http://www.facom.ufu.br/~abdala/DAS5312/Diagrama%20de%20Estados.pdf>. Acesso em: 16 agosto 2021. 
 {: #ref1}
 
-Diagrama de Estados. dsc.ufcg.edu, “[2015?]”. Disponível em: <http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/estado/diag_estados.htm>. Acesso em: 16 agosto 2021
+[2] Diagrama de Estados. dsc.ufcg.edu, “[2015?]”. Disponível em: <http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/uml/diagramas/estado/diag_estados.htm>. Acesso em: 16 agosto 2021
 {: #ref2}
