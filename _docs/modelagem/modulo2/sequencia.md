@@ -22,7 +22,8 @@ Diagrama de Sequência
 |0.7|21/08/2021| Adiciona diagrama de sequência - Cadastrar Cliente| Kess Jhones |
 |0.8|22/08/2021| Adiciona diagrama de sequência - Login/Logout| Kess Jhones |
 |0.9|23/08/2021| Referencia informações | Giovanna B Bottino |
-|1.0|22/08/2021| Adiciona diagrama de sequência - Atualizar Cadastro| Kess Jhones |
+|1.0|23/08/2021| Adiciona diagrama de sequência - Atualizar Cadastro| Kess Jhones |
+|1.1|23/08/2021| Adiciona diagrama de sequência - Recuperar Senha| Kess Jhones |
 
 ## O Diagrama de Sequência
 
@@ -69,6 +70,16 @@ O diagrama de sequência do atualizar cadastro apresenta a seguência que o ator
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/upCadastro.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/upCadastro.png" class="img-fluid" />
+</a>
+
+##### Feito por: Kess Jhones
+
+### Recuperar Senha V1
+
+O diagrama de sequência do recuperar senha apresenta a seguência que o ator usuário faz para recuperar sua senha na plataforma.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/upSenha.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/upSenha.png" class="img-fluid" />
 </a>
 
 ##### Feito por: Kess Jhones
