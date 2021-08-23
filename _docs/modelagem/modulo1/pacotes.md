@@ -15,6 +15,7 @@ Diagrama de Pacotes
 | ------ | ---------- | ---------------------------------- | --------------------- |
 | 0.1    | 22/08/2021 | Abertura do documento              | João Gabriel de Matos |
 | 0.2    | 22/08/2021 | Atualização do diagrama de pacotes | João Gabriel de Matos |
+| 1.0    | 22/08/2021 | Revisando | Matheus Gabriel |
 
 ## Introdução
 
@@ -23,9 +24,7 @@ Neste diagrama contido abaixo, está representada de forma genérica as camadas 
 
 
 <a href="{{ site.baseurl }}/assets/images/diagramaDePacotes.svg" data-toggle="lightbox">
-
-​    <img src="{{ site.baseurl }}/assets/images/diagramaDePacotes.svg">
-
+    <img src="{{ site.baseurl }}/assets/images/diagramaDePacotes.svg">
 </a>
 
 
