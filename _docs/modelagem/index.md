@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Módulo Desenho de Software (Modelagem)
+title: Desenho de Software (Modelagem)
 nav_order: 2
 has_children: true
 permalink: /modelagem

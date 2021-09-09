@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Política de Contribuição
-nav_order: 5
 ---
 
 Como Contribuir
