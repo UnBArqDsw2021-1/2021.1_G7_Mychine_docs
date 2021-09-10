@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Módulo Notação UML – Diagramas Estáticos
-parent: Módulo Desenho de Software (Modelagem)
+parent: Desenho de Software (Modelagem)
 has_children: true
 nav_order: 1
 ---
