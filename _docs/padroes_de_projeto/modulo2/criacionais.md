@@ -1,12 +1,12 @@
 ---
 layout: default
-title: GoFs Estruturais
+title: GoFs Criacionais
 grand_parent: Desenho de Software (Padrões de Projeto)
 parent: Módulo Padrões de Projeto GoFs
-nav_order: 2
+nav_order: 1
 ---
 
-GoFs Estruturais
+GoFs Criacionais
 {: .fs-9}
 
 <br>
