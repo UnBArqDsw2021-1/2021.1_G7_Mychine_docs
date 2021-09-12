@@ -18,7 +18,7 @@ GoFs Criacionais
 
 | Versão |      Data      |                Comentários                |    Autor(es)    |
 | ------ | -------------- | ----------------------------------------- | --------------- |
-|        |   11/09/2021   |   Adicionando conteúdo sobre o prototype  | Pedro Henrique  |
+|  0.1   |   11/09/2021   |   Adicionando conteúdo sobre o prototype  | Pedro Henrique  |
 
 ## Abstract Factory
 
@@ -39,7 +39,7 @@ Prototype é um padrão de projeto criacional que fornece uma maneira de copiar/
     <img src="{{ site.baseurl }}/assets/images/uml-prototype.png" class="img-fluid" />
   </a>
   <p style="text-align:center;">
-  Imagem retirada de 
+  Imagem exemplo retirada de 
   <a href="https://medium.com/xp-inc/desing-patterns-parte-7-prototype-98962514728f">medium.com</a>
   </p>
 </div>
@@ -47,40 +47,50 @@ Prototype é um padrão de projeto criacional que fornece uma maneira de copiar/
 
 ### Exemplo em Typescript
 
+<div style="display:flex; flex-direction:column; justify-content:center; ">
+  <a href="{{ site.baseurl }}/assets/images/Diagrama-prototype.svg" data-toggle="lightbox" style="margin:0 auto;">
+    <img src="{{ site.baseurl }}/assets/images/Diagrama-prototype.svg" class="img-fluid" />
+  </a>
+</div>
+
 ```typescript
 interface prototype{
     clone():prototype;
 }
 
-class materia implements prototype{
+class produto implements prototype{
     
-    constructor(public nome:string, private codigo:number){}
+    constructor(public nome:string, private preco:number){}
 
     public clone(): this {
         return Object.create(this);
     }
 
-    getCodigo():number{
-        return this.codigo;
+    getPreco():number{
+        return this.preco;
+    }
+    setPreco(newPreco:number){
+        this.preco = newPreco;
     }
 }
 
-const m1 = new materia('ads', 1); // criando uma materia
-const m2 = m1.clone(); // clonando a materia
+const p1 = new produto('Produto1', 30.99); // criando uma produto
+const p2 = p1.clone(); // clonando a produto
 
-console.log(m1.nome, m1.getCodigo(), m2.nome, m2.getCodigo());
+console.log(p1.nome, p1.getPreco(), p2.nome, p2.getPreco());
 
-m2.nome = 'ED1' 
+p2.nome = 'Produto2'
+p2.setPreco(40); 
 
-console.log(m1.nome, m1.getCodigo(), m2.nome, m2.getCodigo());
+console.log(p1.nome, p1.getPreco(), p2.nome, p2.getPreco());
 
-console.log(m1 === Object.getPrototypeOf(m2)); //testando se m1 é o prototipo de m2
+console.log(p1 === Object.getPrototypeOf(p2)); //testando se p1 é o prototipo de p2
 ```
 O código acima gera a seguinte saída:
 
 ```bash
-"ads"  1  "ads"  1 
-"ads"  1  "ED1"  1 
+"Produto1",  30.99,  "Produto1",  30.99 
+"Produto1",  30.99,  "Produto2",  40 
 true 
 ```
 
