@@ -20,6 +20,7 @@ GoFs Comportamentais
 | ------ | ---- | ----------- | --------- |
 |0.1     |09/09/2021| Abertura do documento| Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega|
 |0.2     |10/09/2021| Adicionando o Adapter | Matheus Gabriel|
+|1.0     |10/09/2021| Revisão | Pedro Henrique|
 
 ## Adapter
 
