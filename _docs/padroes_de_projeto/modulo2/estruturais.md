@@ -35,6 +35,7 @@ Uma analogia frequentemente feita é a com o adaptador de tomada que possibilita
 <a href="{{ site.baseurl }}/assets/images/AdapterDiagrama.svg" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/AdapterDiagrama.svg" class="img-fluid" />
 </a>
+
 ### Código Exemplo
 
 O código a seguir mostra uma aplicação do padrão Adapter fazendo a conversão de datas para diferentes formatos definidos a partir de templates pré existentes.
@@ -74,6 +75,31 @@ export default dateAdapter;
 <hr/>
 
 ## Composite
+
+### Conceito
+
+O padrão Composite é um padrão estrutural de objetos que tem como intenção comportobjetos em estruturas de árvore para representarem hierarquias partes-todo. Permitindo aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.
+
+### aplicabilidade
+
+Deve ser usado quando:
+* quiser representar hierarquias partes-todo de objetos.
+* quiser que os clientes sejam capazes de ignorar a diferença entre composições de objetos e objetos individuais. Todos os objetos na estrutura composta serão tratados de maneira uniforme.
+
+### Participantes
+1. Component - Declara e implementa o comportamento padrão para os objetos na composição, fornecendo uma interface para acessar e gerenciar os seus componentes-filhos.
+2. Leaf - representa objetos-folha, as quais não possuem filhos.
+3. Composite - define o comportamento para componentes que têm filhos, além de armazenar os componentes filhos.
+4. Client - O responsável por manipular objetos na composição atravez da interface Component.
+
+### Modelagem
+
+
+
+### Código Exemplo
+
+```typescript
+```
 
 <hr/>
 
