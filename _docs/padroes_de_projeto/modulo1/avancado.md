@@ -27,6 +27,7 @@ GRASPs Avançados
 |   0.5.2  | 13/09/2021  | Adiciona introdução do padrão de fabricação | Giovanna B Bottino |
 |   0.5.3  | 13/09/2021  | Adiciona padrão de Variações Protegidas | Giovanna B Bottino |
 |   0.5.4  | 13/09/2021  | Adiciona exemplo padrao de indirecao | Giovanna B Bottino |
+|   0.6  | 13/09/2021  | Adiciona exemplo padrao de fabricação | Giovanna B Bottino |
 
 
 ## GRASP
@@ -106,6 +107,14 @@ Não Utilizado
 **Justificativa:** Fabricação no GRASP refere-se a uma classe que não representa nenhum conceito no domínio do problema, apenas funciona como uma classe prestadora de serviços. Usada para ter um baixo acoplamento e alta coesão no sistema [[1]](#ref1).
 
 **Utilização no projeto:**
+
+No caso do nosso projeto vamos citar quando padronizamos o cadastro do cliente. Onde usamos a UserService apenas como classe prestadora de serviços. Pode-se observar no nosso diagrama de sequencia a seguir.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" class="img-fluid" />
+</a>
+
+##### Feito por: Kess Jhones
 
 <hr/>
 
