@@ -19,6 +19,8 @@ GoFs Comportamentais
 | Versão | Data | Comentários | Autor(es) |
 | ------ | ---- | ----------- | --------- |
 |   0.1 | 12/09/2021 | Adicionando conteúdo sobre o padrão strategy | Pedro Henrique |
+|   1.0 | 13/09/2021 | Revisão Ortográfica | Samuel Nogueira |
+|   1.1 | 13/09/2021 | Revisão | Matheus Gabriel e Igor Queiroz |
 
 ## Observer
 
