@@ -18,7 +18,12 @@ GRASPs Avançados
 
 | Versão | Data | Comentários | Autor(es) |
 | ------ | ---- | ----------- | --------- |
-|        |      |             |           |
+|   0.1  | 13/09/2021  | Abertura do documento | Giovanna B Bottino |
+
+
+## GRASPs
+
+### GRASPs Avançados
 
 ## Polimorfismo
 
