@@ -22,6 +22,7 @@ GRASPs Avançados
 |   0.2  | 13/09/2021  | Adiciona introdução GRASP | Giovanna B Bottino |
 |   0.3  | 13/09/2021  | Adiciona introdução GRASPs Avançados | Giovanna B Bottino |
 |   0.4  | 13/09/2021  | Adiciona referencia da introducao | Giovanna B Bottino |
+|   0.5  | 13/09/2021  | Adiciona padrão de polimorfismo | Giovanna B Bottino |
 
 
 ## GRASP
@@ -47,13 +48,21 @@ Como alguns padrões GRASP ocorrem na implementação de padrões GoF recomendam
 
 <br/>
 
-**Problema:**
+**Problema:** É preciso substituir um componente por outro sem afetar o cliente. Como desenvolver componentes de software plugaveis? Como lidar com alternativas baseadas no tipo? Evitando variação condicional pouco extensível [[1]](#ref1).
 
-**Solução:**
+**Solução:**  Atribua responsabilidades ao comportamento usando operações polimórficas. Elas devem ser atribuídas a abstrações e não a objetos concretos, permitindo que eles possam variar conforme a necessidade. Não use lógica condicional para realizar alternativas diferentes baseadas em tipo [[1]](#ref1).
 
-**Justificativa:**
+**Justificativa:** Polimorfismo no GRASP refere-se a responsabilidade geral ser distribuída a um conjunto de classes ou interfaces. Ou seja, nesse caso o sistema que possui classes com métodos parecidos cria uma classe generalista com um nível de abstração mais alto [[1]](#ref1).
 
 **Utilização no projeto:**
+
+No caso do nosso projeto vamos citar quando padronizamos nossas classes _User_, _Admn_ e _Client_. A _User_ é responsavel por _createUser_, _recuperatePassword_, _logIn_ e _logOut_, onde as classes derivadas _Admn_ e _Client_ podem utilizar de acordo com a necessidade. Pode-se observar no nosso diagrama de classe a seguir.
+
+<a href="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg">
+</a>
+
+##### Feito por Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N, Giovanna B, Roberto.
 
 <hr/>
 
