@@ -21,19 +21,20 @@ GRASPs Avançados
 |   0.1  | 13/09/2021  | Abertura do documento | Giovanna B Bottino |
 |   0.2  | 13/09/2021  | Adiciona introdução GRASP | Giovanna B Bottino |
 |   0.3  | 13/09/2021  | Adiciona introdução GRASPs Avançados | Giovanna B Bottino |
+|   0.4  | 13/09/2021  | Adiciona referencia da introducao | Giovanna B Bottino |
 
 
 ## GRASP
 
-General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada. 
+General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada [[2]](#ref2). 
 
-Os Padrões de Software para Atribuição de Responsabilidade Geral utilizam princípios baseados na Orientação a Objetos. Isso para tornar o código mais flexível, de facil manutenção e a extensibilidade. 
+Os Padrões de Software para Atribuição de Responsabilidade Geral utilizam princípios baseados na Orientação a Objetos. Isso para tornar o código mais flexível, de facil manutenção e a extensibilidade [[1]](#ref1). 
 
 Os padrões estão sendo amplamente utilizados, a seguir pode encontrar alguns que foram documentados aqui de forma representativa. 
 
 ### GRASPs Avançados
 
-Como GRASP exploram principios fundamentais de orientação a objetos, 5 padrões fundamentais e 4 padrões avançados, ele pode ser dividido em GRASPs básicos e avançados. Aqui iremos apontar o 4 padrões avançados:
+Como GRASP exploram principios fundamentais de orientação a objetos, 5 padrões fundamentais e 4 padrões avançados, ele pode ser dividido em GRASPs básicos e avançados [[1]](#ref1). Aqui iremos apontar o 4 padrões avançados:
 
 - Polimorfismo
 - Indireção
@@ -105,3 +106,9 @@ Não Utilizado
 <hr/>
 
 ## Referências
+
+[1] ROCHA, Helder. Padrões Design de com aplicações em Java, 2005. Disponível em: [<https://www.inf.ufpr.br/andrey/ci163/Design_Patterns.pdf>](https://www.inf.ufpr.br/andrey/ci163/Design_Patterns.pdf). Acesso em: 13 de setembro de 2021.
+{: #ref1}
+
+[2] SERRANO, Milene. GRASP Complementar, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 13 de setembro de 2021.
+{: #ref2}
