@@ -123,11 +123,11 @@ Não Utilizado
 
 No caso do nosso projeto vamos citar o encapsulamento em nossas classes. Pode-se observar no nosso diagrama de classe a seguir.
 
-<a href="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg" data-toggle="lightbox">
-    <img src="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg">
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
 </a>
 
-
+##### Feito por Igor Q, Matheus G, Giovanna B
 
 <hr/>
 
