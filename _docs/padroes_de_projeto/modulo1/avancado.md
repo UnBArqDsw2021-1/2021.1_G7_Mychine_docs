@@ -25,6 +25,7 @@ GRASPs Avançados
 |   0.5  | 13/09/2021  | Adiciona padrão de polimorfismo | Giovanna B Bottino |
 |   0.5.1  | 13/09/2021  | Adiciona introdução do padrão de indireção | Giovanna B Bottino |
 |   0.5.2  | 13/09/2021  | Adiciona introdução do padrão de fabricação | Giovanna B Bottino |
+|   0.5.3  | 13/09/2021  | Adiciona padrão de Variações Protegidas | Giovanna B Bottino |
 
 
 ## GRASP
@@ -106,13 +107,21 @@ Não Utilizado
 
 <br/>
 
-**Problema:**
+**Problema:** Como projetar objetos e sistemas para que as variações nesses elementos não tenha um impacto indesejável nos outros elementos? [[2]](#ref2)
 
-**Solução:**
+**Solução:** Encapsulamento, interfaces, polimorfismo, indireção e padrões [[2]](#ref2).
 
-**Justificativa:**
+**Justificativa:**  Protege o sistema, encapsulando o comportamento que realmente importa [[1]](#ref1).
 
-**Utilização no projeto:**
+**Utilização no projeto:** 
+
+No caso do nosso projeto vamos citar o encapsulamento em nossas classes. Pode-se observar no nosso diagrama de classe a seguir.
+
+<a href="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg">
+</a>
+
+
 
 <hr/>
 
