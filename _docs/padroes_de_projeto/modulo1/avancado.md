@@ -26,6 +26,7 @@ GRASPs Avançados
 |   0.5.1  | 13/09/2021  | Adiciona introdução do padrão de indireção | Giovanna B Bottino |
 |   0.5.2  | 13/09/2021  | Adiciona introdução do padrão de fabricação | Giovanna B Bottino |
 |   0.5.3  | 13/09/2021  | Adiciona padrão de Variações Protegidas | Giovanna B Bottino |
+|   0.5.4  | 13/09/2021  | Adiciona exemplo padrao de indirecao | Giovanna B Bottino |
 
 
 ## GRASP
@@ -71,9 +72,6 @@ No caso do nosso projeto vamos citar quando padronizamos nossas classes _User_, 
 
 ## Indireção
 
-Não Utilizado
-{: .label .label-red }
-
 <br/>
 
 **Problema:** Como suportar baixo acoplamento e manter elevado o potencial de reuso? [[2]](#ref2)
@@ -83,6 +81,14 @@ Não Utilizado
 **Justificativa:**  Indireção no GRASP refere-se a manter o baixo acoplamento, através de delegação de responsabilidades através de uma classe mediadora [[1]](#ref1).
 
 **Utilização no projeto:**
+
+No caso do nosso projeto vamos citar quando padronizamos o cadastro do cliente. Onde o Usuário se comunica com a Interface e a UserControler é responsavel por mediar as mensagens entre a Interface e a Usuer. Pode-se observar no nosso diagrama de sequencia a seguir.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/cadastrov1.png" class="img-fluid" />
+</a>
+
+##### Feito por: Kess Jhones
 
 <hr/>
 
