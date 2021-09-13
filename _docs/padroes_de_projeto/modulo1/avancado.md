@@ -24,6 +24,7 @@ GRASPs Avançados
 |   0.4  | 13/09/2021  | Adiciona referencia da introducao | Giovanna B Bottino |
 |   0.5  | 13/09/2021  | Adiciona padrão de polimorfismo | Giovanna B Bottino |
 |   0.5.1  | 13/09/2021  | Adiciona introdução do padrão de indireção | Giovanna B Bottino |
+|   0.5.2  | 13/09/2021  | Adiciona introdução do padrão de fabricação | Giovanna B Bottino |
 
 
 ## GRASP
@@ -91,11 +92,11 @@ Não Utilizado
 
 <br/>
 
-**Problema:**
+**Problema:** Atribuir responsabilidades apenas para classes do domínio conceitual pode levar a situações de maior acoplamento e menos coesão [[2]](#ref2).
 
-**Solução:**
+**Solução:** Atribuir um conjunto altamente coesivo de responsabilidades a uma classe artificial que não representa um conceito do domínio do problema [[2]](#ref2).
 
-**Justificativa:**
+**Justificativa:** Fabricação no GRASP refere-se a uma classe que não representa nenhum conceito no domínio do problema, apenas funciona como uma classe prestadora de serviços. Usada para ter um baixo acoplamento e alta coesão no sistema [[1]](#ref1).
 
 **Utilização no projeto:**
 
