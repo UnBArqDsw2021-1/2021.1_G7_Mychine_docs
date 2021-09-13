@@ -32,6 +32,15 @@ Os padrões estão sendo amplamente utilizados, a seguir pode encontrar alguns q
 
 ### GRASPs Avançados
 
+Como GRASP exploram principios fundamentais de orientação a objetos, 5 padrões fundamentais e 4 padrões avançados, ele pode ser dividido em GRASPs básicos e avançados. Aqui iremos apontar o 4 padrões avançados:
+
+- Polimorfismo
+- Indireção
+- Fabricação ou Invenção Pura
+- Variações Protegidas
+
+Como alguns padrões GRASP ocorrem na implementação de padrões GoF recomendamos a leitura dos podrões GoF.
+ 
 ## Polimorfismo
 
 <br/>
