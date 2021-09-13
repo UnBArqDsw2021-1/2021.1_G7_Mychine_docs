@@ -20,6 +20,7 @@ GRASPs Avançados
 | ------ | ---- | ----------- | --------- |
 |   0.1  | 13/09/2021  | Abertura do documento | Giovanna B Bottino |
 |   0.2  | 13/09/2021  | Adiciona introdução GRASP | Giovanna B Bottino |
+|   0.3  | 13/09/2021  | Adiciona introdução GRASPs Avançados | Giovanna B Bottino |
 
 
 ## GRASP
