@@ -19,6 +19,8 @@ GoFs Criacionais
 | Versão |      Data      |                Comentários                |    Autor(es)    |
 | ------ | -------------- | ----------------------------------------- | --------------- |
 |  0.1   |   11/09/2021   |   Adicionando conteúdo sobre o prototype  | Pedro Henrique  |
+|  1.0   |   12/09/2021   |   Revisão optigráfica                     | Samuel Nogueira  |
+|  1.1   |   13/09/2021   |   Revisão de conteúdo                     | Matheus Gabriel e Igor Queiroz  |
 
 ## Abstract Factory
 
@@ -47,7 +49,7 @@ Prototype é um padrão de projeto criacional que fornece uma maneira de copiar/
 
 ### Exemplo em Typescript
 
-<div style="display:flex; flex-direction:column; justify-content:center; ">
+<div style="display:flex; flex-direction:column; justify-content:center; margin:20px ">
   <a href="{{ site.baseurl }}/assets/images/Diagrama-prototype.svg" data-toggle="lightbox" style="margin:0 auto;">
     <img src="{{ site.baseurl }}/assets/images/Diagrama-prototype.svg" class="img-fluid" />
   </a>
