@@ -23,19 +23,20 @@ GRASPs Avançados
 |   0.3  | 13/09/2021  | Adiciona introdução GRASPs Avançados | Giovanna B Bottino |
 |   0.4  | 13/09/2021  | Adiciona referencia da introducao | Giovanna B Bottino |
 |   0.5  | 13/09/2021  | Adiciona padrão de polimorfismo | Giovanna B Bottino |
+|   0.5.1  | 13/09/2021  | Adiciona introdução do padrão de indireção | Giovanna B Bottino |
 
 
 ## GRASP
 
-General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada [[3]](#ref2). 
+General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada [[3]](#ref3). 
 
-Os Padrões de Software para Atribuição de Responsabilidade Geral utilizam princípios baseados na Orientação a Objetos. Isso para tornar o código mais flexível, de facil manutenção e a extensibilidade [[2]](#ref1). 
+Os Padrões de Software para Atribuição de Responsabilidade Geral utilizam princípios baseados na Orientação a Objetos. Isso para tornar o código mais flexível, de facil manutenção e a extensibilidade [[2]](#ref2). 
 
 Os padrões estão sendo amplamente utilizados, a seguir pode encontrar alguns que foram documentados aqui de forma representativa. 
 
 ### GRASPs Avançados
 
-Como GRASP exploram principios fundamentais de orientação a objetos, 5 padrões fundamentais e 4 padrões avançados, ele pode ser dividido em GRASPs básicos e avançados [[2]](#ref1). Aqui iremos apontar o 4 padrões avançados:
+Como GRASP exploram principios fundamentais de orientação a objetos, 5 padrões fundamentais e 4 padrões avançados, ele pode ser dividido em GRASPs básicos e avançados [[2]](#ref2). Aqui iremos apontar o 4 padrões avançados:
 
 - Polimorfismo
 - Indireção
@@ -48,11 +49,11 @@ Como alguns padrões GRASP ocorrem na implementação de padrões GoF recomendam
 
 <br/>
 
-**Problema:** É preciso substituir um componente por outro sem afetar o cliente. Como desenvolver componentes de software plugaveis? Como lidar com alternativas baseadas no tipo? Evitando variação condicional pouco extensível [[2]](#ref1).
+**Problema:** É preciso substituir um componente por outro sem afetar o cliente. Como desenvolver componentes de software plugaveis? Como lidar com alternativas baseadas no tipo? Evitando variação condicional pouco extensível [[2]](#ref2).
 
-**Solução:**  Atribua responsabilidades ao comportamento usando operações polimórficas. Elas devem ser atribuídas a abstrações e não a objetos concretos, permitindo que eles possam variar conforme a necessidade. Não use lógica condicional para realizar alternativas diferentes baseadas em tipo [[2]](#ref1).
+**Solução:**  Atribua responsabilidades ao comportamento usando operações polimórficas. Elas devem ser atribuídas a abstrações e não a objetos concretos, permitindo que eles possam variar conforme a necessidade. Não use lógica condicional para realizar alternativas diferentes baseadas em tipo [[2]](#ref2).
 
-**Justificativa:** Polimorfismo no GRASP refere-se a responsabilidade geral ser distribuída a um conjunto de classes ou interfaces. Ou seja, nesse caso o sistema que possui classes com métodos parecidos cria uma classe generalista com um nível de abstração mais alto [[2]](#ref1).
+**Justificativa:** Polimorfismo no GRASP refere-se a responsabilidade geral ser distribuída a um conjunto de classes ou interfaces. Ou seja, nesse caso o sistema que possui classes com métodos parecidos cria uma classe generalista com um nível de abstração mais alto [[1]](#ref1).
 
 **Utilização no projeto:**
 
@@ -73,11 +74,11 @@ Não Utilizado
 
 <br/>
 
-**Problema:**
+**Problema:** Como suportar baixo acoplamento e manter elevado o potencial de reuso? [[2]](#ref2)
 
-**Solução:**
+**Solução:** Atribua a responsabilidade a um objeto intermediário para mediar as mensagens entre outros para que não sejam diretamente acoplados. Ou seja esse objeto cria uma camada de indireção entre os dois componentes [[2]](#ref2).
 
-**Justificativa:**
+**Justificativa:**  Indireção no GRASP refere-se a manter o baixo acoplamento, através de delegação de responsabilidades através de uma classe mediadora [[1]](#ref1).
 
 **Utilização no projeto:**
 
