@@ -61,11 +61,11 @@ Como alguns padrões GRASP ocorrem na implementação de padrões GoF recomendam
 
 No caso do nosso projeto vamos citar quando padronizamos nossas classes _User_, _Admn_ e _Client_. A _User_ é responsavel por _createUser_, _recuperatePassword_, _logIn_ e _logOut_, onde as classes derivadas _Admn_ e _Client_ podem utilizar de acordo com a necessidade. Pode-se observar no nosso diagrama de classe a seguir.
 
-<a href="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg" data-toggle="lightbox">
-    <img src="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg">
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
 </a>
 
-##### Feito por Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N, Giovanna B, Roberto.
+##### Feito por Igor Q, Matheus G, Giovanna B
 
 <hr/>
 
