@@ -21,6 +21,7 @@ Diagrama de Classe
 | 1.2    | 23/08/2021 | Adicionado legenda | Kess Jhones |
 | 1.3    | 23/08/2021 | Revisão | João Gabriel de Matos |
 | 1.4    | 23/08/2021 | Revisão | Matheus Gabriel |
+| 1.5    | 13/09/2021 | Criação do Diagrama de Classe V2 | Igor Q, Matheus G, Giovanna B |
 
 
 ## Introdução
@@ -31,21 +32,31 @@ O diagrama de classes é um diagrama de estrutura UML que mostra a estrutura do 
 
 Primeiramente criamos um Diagrama de Classe preliminar para podermos realizar outros diagramas em paralelo e então realizar modificações conforme a necessidade, neste diagrama tivemos apenas a preocupação da criação das entidades.
 
-<a href="{{ site.baseurl }}/assets/images/diagramaDeClassePreliminar.svg" data-toggle="lightbox">
-    <img src="{{ site.baseurl }}/assets/images/diagramaDeClassePreliminar.svg">
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClassePreliminar.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClassePreliminar.svg">
 </a>
 
 ##### Feito por Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N.
 
-## Diagrama de Classe
+## Diagrama de Classe V1
 
 Conforme criamos outros artefatos ficou mais perceptível as alterações que deveriam ser feitas. Após uma reunião decidimos por este novo diagrama de classe.
 
-<a href="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg" data-toggle="lightbox">
-    <img src="{{ site.baseurl }}/assets/images/diagramaDeClasseV1.svg">
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV1.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV1.svg">
 </a>
 
 ##### Feito por Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N, Giovanna B, Roberto.
+
+## Diagrama de Classe V2
+
+Com os feedbacks da segunda entrega e necessidade do artefatos de padrões de projetos foi necessario algumas mudanças. Como a adição de metodos e cardinalidades em todas as classes. Também transformamos a classe categoria em um ENUM. 
+
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
+</a>
+
+##### Feito por Igor Q, Matheus G, Giovanna B
 
 ## Referência
 
