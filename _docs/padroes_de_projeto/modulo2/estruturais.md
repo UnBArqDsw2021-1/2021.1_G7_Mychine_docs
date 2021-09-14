@@ -21,6 +21,7 @@ GoFs Estruturais
 |0.1     |09/09/2021| Abertura do documento| Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega|
 |0.2     |10/09/2021| Adicionando o Adapter | Matheus Gabriel|
 |1.0     |10/09/2021| Revisão | Pedro Henrique|
+|1.1     |13/09/2021| Adicionando Composite | Samuel Nogueira|
 
 ## Adapter
 
@@ -220,3 +221,6 @@ main()
 <hr/>
 
 ## Referências
+Gamma, Erich. Padrões de projeto: soluções reutilizáveis de software orientado a objetos. 2007. Open WorldCat, http://site.ebrary.com/id/10824586.
+
+JavaScript Composite Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/composite. Acessado 14 de setembro de 2021.
