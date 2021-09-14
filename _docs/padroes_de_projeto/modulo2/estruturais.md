@@ -94,11 +94,123 @@ Deve ser usado quando:
 
 ### Modelagem
 
-
+Modelo básico de um Composite
+<a href="{{ site.baseurl }}/assets/images/Composite.png" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/Composite.png" class="img-fluid" />
+</a>
 
 ### Código Exemplo
 
+O padrão **Composite** pode ser utilizado back-end do projeto para generalizar a forma como os Produtos são armazenados. No exemplo de código abaixo um classe abstrata `Product` é criada e herdada por `SimpleProduct` e `CompositeProduct`. `SimpleProduct`  representa um produto simples que contem os atributos descritos na classe. Já `CompositeProduct` representa uma coleção de `SimpleProducts` e `CompositeProducts`. abaixo temos o diagrama do esquema de composite do exemplo.
+<a href="{{ site.baseurl }}/assets/images/ProductComposite.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/Composite.png" class="img-fluid" />
+</a>
+
+Um exemplo de CompositeProduct dentro do escopo do projeto seria a criação de um Combo de produtos, comercializados como um, ou até mesmo um andaime(que é composto por painel, diagonal, escada, rodizio, etc).
+
 ```typescript
+class Product {
+    products: Product[];
+    add(child: Product): void {}
+    remove(child: Product): void {}
+    getChild(i) { return this.products[i]; }
+    totalPrice() {}
+
+}
+
+
+class SimpleProduct extends Product {
+    private id: Number;
+    private name: String;
+    private description: String;
+    private lastMaintenance: Date;
+    private price: Number;
+    private idCategory: Number
+    constructor(id, name, description, lastMaintenance, price, idCategory) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.lastMaintenance = lastMaintenance;
+        this.price = price;
+        this.idCategory = idCategory; 
+    }
+ 
+    public totalPrice() {
+        return this.price;
+    }
+}
+
+class CompositeProduct extends Product {
+    products: Product[] = [];
+
+    id: Number;
+    name: String;
+    constructor(id, name) {
+        super();
+        this.id = id;
+        this.name = name;
+    }
+
+    public add(child) {
+        this.products.push(child);
+    }
+
+    public remove(child) {
+     for (let product, i = 0; product = this.getChild(i); i++) {
+         if (product === child) {
+             this.products.splice(i, 1);
+             return true;
+         }
+     }
+     return false;
+    }
+
+    totalPrice() {
+        let result = 0;
+        for (let product, i = 0; product = this.getChild(i); i++) {
+            result += product.totalPrice();
+        }
+
+        return result;
+    }
+    discountPrice(percentage: any): Number {
+        
+        if (percentage > 1 && percentage < 0) {   
+            throw new Error("percentage value must be between 0 and 1") 
+        }
+        const total: any = this.totalPrice();
+        const discount = total* percentage;
+        return total - discount;
+    }
+}
+
+function main() {
+    const comboBasico = new CompositeProduct(7, 'Combo de construção básico'); 
+
+
+    const betoneira = new SimpleProduct(1, 'betoneira', '', new Date(), 220.0, 1 );
+    const carrinhoDeMao = new SimpleProduct(2, 'Carrinho de mão', '', new Date(), 100.0, 1 );
+
+    const andaime = new CompositeProduct(3, 'Conjunto de andaime simples');
+    const painel = new SimpleProduct(4, 'painel', 'painel simples de andaime', new Date(), 9, 1 );
+    const diagonal = new SimpleProduct(5, 'diagonal', 'diagonal de andaime simples', new Date(), 5, 1 );
+    const escada = new SimpleProduct(6, 'Escada', 'Escada para andaime', new Date(), 8, 1 );
+
+    andaime.add(painel);
+    andaime.add(painel)
+    andaime.add(painel)
+    andaime.add(painel)
+    andaime.add(diagonal);
+    andaime.add(escada);
+    
+    comboBasico.add(betoneira);
+    comboBasico.add(carrinhoDeMao);
+    comboBasico.add(andaime);
+    const total = comboBasico.totalPrice();
+    console.log(total);
+}
+main()
 ```
 
 <hr/>
