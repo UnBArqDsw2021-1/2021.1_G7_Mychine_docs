@@ -16,29 +16,31 @@ GRASPs Avançados
 #### Versionamento
 {: .no_toc }
 
-| Versão | Data | Comentários | Autor(es) |
-| ------ | ---- | ----------- | --------- |
-|   0.1  | 13/09/2021  | Abertura do documento | Giovanna B Bottino |
-|   0.2  | 13/09/2021  | Adiciona introdução GRASP | Giovanna B Bottino |
-|   0.3  | 13/09/2021  | Adiciona introdução GRASPs Avançados | Giovanna B Bottino |
-|   0.4  | 13/09/2021  | Adiciona referencia da introducao | Giovanna B Bottino |
-|   0.5  | 13/09/2021  | Adiciona padrão de polimorfismo | Giovanna B Bottino |
-|   0.5.1  | 13/09/2021  | Adiciona introdução do padrão de indireção | Giovanna B Bottino |
-|   0.5.2  | 13/09/2021  | Adiciona introdução do padrão de fabricação | Giovanna B Bottino |
-|   0.5.3  | 13/09/2021  | Adiciona padrão de Variações Protegidas | Giovanna B Bottino |
-|   0.5.4  | 13/09/2021  | Adiciona exemplo padrao de indirecao | Giovanna B Bottino |
-|   0.6  | 13/09/2021  | Adiciona exemplo padrao de fabricação | Giovanna B Bottino |
-
+| Versão | Data       | Comentários                                 | Autor(es)          |
+| ------ | ---------- | ------------------------------------------- | ------------------ |
+| 0.1    | 13/09/2021 | Abertura do documento                       | Giovanna B Bottino |
+| 0.2    | 13/09/2021 | Adiciona introdução GRASP                   | Giovanna B Bottino |
+| 0.3    | 13/09/2021 | Adiciona introdução GRASPs Avançados        | Giovanna B Bottino |
+| 0.4    | 13/09/2021 | Adiciona referencia da introducao           | Giovanna B Bottino |
+| 0.5    | 13/09/2021 | Adiciona padrão de polimorfismo             | Giovanna B Bottino |
+| 0.5.1  | 13/09/2021 | Adiciona introdução do padrão de indireção  | Giovanna B Bottino |
+| 0.5.2  | 13/09/2021 | Adiciona introdução do padrão de fabricação | Giovanna B Bottino |
+| 0.5.3  | 13/09/2021 | Adiciona padrão de Variações Protegidas     | Giovanna B Bottino |
+| 0.5.4  | 13/09/2021 | Adiciona exemplo padrao de indirecao        | Giovanna B Bottino |
+| 0.6    | 13/09/2021 | Adiciona exemplo padrao de fabricação       | Giovanna B Bottino |
+| 0.7    | 13/09/2021 | Revisão                                     | Igor Q Lima        |
 
 ## GRASP
+{: .no_toc }
 
-General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada [[3]](#ref3). 
+General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada [[3]](#ref3).
 
-Os Padrões de Software para Atribuição de Responsabilidade Geral utilizam princípios baseados na Orientação a Objetos. Isso para tornar o código mais flexível, de facil manutenção e a extensibilidade [[2]](#ref2). 
+Os Padrões de Software para Atribuição de Responsabilidade Geral utilizam princípios baseados na Orientação a Objetos. Isso para tornar o código mais flexível, de facil manutenção e a extensibilidade [[2]](#ref2).
 
-Os padrões estão sendo amplamente utilizados, a seguir pode encontrar alguns que foram documentados aqui de forma representativa. 
+Os padrões estão sendo amplamente utilizados, a seguir pode encontrar alguns que foram documentados aqui de forma representativa.
 
 ### GRASPs Avançados
+{: .no_toc }
 
 Como GRASP exploram principios fundamentais de orientação a objetos, 5 padrões fundamentais e 4 padrões avançados, ele pode ser dividido em GRASPs básicos e avançados [[2]](#ref2). Aqui iremos apontar o 4 padrões avançados:
 
@@ -48,7 +50,7 @@ Como GRASP exploram principios fundamentais de orientação a objetos, 5 padrõe
 - Variações Protegidas
 
 Como alguns padrões GRASP ocorrem na implementação de padrões GoF recomendamos a leitura dos podrões GoF.
- 
+
 ## Polimorfismo
 
 <br/>
@@ -68,6 +70,7 @@ No caso do nosso projeto vamos citar quando padronizamos nossas classes _User_, 
 </a>
 
 ##### Feito por Igor Q, Matheus G, Giovanna B
+{: .no_toc }
 
 <hr/>
 
@@ -90,6 +93,7 @@ No caso do nosso projeto vamos citar quando padronizamos o cadastro do cliente. 
 </a>
 
 ##### Feito por: Kess Jhones
+{: .no_toc }
 
 <hr/>
 
@@ -115,6 +119,7 @@ No caso do nosso projeto vamos citar quando padronizamos o cadastro do cliente. 
 </a>
 
 ##### Feito por: Kess Jhones
+{: .no_toc }
 
 <hr/>
 
@@ -128,7 +133,7 @@ No caso do nosso projeto vamos citar quando padronizamos o cadastro do cliente. 
 
 **Justificativa:**  Protege o sistema, encapsulando o comportamento que realmente importa [[1]](#ref1).
 
-**Utilização no projeto:** 
+**Utilização no projeto:**
 
 No caso do nosso projeto vamos citar o encapsulamento em nossas classes. Pode-se observar no nosso diagrama de classe a seguir.
 
@@ -137,6 +142,7 @@ No caso do nosso projeto vamos citar o encapsulamento em nossas classes. Pode-se
 </a>
 
 ##### Feito por Igor Q, Matheus G, Giovanna B
+{: .no_toc }
 
 <hr/>
 
@@ -146,7 +152,7 @@ No caso do nosso projeto vamos citar o encapsulamento em nossas classes. Pode-se
 {: #ref1}
 
 [2] ROCHA, Helder. Padrões Design de com aplicações em Java, 2005. Disponível em: [<https://www.inf.ufpr.br/andrey/ci163/Design_Patterns.pdf>](https://www.inf.ufpr.br/andrey/ci163/Design_Patterns.pdf). Acesso em: 13 de setembro de 2021.
-{: #ref1}
+{: #ref2}
 
 [3] SERRANO, Milene. GRASP Complementar, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 13 de setembro de 2021.
-{: #ref2}
+{: #ref3}
