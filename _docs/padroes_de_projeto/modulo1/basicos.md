@@ -25,6 +25,7 @@ GRASPs Básicos
 | 0.4.1  | 15/09/2021 | Adiciona GRASP Especialista        | Igor Q Lima        |
 | 0.4.2  | 15/09/2021 | Adiciona GRASP Alta Coesão         | Igor Q Lima        |
 | 0.4.3  | 15/09/2021 | Adiciona GRASP Baixo acoplamento   | Igor Q Lima        |
+| 0.4.4  | 15/09/2021 | Adiciona GRASP Controlador         | Igor Q Lima        |
 
 ## GRASP
 {: .no_toc }
@@ -164,6 +165,36 @@ Podemos notar essas soluções no nosso Diagrama de Classe.
 
 ##### Feito por Igor Q, Matheus G, Giovanna B
 {: .no_toc }
+
+<hr/>
+
+## Controlador
+
+<br/>
+
+**Problema:** Quem deve ser o responsável por lidar com um evento de uma interface de entrada?
+
+**Solução:** Atribuir a responsabilidade de receber ou lidar com um evento do sistema para uma classe que representa todo o sistema (controlador de fachada – front controller), um subsistema e um cenário de casos de uso (controlador de caso de uso ou sessão).
+
+**Justificativa**: Padrão bastante utilizado no MVC (Model-View-Controller, em português: Arquitetura Modelo-Visão-Controle), padrão de projeto que também estamos utilizando.
+
+**Utilização no projeto**:
+
+1. **Front controller:** Nesse diagrama de sequência podemos notar como exemplo o product controller.
+
+    <a href="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" class="img-fluid" />
+    </a>
+    <p style="text-align: center">Imagem retirada da nossa página <a href="{{ site.baseurl }}/modelagem/modulo2/sequencia#buscar-produto-v1">Diagrama de Sequência
+    </a></p>
+
+2. **Controlador de caso de uso ou sessão:** Nesse diagrama de sequência podemos notar como exemplo o login controller.
+
+    <a href="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" class="img-fluid" />
+    </a>
+    <p style="text-align: center">Imagem retirada da nossa página <a href="{{ site.baseurl }}/modelagem/modulo2/sequencia#realizar-loginlogout-v1">Diagrama de Sequência
+    </a></p>
 
 <hr/>
 
