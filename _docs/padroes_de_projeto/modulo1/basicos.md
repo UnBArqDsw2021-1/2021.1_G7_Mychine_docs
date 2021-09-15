@@ -24,6 +24,7 @@ GRASPs Básicos
 | 0.4    | 15/09/2021 | Adiciona GRASP Criador             | Igor Q Lima        |
 | 0.4.1  | 15/09/2021 | Adiciona GRASP Especialista        | Igor Q Lima        |
 | 0.4.2  | 15/09/2021 | Adiciona GRASP Alta Coesão         | Igor Q Lima        |
+| 0.4.3  | 15/09/2021 | Adiciona GRASP Baixo acoplamento   | Igor Q Lima        |
 
 ## GRASP
 {: .no_toc }
@@ -125,6 +126,33 @@ Podemos notar essas soluções no nosso Diagrama de Classe onde possui experts p
 - A é coeso se tem um número relativamente pequeno de métodos [[1]](#ref1).
 
 **Justificativa**: Alta coesão evita classes que realizam muitas tarefas não relacionadas, tornando mais difíceis de entender, de manter e de reutilizar.
+
+**Utilização no projeto**:
+
+Podemos notar essas soluções no nosso Diagrama de Classe.
+
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
+</a>
+
+##### Feito por Igor Q, Matheus G, Giovanna B
+{: .no_toc }
+
+<hr/>
+
+## Baixo acoplamento
+
+<br/>
+
+**Problema:** Como prover baixa dependência entre classes, reduzir o impacto de mudanças e obter alta reutilização [[1]](#ref1)?
+
+**Solução:** Atribua as responsabilidades de modo que o acoplamento entre classes permaneça baixo. Use este princípio para avaliar alternativas [[1]](#ref1).
+
+- Medida de quanto um elemento está conectado a, ou depende de outros elementos [[1]](#ref1).
+- Uma classe com acoplamento forte depende de muitas outras classes: tais classes podem ser indesejáveis [[1]](#ref1).
+- O acoplamento está associado à coesão: maior coesão, menor acoplamento e vice-versa [[1]](#ref1).
+
+**Justificativa**: Juntamente com a Alta coesão são essenciais para uma arquitetura madura e sustentável [[4]](#ref4).
 
 **Utilização no projeto**:
 
