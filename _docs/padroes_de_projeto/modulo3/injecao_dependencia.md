@@ -63,7 +63,7 @@ Logo é utilizado o `React Context` para prover a implementação da interface
 export const CartContext = createContext<ICartContext>(/* CartContextDefaultValues */);
 ```
 
-Implementação dos estados e métodos da interface ICartContext
+Implementação dos estados e métodos da interface ICartContext. O `CartProvider` é um HOC (High Order Component) que disponibiliza a interface.
 
 ```typescript
 export const CartProvider = ({ children }) => {
