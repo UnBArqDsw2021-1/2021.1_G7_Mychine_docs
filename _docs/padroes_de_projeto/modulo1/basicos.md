@@ -85,17 +85,15 @@ Podemos notar o uso da solução na classe Cliente agrega instâncias de Address
 
 Essas Responsabilidades podem ser descritas como essas obrigações [[1]](#ref1):
 
-- Obrigações de fazer algo
-  - Fazer algo a si mesmo
-  - Iniciar ações em outros objetos
-  - Controlar ou coordenar atividades em outros objetos
-  [[5]](#ref5)
+- Obrigações de fazer algo [[5]](#ref5)
+  - Fazer algo a si mesmo [[5]](#ref5)
+  - Iniciar ações em outros objetos [[5]](#ref5)
+  - Controlar ou coordenar atividades em outros objetos [[5]](#ref5)
   
-- Obrigações de conhecer algo
-  - Conhecer dados encapsulados
-  - Conhecer objetos relacionados
-  - Conhecer coisas que se pode calcular
-  [[5]](#ref5)
+- Obrigações de conhecer algo [[5]](#ref5)
+  - Conhecer dados encapsulados [[5]](#ref5)
+  - Conhecer objetos relacionados [[5]](#ref5)
+  - Conhecer coisas que se pode calcular [[5]](#ref5)
 
 **Solução:** Atribuir uma responsabilidade de especialista a classe que possui a informação necessária para cumpri-la [[1]](#ref1).
 
@@ -179,21 +177,23 @@ Podemos notar essas soluções no nosso Diagrama de Classe.
 
 **Utilização no projeto**:
 
-1. **Front controller:** Nesse diagrama de sequência podemos notar como exemplo o product controller.
+1. **Front controller:** Em nosso diagrama de sequência 'Buscar Produto V1' podemos notar como exemplo o product controller.
 
     <a href="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/sequencia/visualizar.png" class="img-fluid" />
     </a>
-    <p style="text-align: center">Imagem retirada da nossa página <a href="{{ site.baseurl }}/modelagem/modulo2/sequencia#buscar-produto-v1">Diagrama de Sequência
-    </a></p>
 
-2. **Controlador de caso de uso ou sessão:** Nesse diagrama de sequência podemos notar como exemplo o login controller.
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
+{: .no_toc }
+
+2. **Controlador de caso de uso ou sessão:** Nesse diagrama de sequência 'Realizar Login/Logout V1' podemos notar como exemplo o login controller.
 
     <a href="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" class="img-fluid" />
     </a>
-    <p style="text-align: center">Imagem retirada da nossa página <a href="{{ site.baseurl }}/modelagem/modulo2/sequencia#realizar-loginlogout-v1">Diagrama de Sequência
-    </a></p>
+
+##### Feito por: Kess Jhones
+{: .no_toc }
 
 <hr/>
 
