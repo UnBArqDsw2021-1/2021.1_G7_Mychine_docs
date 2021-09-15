@@ -21,7 +21,7 @@ GoFs Criacionais
 |  0.1   |   11/09/2021   |   Adicionando conteúdo sobre o prototype  | Pedro Henrique  |
 |  1.0   |   12/09/2021   |   Revisão ortográfica                     | Samuel Nogueira  |
 |  1.1   |   13/09/2021   |   Revisão de conteúdo                     | Matheus Gabriel e Igor Queiroz  |
-|  1.2   |   15/09/2021   |   Adicionando Abstract Factory            | Roberto Martins da Nóbrega  |
+|  1.2   |   15/09/2021   |   Adicionando Abstract Factory            | Roberto Martins da Nóbrega, Samuel Nogueira Bacelar  |
 
 
 ## Abstract Factory
