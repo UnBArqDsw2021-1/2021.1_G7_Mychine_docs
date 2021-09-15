@@ -49,151 +49,81 @@ O código do cliente trabalha apenas com fábricas e produtos por meio de suas i
 
 ### Exempolo em TypeScript
 
+O padrão abstract factory pode ser utilizado para separar a instanciação do uso, dos controllers em múltiplas views em um projeto de padrão MVC.
+
 ```typescript 
-/**
- * Primeiro Cria-se a classe abstrata que servirá de molde para as fábricas concretas
- */
-interface AbstractFactory {
-    createProdutoA(): ProdutoAbstratoA;
-
-    createProdutoB(): ProdutoAbstratoB;
+interface BaseController {
+    get(db: any, args: object) 
+    list(db: any, args: object)
+    create(db: any, input: object)
+    update(db: any, id: Number, update: object)
+    delete(db: any, id: Number)
 }
 
-/**
- * fábricas concretas produzem familias de produtos, essas fábricas garantem a 
- * compatibilidade entre os produtos de uma mesma fábrica.
- * A assinatura de uma fábrica concreta retorna um produto abstrato que possui 
- * um produto concreto instanciado.
- */
-class FabricaConcreta1 implements AbstractFactory {
-    public createProdutoA(): ProdutoAbstratoA {
-        return new ProdutoConcretoA1();
+class ProductController implements BaseController{
+    constructor() {}
+    
+    public get(db: any, args: object):any {
+        return db.Product.getOne(args);
     }
+    public list(db: any, args: object): any {
+        return db.Product.getAll(args);
+    }
+    public create(db: any, input: object): any {
+        return db.Product.create(input);
+    } 
+    public update(db: any, id: Number, update: object): any {
+        return db.Product.update(update, id);
+    } 
+    public delete(db: any, id: Number): any {
+        return db.Product.delete(id);
+    }  
 
-    public createProdutoB(): ProdutoAbstratoB {
-        return new ProdutoConcretoB1();
-    }
 }
 
-/**
- * Cada fábrica concreta corresponde a uma variação do produto.
- */
-class FabricaConcreta2 implements AbstractFactory {
-    public createProdutoA(): ProdutoAbstratoA {
-        return new ProdutoConcretoA2();
-    }
+class UserController implements BaseController{
+    constructor() {
 
-    public createProdutoB(): ProdutoAbstratoB {
-        return new ProdutoConcretoB2();
     }
+    public get(db: any, args: object):any {
+        return db.User.getOne(args);
+    }
+    public list(db: any, args: object): any {
+        return db.User.getAll(args);
+    }
+    public create(db: any, input: object): any {
+        return db.User.create(input);
+    } 
+    public update(db: any, id: Number, update: object): any {
+        return db.User.update(update, id);
+    } 
+    public delete(db: any, id: Number): any {
+        return db.User.delete(id);
+    }  
+}
+ 
+
+class ControllerFactory {
+    public createUser(): UserController {
+        return new UserController();
+    }
+    public createProduct(): ProductController {
+        return new ProductController();
+    }
+    // ...
 }
 
-/**
- * Cada produto distindo de uma familia deve ter sua interface base que será 
- * usada em todos os produtos de um mesmo tipo.
- */
-interface ProdutoAbstratoA {
-    funcaoUtilA(): string;
+function main() {
+    const factory = new ControllerFactory();
+    const userController = factory.createUser();
+    const productController = factory.createProduct();
+    //...
 }
-
-/**
- * Cada produto concreto é criado por sua fábrica concreta correspondente.
- */
-class ProdutoConcretoA1 implements ProdutoAbstratoA {
-    public funcaoUtilA(): string {
-        return 'O resultado do produto A1.';
-    }
-}
-
-class ProdutoConcretoA2 implements ProdutoAbstratoA {
-    public funcaoUtilA(): string {
-        return 'O resultado do produto A2.';
-    }
-}
-
-/**
- * Aqui fica a interface base de outro produto e todos os produtos podem interagir
- * entre eles desde que estejam na mesma familia de produtos concretos.
- */
-interface ProdutoAbstratoB {
-
-    funcaoUtilB(): string;
-
-    /**
-     * Mas nada impede que um produto possa contribuir com os produtos de outra familia
-     * a abstract factory garante que sejam compatíveis entre si por serem da mesma variação
-     */
-    outraFuncaoUtilB(collaborator: ProdutoAbstratoA): string;
-}
-
-/**
- * Produtos concretos são criados para corresponder as fabricas concretas.
- */
-class ProdutoConcretoB1 implements ProdutoAbstratoB {
-
-    public funcaoUtilB(): string {
-        return 'O resultado do produto B1.';
-    }
-
-    /**
-     * O produto B1 só funciona corretamente com o produto A1, porém ele aceita 
-     * qualquer instância do produto abstrato A como um argumento.
-     */
-    public outraFuncaoUtilB(collaborator: ProdutoAbstratoA): string {
-        const result = collaborator.funcaoUtilA();
-        return `O resultado de B1 colaborando com (${result})`;
-    }
-}
-
-class ProdutoConcretoB2 implements ProdutoAbstratoB {
-
-    public funcaoUtilB(): string {
-        return 'O resultado do produto B2.';
-    }
-
-    public outraFuncaoUtilB(collaborator: ProdutoAbstratoA): string {
-        const result = collaborator.funcaoUtilA();
-        return `O resultado de B2 colaborando com (${result})`;
-    }
-}
-
-function clientCode(factory: AbstractFactory) {
-    const produtoA = factory.createProdutoA();
-    const produtoB = factory.createProdutoB();
-
-    console.log(produtoB.funcaoUtilB());
-    console.log(produtoB.outraFuncaoUtilB(produtoA));
-}
-
-/**
- * O codigo do cliente pode trabalhar com qualquer classe concreta.
- */
-console.log('Client: Testando o cliente com a primeira fabrica ...');
-clientCode(new FabricaConcreta1());
-
-console.log('');
-
-console.log('Client: Testando o mesmo cliente com a segunda fabrica...');
-clientCode(new FabricaConcreta2());
-```
-
-O código acima gera a seguinte saída:
-
-```bash
-Client: Testando o cliente com a primeira fabrica ...
-O resultado do produto B1.
-O resultado de B1 colaborando com (O resultado do produto A1.)
-
-Client: Testando o mesmo cliente com a segunda fabrica...
-O resultado do produto B2.
-O resultado de B2 colaborando com (O resultado do produto A2.)
 ```
 
 
 
 ### Vantagens
-
-Você pode ter certeza de que os produtos que obtém de fábrica são compatíveis entre si.
 
 Você evita estabelecer conexões fortes entre produtos específicos e códigos de cliente.
 
