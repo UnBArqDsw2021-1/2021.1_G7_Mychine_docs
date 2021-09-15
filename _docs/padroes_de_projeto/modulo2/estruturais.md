@@ -14,13 +14,14 @@ GoFs Estruturais
 {:toc}
 
 #### Versionamento
+
 {: .no_toc }
 
-| Versão | Data | Comentários | Autor(es) |
-| ------ | ---- | ----------- | --------- |
-|0.1     |09/09/2021| Abertura do documento| Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega|
-|0.2     |10/09/2021| Adicionando o Adapter | Matheus Gabriel|
-|1.0     |10/09/2021| Revisão | Pedro Henrique|
+| Versão | Data       | Comentários           | Autor(es)                                                       |
+| ------ | ---------- | --------------------- | --------------------------------------------------------------- |
+| 0.1    | 09/09/2021 | Abertura do documento | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
+| 0.2    | 10/09/2021 | Adicionando o Adapter | Matheus Gabriel                                                 |
+| 1.0    | 10/09/2021 | Revisão               | Pedro Henrique                                                  |
 
 ## Adapter
 
@@ -35,6 +36,7 @@ Uma analogia frequentemente feita é a com o adaptador de tomada que possibilita
 <a href="{{ site.baseurl }}/assets/images/AdapterDiagrama.svg" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/AdapterDiagrama.svg" class="img-fluid" />
 </a>
+
 ### Código Exemplo
 
 O código a seguir mostra uma aplicação do padrão Adapter fazendo a conversão de datas para diferentes formatos definidos a partir de templates pré existentes.
@@ -57,10 +59,9 @@ const dateAdapter = (date: Date, format: dateFormats = 'long'): string => {
   };
 
   try {
-    const formatedDate = new Intl.DateTimeFormat(
-      'pt-BR',
-      formatMap[format] as Intl.DateTimeFormatOptions,
-    ).format(new Date(date));
+    const formatedDate = new Intl.DateTimeFormat('pt-BR', formatMap[format] as Intl.DateTimeFormatOptions).format(
+      new Date(date)
+    );
 
     return formatedDate;
   } catch (error) {
