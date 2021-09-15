@@ -17,6 +17,7 @@ Injeção de dependência
 | ------ | ---------- | --------------------------------------------------- | -------------- |
 | 0.1    | 15/09/2021 | Adicionando conteúdo sobre o injeção de dependência | Eduardo Picolo |
 | 0.2    | 15/09/2021 | Correções ortográficas                              | Eduardo Picolo |
+| 0.3    | 15/09/2021 | Adicionado diagrama                                 | Eduardo Picolo |
 
 ### Conceito
 
@@ -25,6 +26,12 @@ O padrão Injeção de dependência diz:
 
 - Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
 - Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+
+### Modelagem
+
+<a href="{{ site.baseurl }}/assets/diagrams/diagrama_context.svg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/diagrams/diagrama_context.svg" class="img-fluid" />
+</a>
 
 ### Código Exemplo
 
