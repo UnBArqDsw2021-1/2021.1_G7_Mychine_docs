@@ -23,6 +23,7 @@ GRASPs Básicos
 | 0.3    | 15/09/2021 | Adiciona introdução GRASPs Básicos | Giovanna B Bottino |
 | 0.4    | 15/09/2021 | Adiciona GRASP Criador             | Igor Q Lima        |
 | 0.4.1  | 15/09/2021 | Adiciona GRASP Especialista        | Igor Q Lima        |
+| 0.4.2  | 15/09/2021 | Adiciona GRASP Alta Coesão         | Igor Q Lima        |
 
 ## GRASP
 {: .no_toc }
@@ -102,6 +103,32 @@ Essas Responsabilidades podem ser descritas como essas obrigações [[1]](#ref1)
 **Utilização no projeto**:
 
 Podemos notar essas soluções no nosso Diagrama de Classe onde possui experts parciais.
+
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
+</a>
+
+##### Feito por Igor Q, Matheus G, Giovanna B
+{: .no_toc }
+
+<hr/>
+
+## Alta Coesão
+
+<br/>
+
+**Problema:** Como manter os objetos focados, compreensíveis, gerenciáveis e, em consequência, com Baixo Acoplamento [[1]](#ref1)?
+
+**Solução:** Atribua responsabilidades de modo que a coesão da classe permaneça alta. Use os critérios [[1]](#ref1):
+
+- A é coeso se tem apenas métodos relacionadas ao A [[1]](#ref1).
+- A é coeso se tem um número relativamente pequeno de métodos [[1]](#ref1).
+
+**Justificativa**: Alta coesão evita classes que realizam muitas tarefas não relacionadas, tornando mais difíceis de entender, de manter e de reutilizar.
+
+**Utilização no projeto**:
+
+Podemos notar essas soluções no nosso Diagrama de Classe.
 
 <a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
