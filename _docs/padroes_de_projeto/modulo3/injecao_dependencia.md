@@ -16,15 +16,15 @@ Injeção de dependência
 | Versão | Data       | Comentários                                         | Autor(es)      |
 | ------ | ---------- | --------------------------------------------------- | -------------- |
 | 0.1    | 15/09/2021 | Adicionando conteúdo sobre o injeção de dependência | Eduardo Picolo |
+| 0.2    | 15/09/2021 | Correções ortográficas                              | Eduardo Picolo |
 
 ### Conceito
 
-Injeção de Dependência é um é um padrão de projeto usado para evitar o alto nível de acoplamento de código dentro de uma aplicação. O padrão Injeção de dependência diz:
+Injeção de Dependência é uma maneira de implementar a inversão de controle, usado para evitar o alto nível de acoplamento de código dentro de uma aplicação.
+O padrão Injeção de dependência diz:
 
 - Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
 - Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
-
-### Modelagem
 
 ### Código Exemplo
 
