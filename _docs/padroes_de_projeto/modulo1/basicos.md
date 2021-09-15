@@ -22,6 +22,7 @@ GRASPs Básicos
 | 0.2    | 15/09/2021 | Adiciona introdução GRASP          | Giovanna B Bottino |
 | 0.3    | 15/09/2021 | Adiciona introdução GRASPs Básicos | Giovanna B Bottino |
 | 0.4    | 15/09/2021 | Adiciona GRASP Criador             | Igor Q Lima        |
+| 0.4.1  | 15/09/2021 | Adiciona GRASP Especialista        | Igor Q Lima        |
 
 ## GRASP
 {: .no_toc }
@@ -64,6 +65,43 @@ classe [[1]](#ref1)?
 **Utilização no projeto**:
 
 Podemos notar o uso da solução na classe Cliente agrega instâncias de Address.
+
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
+</a>
+
+##### Feito por Igor Q, Matheus G, Giovanna B
+{: .no_toc }
+
+<hr/>
+
+## Especialista
+
+<br/>
+
+**Problema:** Precisa-se de um princípio geral para atribuir responsabilidades a objetos [[1]](#ref1).
+
+Essas Responsabilidades podem ser descritas como essas obrigações [[1]](#ref1):
+
+- Obrigações de fazer algo
+  - Fazer algo a si mesmo
+  - Iniciar ações em outros objetos
+  - Controlar ou coordenar atividades em outros objetos
+  [[5]](#ref5)
+  
+- Obrigações de conhecer algo
+  - Conhecer dados encapsulados
+  - Conhecer objetos relacionados
+  - Conhecer coisas que se pode calcular
+  [[5]](#ref5)
+
+**Solução:** Atribuir uma responsabilidade de especialista a classe que possui a informação necessária para cumpri-la [[1]](#ref1).
+
+**Justificativa**: Escolher como distribuir as responsabilidades entre as classes é fundamental para um projeto. A má distribuição produz componentes frágeis e difíceis de entender, manter, reusar e estender [[1]](#ref1).
+
+**Utilização no projeto**:
+
+Podemos notar essas soluções no nosso Diagrama de Classe onde possui experts parciais.
 
 <a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
