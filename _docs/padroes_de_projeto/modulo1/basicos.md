@@ -27,8 +27,7 @@ GRASPs Básicos
 | 0.4.3  | 15/09/2021 | Adiciona GRASP Baixo acoplamento   | Igor Q Lima        |
 | 0.4.4  | 15/09/2021 | Adiciona GRASP Controlador         | Igor Q Lima        |
 
-## GRASP
-{: .no_toc }
+## Introdução
 
 General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada [[3]](#ref3).
 
@@ -172,11 +171,11 @@ Podemos notar essas soluções no nosso Diagrama de Classe.
 
 <br/>
 
-**Problema:** Quem deve ser o responsável por lidar com um evento de uma interface de entrada?
+**Problema:** Quem deve ser o responsável por lidar com um evento de uma interface de entrada [[1]](#ref1)?
 
-**Solução:** Atribuir a responsabilidade de receber ou lidar com um evento do sistema para uma classe que representa todo o sistema (controlador de fachada – front controller), um subsistema e um cenário de casos de uso (controlador de caso de uso ou sessão).
+**Solução:** Atribuir a responsabilidade de receber ou lidar com um evento do sistema para uma classe que representa todo o sistema (controlador de fachada – front controller), um subsistema e um cenário de casos de uso (controlador de caso de uso ou sessão) [[1]](#ref1).
 
-**Justificativa**: Padrão bastante utilizado no MVC (Model-View-Controller, em português: Arquitetura Modelo-Visão-Controle), padrão de projeto que também estamos utilizando.
+**Justificativa**: Padrão bastante utilizado no MVC (Model-View-Controller, em português: Arquitetura Modelo-Visão-Controle), padrão de projeto que também estamos utilizando [[6]](#ref6).
 
 **Utilização no projeto**:
 
@@ -215,6 +214,7 @@ Podemos notar essas soluções no nosso Diagrama de Classe.
 [5] Expert (padrão de projeto de software). Wikipédia: a enciclopédia livre. Disponível em: <https://pt.wikipedia.org/wiki/Expert_(padr%C3%A3o_de_projeto_de_software)>. Acesso em: 13 setembro 2021.
 {: #ref5}
 
-GRASP (padrão orientado a objetos). Wikipédia: a enciclopédia livre. Disponível em: <https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)>. Acesso em: 13 setembro 2021.
+[6] GRASP (padrão orientado a objetos). Wikipédia: a enciclopédia livre. Disponível em: <https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)>. Acesso em: 13 setembro 2021.
+{: #ref6}
 
 Padrão para atribuir responsabilidades: Expert. Disciplinas ministradas pelo Professor Jacques Sauvé. Disponível em: <http://www.dsc.ufcg.edu.br/~jacques/cursos/map/html/pat/expert.htm>. Acesso em: 13 setembro 2021.
