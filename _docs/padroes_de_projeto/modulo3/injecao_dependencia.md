@@ -18,6 +18,7 @@ Injeção de dependência
 | 0.1    | 15/09/2021 | Adicionando conteúdo sobre o injeção de dependência | Eduardo Picolo |
 | 0.2    | 15/09/2021 | Correções ortográficas                              | Eduardo Picolo |
 | 0.3    | 15/09/2021 | Adicionado diagrama                                 | Eduardo Picolo |
+| 0.4    | 15/09/2021 | Revisão                                             | Igor Q Lima    |
 
 ### Conceito
 
@@ -62,7 +63,7 @@ Logo é utilizado o `React Context` para prover a implementação da interface
 export const CartContext = createContext<ICartContext>(/* CartContextDefaultValues */);
 ```
 
-Implemetação dos estados e métodos da interface ICartContext
+Implementação dos estados e métodos da interface ICartContext
 
 ```typescript
 export const CartProvider = ({ children }) => {
