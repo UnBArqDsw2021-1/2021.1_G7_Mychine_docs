@@ -16,19 +16,19 @@ GoFs Criacionais
 #### Versionamento
 {: .no_toc }
 
-| Versão |      Data      |                Comentários                |    Autor(es)    |
-| ------ | -------------- | ----------------------------------------- | --------------- |
-|  0.1   |   11/09/2021   |   Adicionando conteúdo sobre o prototype  | Pedro Henrique  |
-|  1.0   |   12/09/2021   |   Revisão ortográfica                     | Samuel Nogueira  |
-|  1.1   |   13/09/2021   |   Revisão de conteúdo                     | Matheus Gabriel e Igor Queiroz  |
-|  1.2   |   15/09/2021   |   Adicionando Abstract Factory            | Roberto Martins da Nóbrega, Samuel Nogueira Bacelar  |
-
+| Versão | Data       | Comentários                            | Autor(es)                                           |
+| ------ | ---------- | -------------------------------------- | --------------------------------------------------- |
+| 0.1    | 11/09/2021 | Adicionando conteúdo sobre o prototype | Pedro Henrique                                      |
+| 1.0    | 12/09/2021 | Revisão ortográfica                    | Samuel Nogueira                                     |
+| 1.1    | 13/09/2021 | Revisão de conteúdo                    | Matheus Gabriel e Igor Queiroz                      |
+| 1.2    | 15/09/2021 | Adicionando Abstract Factory           | Roberto Martins da Nóbrega, Samuel Nogueira Bacelar |
+| 2.0    | 15/09/2021 | Revisão de conteúdo                    | Igor Q Lima, Samuel Nogueira Bacelar                |
 
 ## Abstract Factory
 
 O Abstract Factory é um padrão de projeto criacional que permite que você produza famílias de objetos relacionados ou dependentes por meio de uma única interface e sem a necessidade de especificar uma classe concreta.
 
-A idéia principal desse padrão é a de fornecer uma interface para criar familias de produtos e criar uma hierarquia que engloba várias fábricas para a contrução de diversos produtos de uma mesma familia.
+A ideia principal desse padrão é a de fornecer uma interface para criar familias de produtos e criar uma hierarquia que engloba várias fábricas para a construção de diversos produtos de uma mesma familia.
 
 <div style="display:flex; flex-direction:column; justify-content:center; ">
   <a href="{{ site.baseurl }}/assets/images/abstractFactory.png" data-toggle="lightbox" style="margin:0 auto;">
@@ -46,12 +46,11 @@ O código do cliente chama o método de criação do objeto de fábrica em vez d
 
 O código do cliente trabalha apenas com fábricas e produtos por meio de suas interfaces abstratas. Ele permite que o mesmo código de cliente seja usado para produtos diferentes. Você só precisa criar uma nova classe de fábrica concreta e passá-la para o código do cliente.
 
-
-### Exempolo em TypeScript
+### Exemplo em TypeScript
 
 O padrão abstract factory pode ser utilizado para separar a instanciação do uso, dos controllers em múltiplas views em um projeto de padrão MVC.
 
-```typescript 
+```typescript
 interface BaseController {
     get(db: any, args: object) 
     list(db: any, args: object)
@@ -121,8 +120,6 @@ function main() {
 }
 ```
 
-
-
 ### Vantagens
 
 Você evita estabelecer conexões fortes entre produtos específicos e códigos de cliente.
@@ -135,8 +132,6 @@ Princípio de abertura e fechamento. Você pode introduzir novas variantes de pr
 
 * O código pode se tornar mais complexo do que deveria, porque muitas novas interfaces e classes são introduzidas junto com o padrão.
 
-
-
 <hr/>
 
 ## Factory Method
@@ -144,8 +139,6 @@ Princípio de abertura e fechamento. Você pode introduzir novas variantes de pr
 <hr/>
 
 ## Prototype
-
-### Introdução
 
 Prototype é um padrão de projeto criacional que fornece uma maneira de copiar/clonar objetos que já existem, fazendo com que o mesmo seja independente de suas classes (não é necessário saber a classe concreta para que seja possível clonar o objeto).
 
@@ -158,7 +151,6 @@ Prototype é um padrão de projeto criacional que fornece uma maneira de copiar/
   <a href="https://medium.com/xp-inc/desing-patterns-parte-7-prototype-98962514728f">medium.com</a>
   </p>
 </div>
-
 
 ### Exemplo em Typescript
 
@@ -201,6 +193,7 @@ console.log(p1.nome, p1.getPreco(), p2.nome, p2.getPreco());
 
 console.log(p1 === Object.getPrototypeOf(p2)); //testando se p1 é o prototipo de p2
 ```
+
 O código acima gera a seguinte saída:
 
 ```bash
