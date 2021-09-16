@@ -222,3 +222,9 @@ Design Patterns — Parte 7 — Prototype. medium, “[2019]”. Disponível em:
 
 Miranda, Otavio. Prototype Teoria - Padrões de Projeto - Parte 8/45. Youtube, 10 de ago. de 2020.
 Disponível em: <https://www.youtube.com/watch?v=Z-_smcjkdwM&list=LL&index=4&ab_channel=Ot%C3%A1vioMiranda>.
+
+Abstract Factory. Refactoring.guru. Disponível em: <https://refactoring.guru/pt-br/design-patterns/abstract-factory>. Acesso em: 15 Sep. 2021.
+
+‌ROBERTO, Jones. Design Patterns - Parte 4 – Abstract Factory - XP Inc. - Medium. Medium. Disponível em: <https://medium.com/xp-inc/design-patterns-abstract-factory-da6b7057abce>. Acesso em: 15 Sep. 2021.
+
+MIRANDA, Otávio. Abstract Factory Prática - Padrões de Projeto - Parte 13/45. Disponível em: <https://www.youtube.com/watch?v=36SzKmNnXdM&ab_channel=Ot%C3%A1vioMiranda>. Acesso em: 16 Sep. 2021.
