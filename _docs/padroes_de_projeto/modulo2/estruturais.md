@@ -17,16 +17,16 @@ GoFs Estruturais
 
 {: .no_toc }
 
-| Versão | Data                                                    | Comentários                                     | Autor(es)                                                       |
-| ------ | ------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------- |
-| 0.1    | 09/09/2021                                              | Abertura do documento                           | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
-| 0.2    | 10/09/2021                                              | Adicionando o Adapter                           | Matheus Gabriel                                                 |
-| 1.0    | 10/09/2021                                              | Revisão                                         | Pedro Henrique                                                  |
-| 1.1    | 13/09/2021                                              | Adicionando Composite                           | Samuel Nogueira                                                 |
-| 1.2    | 13/09/2021                                              | Adicionando referências e revisão               | Matheus Gabriel                                                 |
-| 1.3    | 15/09/2021                                              | Revisão Composite                               | Eduardo Picolo                                                  |
-| 1.4    | 16/09/2021                                              | Adicionando conceito de Decorator e referências | João Gabriel de Matos                                           |
-| 1.5    | 16/09/2021/Adicionando exemplo de codigo para Decorator | João Gabriel de Matos                           |
+| Versão | Data       | Comentários                                     | Autor(es)                                                       |
+| ------ | ---------- | ----------------------------------------------- | --------------------------------------------------------------- |
+| 0.1    | 09/09/2021 | Abertura do documento                           | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
+| 0.2    | 10/09/2021 | Adicionando o Adapter                           | Matheus Gabriel                                                 |
+| 1.0    | 10/09/2021 | Revisão                                         | Pedro Henrique                                                  |
+| 1.1    | 13/09/2021 | Adicionando Composite                           | Samuel Nogueira                                                 |
+| 1.2    | 13/09/2021 | Adicionando referências e revisão               | Matheus Gabriel                                                 |
+| 1.3    | 15/09/2021 | Revisão Composite                               | Eduardo Picolo                                                  |
+| 1.4    | 16/09/2021 | Adicionando conceito de Decorator e referências | João Gabriel de Matos                                           |
+| 1.5    | 16/09/2021 | Adicionando exemplo de codigo para Decorator    | João Gabriel de Matos                                           |
 
 ## Adapter
 
