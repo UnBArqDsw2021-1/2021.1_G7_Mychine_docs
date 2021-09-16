@@ -14,14 +14,16 @@ GoFs Estruturais
 {:toc}
 
 #### Versionamento
-
 {: .no_toc }
 
-| Versão | Data       | Comentários           | Autor(es)                                                       |
-| ------ | ---------- | --------------------- | --------------------------------------------------------------- |
-| 0.1    | 09/09/2021 | Abertura do documento | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
-| 0.2    | 10/09/2021 | Adicionando o Adapter | Matheus Gabriel                                                 |
-| 1.0    | 10/09/2021 | Revisão               | Pedro Henrique                                                  |
+| Versão | Data       | Comentários                       | Autor(es)                                                       |
+| ------ | ---------- | --------------------------------- | --------------------------------------------------------------- |
+| 0.1    | 09/09/2021 | Abertura do documento             | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
+| 0.2    | 10/09/2021 | Adicionando o Adapter             | Matheus Gabriel                                                 |
+| 1.0    | 10/09/2021 | Revisão                           | Pedro Henrique                                                  |
+| 1.1    | 13/09/2021 | Adicionando Composite             | Samuel Nogueira                                                 |
+| 1.2    | 13/09/2021 | Adicionando referências e revisão | Matheus Gabriel                                                 |
+| 1.3    | 15/09/2021 | Revisão Composite                 | Eduardo Picolo                                                  |
 
 ## Adapter
 
@@ -76,6 +78,143 @@ export default dateAdapter;
 
 ## Composite
 
+### Conceito
+
+O padrão Composite é um padrão estrutural de objetos que tem como intenção comportobjetos em estruturas de árvore para representarem hierarquias partes-todo. Permitindo aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.
+
+### aplicabilidade
+
+Deve ser usado quando:
+
+- quiser representar hierarquias partes-todo de objetos.
+- quiser que os clientes sejam capazes de ignorar a diferença entre composições de objetos e objetos individuais. Todos os objetos na estrutura composta serão tratados de maneira uniforme.
+
+### Participantes
+
+1. Component - Declara e implementa o comportamento padrão para os objetos na composição, fornecendo uma interface para acessar e gerenciar os seus componentes-filhos.
+2. Leaf - representa objetos-folha, as quais não possuem filhos.
+3. Composite - define o comportamento para componentes que têm filhos, além de armazenar os componentes filhos.
+4. Client - O responsável por manipular objetos na composição atravez da interface Component.
+
+### Modelagem
+
+Modelo básico de um Composite
+<a href="{{ site.baseurl }}/assets/images/Composite.png" data-toggle="lightbox">
+<img src="{{ site.baseurl }}/assets/images/Composite.png" class="img-fluid" />
+</a>
+
+### Código Exemplo
+
+O padrão **Composite** pode ser utilizado back-end do projeto para generalizar a forma como os Produtos são armazenados. No exemplo de código abaixo um classe abstrata `Product` é criada e herdada por `SimpleProduct` e `CompositeProduct`. `SimpleProduct` representa um produto simples que contem os atributos descritos na classe. Já `CompositeProduct` representa uma coleção de `SimpleProducts` e `CompositeProducts`. abaixo temos o diagrama do esquema de composite do exemplo.
+<a href="{{ site.baseurl }}/assets/images/ProductComposite.svg" data-toggle="lightbox">
+<img src="{{ site.baseurl }}/assets/images/Composite.png" class="img-fluid" />
+</a>
+
+Um exemplo de CompositeProduct dentro do escopo do projeto seria a criação de um Combo de produtos, comercializados como um, ou até mesmo um andaime(que é composto por painel, diagonal, escada, rodizio, etc).
+
+```typescript
+class Product {
+  products: Product[];
+  add(child: Product): void {}
+  remove(child: Product): void {}
+  getChild(i) {
+    return this.products[i];
+  }
+  totalPrice() {}
+}
+
+class SimpleProduct extends Product {
+  private id: Number;
+  private name: String;
+  private description: String;
+  private lastMaintenance: Date;
+  private price: Number;
+  private idCategory: Number;
+  constructor(id, name, description, lastMaintenance, price, idCategory) {
+    super();
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.lastMaintenance = lastMaintenance;
+    this.price = price;
+    this.idCategory = idCategory;
+  }
+
+  public totalPrice() {
+    return this.price;
+  }
+}
+
+class CompositeProduct extends Product {
+  products: Product[] = [];
+
+  id: Number;
+  name: String;
+  constructor(id, name) {
+    super();
+    this.id = id;
+    this.name = name;
+  }
+
+  public add(child) {
+    this.products.push(child);
+  }
+
+  public remove(child) {
+    for (let product, i = 0; (product = this.getChild(i)); i++) {
+      if (product === child) {
+        this.products.splice(i, 1);
+        return true;
+      }
+    }
+    return false;
+  }
+
+  totalPrice() {
+    let result = 0;
+    for (let product, i = 0; (product = this.getChild(i)); i++) {
+      result += product.totalPrice();
+    }
+
+    return result;
+  }
+  discountPrice(percentage: any): Number {
+    if (percentage > 1 && percentage < 0) {
+      throw new Error('percentage value must be between 0 and 1');
+    }
+    const total: any = this.totalPrice();
+    const discount = total * percentage;
+    return total - discount;
+  }
+}
+
+function main() {
+  const comboBasico = new CompositeProduct(7, 'Combo de construção básico');
+
+  const betoneira = new SimpleProduct(1, 'betoneira', '', new Date(), 220.0, 1);
+  const carrinhoDeMao = new SimpleProduct(2, 'Carrinho de mão', '', new Date(), 100.0, 1);
+
+  const andaime = new CompositeProduct(3, 'Conjunto de andaime simples');
+  const painel = new SimpleProduct(4, 'painel', 'painel simples de andaime', new Date(), 9, 1);
+  const diagonal = new SimpleProduct(5, 'diagonal', 'diagonal de andaime simples', new Date(), 5, 1);
+  const escada = new SimpleProduct(6, 'Escada', 'Escada para andaime', new Date(), 8, 1);
+
+  andaime.add(painel);
+  andaime.add(painel);
+  andaime.add(painel);
+  andaime.add(painel);
+  andaime.add(diagonal);
+  andaime.add(escada);
+
+  comboBasico.add(betoneira);
+  comboBasico.add(carrinhoDeMao);
+  comboBasico.add(andaime);
+  const total = comboBasico.totalPrice();
+  console.log(total);
+}
+main();
+```
+
 <hr/>
 
 ## Decorator
@@ -83,3 +222,11 @@ export default dateAdapter;
 <hr/>
 
 ## Referências
+
+Gamma, Erich. Padrões de projeto: soluções reutilizáveis de software orientado a objetos. 2007. Open WorldCat, http://site.ebrary.com/id/10824586.
+
+JavaScript Composite Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/composite. Acessado 14 de setembro de 2021.
+
+JavaScript Composite Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/adapter. Acessado 15 de setembro de 2021.
+
+Refactoring Guru - Adapter. https://refactoring.guru/pt-br/design-patterns/catalog. Acessado 15 de setembro de 2021.
