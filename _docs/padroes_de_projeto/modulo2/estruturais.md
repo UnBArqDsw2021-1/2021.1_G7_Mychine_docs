@@ -17,15 +17,16 @@ GoFs Estruturais
 
 {: .no_toc }
 
-| Versão | Data       | Comentários                                     | Autor(es)                                                       |
-| ------ | ---------- | ----------------------------------------------- | --------------------------------------------------------------- |
-| 0.1    | 09/09/2021 | Abertura do documento                           | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
-| 0.2    | 10/09/2021 | Adicionando o Adapter                           | Matheus Gabriel                                                 |
-| 1.0    | 10/09/2021 | Revisão                                         | Pedro Henrique                                                  |
-| 1.1    | 13/09/2021 | Adicionando Composite                           | Samuel Nogueira                                                 |
-| 1.2    | 13/09/2021 | Adicionando referências e revisão               | Matheus Gabriel                                                 |
-| 1.3    | 15/09/2021 | Revisão Composite                               | Eduardo Picolo                                                  |
-| 1.4    | 16/09/2021 | Adicionando conceito de Decorator e referências | João Gabriel de Matos                                           |
+| Versão | Data                                                    | Comentários                                     | Autor(es)                                                       |
+| ------ | ------------------------------------------------------- | ----------------------------------------------- | --------------------------------------------------------------- |
+| 0.1    | 09/09/2021                                              | Abertura do documento                           | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
+| 0.2    | 10/09/2021                                              | Adicionando o Adapter                           | Matheus Gabriel                                                 |
+| 1.0    | 10/09/2021                                              | Revisão                                         | Pedro Henrique                                                  |
+| 1.1    | 13/09/2021                                              | Adicionando Composite                           | Samuel Nogueira                                                 |
+| 1.2    | 13/09/2021                                              | Adicionando referências e revisão               | Matheus Gabriel                                                 |
+| 1.3    | 15/09/2021                                              | Revisão Composite                               | Eduardo Picolo                                                  |
+| 1.4    | 16/09/2021                                              | Adicionando conceito de Decorator e referências | João Gabriel de Matos                                           |
+| 1.5    | 16/09/2021/Adicionando exemplo de codigo para Decorator | João Gabriel de Matos                           |
 
 ## Adapter
 
@@ -223,7 +224,55 @@ main();
 
 ### Conceito
 
-É um padrão de projeto usado quando se deseja alterar o comportamento de um objeto, mas se prefere evitar as inconveniências do uso de herança (não se pode alterar o comportamento de um objeto durante o tempo de execução — podendo apenas substitui-lo por outro criado de outra subclasse, e normalmente não se pode ter uma classe herdando o comportamento de múltiplas outras). Neste modelo se resolve este problema com o uso de "envoltórios", sendo um objeto que implementa a mesma interface que o objeto alvo e delega para ele todos os pedidos/chamadas que recebe, mas fazendo alguma alteração antes ou após passar o pedido para o alvo.
+É um padrão de projeto usado quando se deseja alterar o comportamento de um objeto, mas se prefere evitar as inconveniências do uso de herança (não poder alterar o comportamento de um objeto durante o tempo de execução — podendo apenas substitui-lo por outro criado de outra subclasse, e normalmente não ser possivel uma classe herdar o comportamento de múltiplas outras). Neste modelo se resolve este problema com o uso de "envoltórios", sendo um objeto que implementa a mesma interface que o objeto alvo e delega para ele todos os pedidos/chamadas que recebe, mas fazendo alguma alteração antes ou após passar o pedido para o alvo.
+
+### Código exemplo
+
+Um exemplo de possivel uso de decorators, seria alterar o comportamento do metodo 'validate' da classe 'Adress', quando o endereço ja se encontrar validado.
+
+```typescript
+
+function validation(){
+  return ( target: any,propertyKey: string,propertyDescriptor: PropertyDescriptor,)=>{
+    if(!target["isValidated"]){
+      descriptor.value.apply(this);
+    }
+
+  }
+};
+
+class Address{
+
+  street:String;
+  city:String;
+  state:String;
+  cep:Number;
+  number:Number;
+  complement:String;
+  isValidated:Boolean;
+
+  constructor(street,city,state,cep,number,complement,isValidated){
+    this.street=street;
+    this.city=city;
+    this.state=state;
+    this.cep=cep;
+    this.number=number;
+    this.complement=complement;
+    this.isValidated=isValidated;
+    validate();
+
+}
+  @validation
+  validate(){
+    //Validation logic
+    ...
+  }
+  
+}
+
+
+
+```
 
 <hr/>
 
@@ -240,4 +289,6 @@ Refactoring Guru - Adapter. https://refactoring.guru/pt-br/design-patterns/catal
 JavaScript Decorator Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/decorator. Acessado 16 de setembro de 2021.
 
 Refactoring Guru - Decorator. https://refactoring.guru/pt-br/design-patterns/decorator. Acessado 16 de setembro de 2021.
+
+Typescript Handbook - Decorators. https://www.typescriptlang.org/docs/handbook/decorators.html. Acessado 16 de setembro de 2021.
 
