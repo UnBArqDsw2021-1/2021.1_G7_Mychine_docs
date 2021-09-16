@@ -23,6 +23,8 @@ GoFs Criacionais
 | 1.1    | 13/09/2021 | Revisão de conteúdo                    | Matheus Gabriel e Igor Queiroz                      |
 | 1.2    | 15/09/2021 | Adicionando Abstract Factory           | Roberto Martins da Nóbrega, Samuel Nogueira Bacelar |
 | 2.0    | 15/09/2021 | Revisão de conteúdo                    | Igor Q Lima, Samuel Nogueira Bacelar                |
+| 2.1    | 15/09/2021 | Adicionando as referências de Abstract Factory | Roberto Martins da Nóbrega|
+
 
 ## Abstract Factory
 
