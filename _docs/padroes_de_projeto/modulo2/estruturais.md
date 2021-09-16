@@ -14,7 +14,6 @@ GoFs Estruturais
 {:toc}
 
 #### Versionamento
-
 {: .no_toc }
 
 | Versão | Data       | Comentários                       | Autor(es)                                                       |
