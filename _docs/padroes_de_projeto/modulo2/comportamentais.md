@@ -10,24 +10,26 @@ GoFs Comportamentais
 {: .fs-9}
 
 <br>
+
 1. TOC
 {:toc}
 
 #### Versionamento
 {: .no_toc }
 
-| Versão | Data | Comentários | Autor(es) |
-| ------ | ---- | ----------- | --------- |
-|   0.1 | 12/09/2021 | Adicionando conteúdo sobre o padrão strategy | Pedro Henrique |
-|   1.0 | 13/09/2021 | Revisão Ortográfica | Samuel Nogueira |
-|   1.1 | 13/09/2021 | Revisão | Matheus Gabriel e Igor Queiroz |
-|   1.2 | 17/09/2021 | Adicionando conteúdo sobre o padrão observer | Roberto Martins da Nóbrega |
-
-
+| Versão | Data       | Comentários                                  | Autor(es)                      |
+| ------ | ---------- | -------------------------------------------- | ------------------------------ |
+| 0.1    | 12/09/2021 | Adicionando conteúdo sobre o padrão strategy | Pedro Henrique                 |
+| 1.0    | 13/09/2021 | Revisão Ortográfica Strategy                 | Samuel Nogueira                |
+| 1.1    | 13/09/2021 | Revisão Strategy                             | Matheus Gabriel e Igor Queiroz |
+| 1.2    | 17/09/2021 | Adicionando conteúdo sobre o padrão observer | Roberto Martins da Nóbrega     |
+| 1.3    | 13/09/2021 | Revisão Observer                             | Igor Q Lima                    |
 
 ## Observer
 
 Este padrão comportamental permite que defina-se um mecanismo de assinatura para notificar múltiplos objetos sobre eventos que aconteçam com o objeto observado, representando assim uma relação 1:N (um para muitos) entre o objeto observado e os dependentes que o observam.
+
+### Exemplo
 
 <div style="display:flex; flex-direction:column; justify-content:center; ">
   <a href="{{ site.baseurl }}/assets/images/observer.png" data-toggle="lightbox" style="margin:0 auto;">
@@ -39,14 +41,12 @@ Este padrão comportamental permite que defina-se um mecanismo de assinatura par
   </p>
 </div>
 
-
 * Subject: Interface que define a assinatura de métodos das classes que serão observáveis;
 * Concrete Subject: implementação da Interface Subject;
 * Observer: Interface que define a assinatura de métodos das classes que serão observadoras;
 * Concrete Observer: implementação da Interface Observer;
 
 ### Implementação em TypeScript:
-
 
 ```typescript
 interface Subject {
@@ -122,12 +122,9 @@ class Administrador implements Observer {
 
 * Assinantes são notificados em ordem aleatória
 
-
 <hr/>
 
 ## Strategy
-
-### Introdução
 
 O padrão de projeto strategy é um padrão de projeto comportamental. Esse padrão de projeto vem da necessidade de se ter diversas variações de um algoritmo em uma classe única. Porém centralizar esses algoritmos em apenas uma classe poderia aumentar grandemente as chances de bugs aparecerem em correções ou modificações de qualquer um desses algoritmos. O padrão de projeto strategy sugere que todos os algoritmos centralizados nesta classe sejam separados em outras classes (também chamados de estratégias).
 
@@ -273,6 +270,7 @@ for (let orderProperty of properties){
     listaProdutos.orderWithStg(); // utilizando a estratégia que foi definida
 }
 ```
+
 O código acima gera a seguinte saída:
 
 ```bash
@@ -280,17 +278,18 @@ O código acima gera a seguinte saída:
 "Ordenando pela propriedade PRECO do objeto" 
 "Ordenando pela propriedade DATA do objeto" 
 ```
-Vantagens: 
+
+### Vantagens:
+
 - Reutilização de código
 - Maior manutenibilidade do código;
 - Maior dinamismo (possível mudar a estratégia em tempo de execução);
 - Maior legibilidade do código.
 
-Desvantagens:
+### Desvantagens:
+
 - Podem existir casos em que fazer herança é mais simples.
 - Aumento considerável no número de classes do projeto.
-
-
 
 ## Template Method
 
