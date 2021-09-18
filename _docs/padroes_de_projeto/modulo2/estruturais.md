@@ -26,7 +26,7 @@ GoFs Estruturais
 | 1.3    | 15/09/2021 | Revisão Composite                               | Eduardo Picolo                                                  |
 | 1.4    | 16/09/2021 | Adicionando conceito de Decorator e referências | João Gabriel de Matos                                           |
 | 1.5    | 16/09/2021 | Adicionando exemplo de codigo para Decorator    | João Gabriel de Matos                                           |
-| 2.0    | 18/09/2021 | Revisão Decorator                               | Igor Q Lima                                                     |
+| 2.0    | 18/09/2021 | Revisão Decorator                               | Igor Q Lima, Roberto M da Nóbrega                                                     |
 
 ## Adapter
 
