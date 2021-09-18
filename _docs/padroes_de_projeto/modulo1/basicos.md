@@ -26,6 +26,7 @@ GRASPs Básicos
 | 0.4.2  | 15/09/2021 | Adiciona GRASP Alta Coesão         | Igor Q Lima        |
 | 0.4.3  | 15/09/2021 | Adiciona GRASP Baixo acoplamento   | Igor Q Lima        |
 | 0.4.4  | 15/09/2021 | Adiciona GRASP Controlador         | Igor Q Lima        |
+| 0.5    | 15/09/2021 | Revisão                            | Roberto M Nóbrega  |
 
 ## Introdução
 

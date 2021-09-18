@@ -29,6 +29,8 @@ GRASPs Avançados
 | 0.5.4  | 13/09/2021 | Adiciona exemplo padrao de indirecao        | Giovanna B Bottino |
 | 0.6    | 13/09/2021 | Adiciona exemplo padrao de fabricação       | Giovanna B Bottino |
 | 0.7    | 13/09/2021 | Revisão                                     | Igor Q Lima        |
+| 0.8    | 18/09/2021 | Revisão                                     | Roberto M Nóbrega  |
+
 
 ## Intrododução
 
