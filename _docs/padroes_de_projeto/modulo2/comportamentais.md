@@ -21,8 +21,107 @@ GoFs Comportamentais
 |   0.1 | 12/09/2021 | Adicionando conteúdo sobre o padrão strategy | Pedro Henrique |
 |   1.0 | 13/09/2021 | Revisão Ortográfica | Samuel Nogueira |
 |   1.1 | 13/09/2021 | Revisão | Matheus Gabriel e Igor Queiroz |
+|   1.2 | 17/09/2021 | Adicionando conteúdo sobre o padrão observer | Roberto Martins da Nóbrega |
+
+
 
 ## Observer
+
+Este padrão comportamental permite que defina-se um mecanismo de assinatura para notificar múltiplos objetos sobre eventos que aconteçam com o objeto observado, representando assim uma relação 1:N (um para muitos) entre o objeto observado e os dependentes que o observam.
+
+<div style="display:flex; flex-direction:column; justify-content:center; ">
+  <a href="{{ site.baseurl }}/assets/images/observer.png" data-toggle="lightbox" style="margin:0 auto;">
+    <img src="{{ site.baseurl }}/assets/images/observer.png" class="img-fluid" />
+  </a>
+  <p style="text-align:center;">
+  Imagem exemplo retirada de 
+  <a href="http://www.macoratti.net/13/03/net_obs1.htm">macoratti.net</a>
+  </p>
+</div>
+
+
+* Subject: Interface que define a assinatura de métodos das classes que serão observáveis;
+* Concrete Subject: implementação da Interface Subject;
+* Observer: Interface que define a assinatura de métodos das classes que serão observadoras;
+* Concrete Observer: implementação da Interface Observer;
+
+### Implementação em TypeScript:
+
+
+```typescript
+interface Subject {
+    anexar(observer: Observer): void;
+    desanexar(observer: Observer): void;
+    notificar(): void;
+}
+
+class Produto implements Subject {
+    
+   
+    public state: number;
+
+    private observers: Observer[] = [];
+
+    public anexar(observer: Observer): void {
+        const isExist = this.observers.includes(observer);
+        if (isExist) {
+            return console.log('Observador já anexado.');
+        }
+
+        console.log('Anexado a um observador.');
+        this.observers.push(observer);
+    }
+
+    public desanexar(observer: Observer): void {
+        const observerIndex = this.observers.indexOf(observer);
+        if (observerIndex === -1) {
+            return console.log('Observador Inexistente.');
+        }
+
+        this.observers.splice(observerIndex, 1);
+        console.log('Observador retirado.');
+    }
+
+    public notificar(): void {
+        console.log('Notificando observadores...');
+        for (const observer of this.observers) {
+            observer.update(this);
+        }
+    }
+
+}
+
+interface Observer {
+    update(subject: Subject): void;
+}
+
+class Cliente implements Observer {
+    public update(subject: Subject): void {
+        if (subject instanceof Produto && subject.state < 3) {
+            console.log('Cliente: Reagiu ao evento.');
+        }
+    }
+}
+
+class Administrador implements Observer {
+    public update(subject: Subject): void {
+        if (subject instanceof Produto && (subject.state === 0 || subject.state >= 2)) {
+            console.log('Administrador: Reagiu ao evento.');
+        }
+    }
+}
+
+```
+
+### Vantagens:
+
+* Princípio aberto/fechado. Pode-se introduzir novas classes assinantes sem ter que mudar o código da publicadora e vice versa.
+* Pode-se estabelecer relações entre objetos durante a execução.
+
+### Desvantagens:
+
+* Assinantes são notificados em ordem aleatória
+
 
 <hr/>
 
@@ -42,7 +141,7 @@ Exemplo de uma possível aplicação deste padrão em nosso projeto:
   </a>
 </div>
 
-Implementação em typescript:
+### Implementação em typescript:
 
 ```typescript
 interface produto{
@@ -204,3 +303,11 @@ Strategy. refactoring.guru, “[2015?]”. Disponível em: <https://refactoring.
 Estudo e Aplicação do Padrão de Projeto Strategy. DevMedia, “[2018?]”. Disponível em: <https://www.devmedia.com.br/estudo-e-aplicacao-do-padrao-de-projeto-strategy/25856>. Acesso em: 12, set 2021.
 
 Padrão de Projeto: Strategy (Estratégia).thiengo, “[2018?]”. Disponível em: <https://www.thiengo.com.br/padrao-de-projeto-strategy-estrategia>
+
+HTTPS://WWW.FACEBOOK.COM/BLOGANDRECELESTINO. [Delphi] Design Patterns GoF - Observer - André Celestino. Disponível em: <http://www.andrecelestino.com/delphi-design-patterns-observer/>. Acesso em: 17 set. 2021.
+
+‌.NET - O padrão de projeto Observer. Disponível em: <http://www.macoratti.net/13/03/net_obs1.htm>. Acesso em: 17 set. 2021.
+
+‌Observer. Disponível em: <https://refactoring.guru/pt-br/design-patterns/observer>. Acesso em: 17 set. 2021.
+
+‌
