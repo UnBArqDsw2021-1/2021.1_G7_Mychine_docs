@@ -26,7 +26,9 @@ GoFs Estruturais
 | 1.3    | 15/09/2021 | Revisão Composite                               | Eduardo Picolo                                                  |
 | 1.4    | 16/09/2021 | Adicionando conceito de Decorator e referências | João Gabriel de Matos                                           |
 | 1.5    | 16/09/2021 | Adicionando exemplo de codigo para Decorator    | João Gabriel de Matos                                           |
-| 2.0    | 18/09/2021 | Revisão Decorator                               | Igor Q Lima, Roberto M da Nóbrega                                                     |
+| 2.0    | 18/09/2021 | Revisão Decorator                               | Igor Q Lima, Roberto M da Nóbrega                               |
+| 2.1    | 19/09/2021 | Corrgindo referencias                           | João Gabriel de Matos                                           |
+| 2.2    | 19/09/2021 | Adicionando modelagem de Decorator              | João Gabriel de Matos                                           |
 
 ## Adapter
 
@@ -221,6 +223,12 @@ main();
 ## Decorator
 
 É um padrão de projeto usado quando se deseja alterar o comportamento de um objeto, mas se prefere evitar as inconveniências do uso de herança (não poder alterar o comportamento de um objeto durante o tempo de execução — podendo apenas substitui-lo por outro criado de outra subclasse, e normalmente não ser possivel uma classe herdar o comportamento de múltiplas outras). Neste modelo se resolve este problema com o uso de "envoltórios", sendo um objeto que implementa a mesma interface que o objeto alvo e delega para ele todos os pedidos/chamadas que recebe, mas fazendo alguma alteração antes ou após passar o pedido para o alvo.[[3]](#ref3)
+
+### Modelagem
+
+<a href="{{ site.baseurl }}/assets/images/AdapterDiagrama.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/modelo-decorator.svg" class="img-fluid" />
+</a>
 
 ### Código exemplo
 
