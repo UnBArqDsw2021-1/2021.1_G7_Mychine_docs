@@ -24,6 +24,7 @@ GoFs Criacionais
 | 1.2    | 15/09/2021 | Adicionando Abstract Factory           | Roberto Martins da Nóbrega, Samuel Nogueira Bacelar |
 | 2.0    | 15/09/2021 | Revisão de conteúdo                    | Igor Q Lima, Samuel Nogueira Bacelar                |
 | 2.1    | 15/09/2021 | Adicionando as referências de Abstract Factory | Roberto Martins da Nóbrega|
+| 2.1    | 15/09/2021 | Adicionando Factory Method | Kess Jhones |
 
 
 ## Abstract Factory
@@ -138,6 +139,71 @@ Princípio de abertura e fechamento. Você pode introduzir novas variantes de pr
 
 ## Factory Method
 
+Factory method é um padrão de projeto criacional que define uma interface para a criação de um objeto deixando que subclasses decidam qual classe instanciar.  
+
+O Factory method é composto pelos seguintes elementos: 
+
+ 
+**Creator** (criador abstrato): responsável pela criação de um Factory method. 
+
+**ConcreteCreator**(Criador concreto): implementa o Factory method informando qual produto será retornado. 
+
+**Product**(Produto abstrato): interface para produtos finais, classes que implementam Factory method retornam produtos com essa interface. 
+
+**ConcreteProduct**(Produto concreto): produtos concretos retornados pelas classes que implementam o Factory method. [[1]](#ref1) 
+
+<div style="display:flex; flex-direction:column; justify-content:center; ">
+  <a href="{{ site.baseurl }}/assets/images/FactoryMethod.png" data-toggle="lightbox" style="margin:0 auto;">
+    <img src="{{ site.baseurl }}/assets/images/FactoryMethod.png" class="img-fluid" />
+  </a>
+  <p style="text-align:center;">
+  Imagem exemplo retirada de 
+  <a href="https://pt.wikipedia.org/wiki/Factory_Method">wikipedia.org</a>
+  </p>
+</div>
+
+### Exemplo em TypeScript
+
+```typescript
+  interface product{
+    sayHi():void;
+  }
+
+  class concretePorcuct implements product{
+    sayHi():void{
+      console.log('Hi');
+    }
+  }
+
+  abstract class creator{
+    abstract factoryMethod(): product;
+
+    createAndShow() void {
+      const product = this.concretePorcuct();
+      console.log(product);
+    }
+  }
+
+  class concreteCreator extends creator{
+    factoryMethod(): product{
+      return new concreteProduct();
+    }
+  }
+
+  const creator = new concreteCreator();
+  const product = creator.factoryMethod();
+  product.sayHi();
+  creator.createAndShow();
+```
+### Vantagens
+* Facilita a introdução de novos tipos de produtos sem a necessidade de quebrar o código existente 
+
+* Separa o código que cria do código que usa o objeto, auxiliando na manutenção do código. 
+
+* Ajuda no desacoplamento do código. 
+
+### Desvantagens
+* Se usado de forma equivocada pode aumentar o nível de complexidade do código, já que necessita da criação de muitas subclasses para a implementação do padrão. 
 <hr/>
 
 ## Prototype
@@ -230,3 +296,6 @@ Abstract Factory. Refactoring.guru. Disponível em: <https://refactoring.guru/pt
 ‌ROBERTO, Jones. Design Patterns - Parte 4 – Abstract Factory - XP Inc. - Medium. Medium. Disponível em: <https://medium.com/xp-inc/design-patterns-abstract-factory-da6b7057abce>. Acesso em: 15 Sep. 2021.
 
 MIRANDA, Otávio. Abstract Factory Prática - Padrões de Projeto - Parte 13/45. Disponível em: <https://www.youtube.com/watch?v=36SzKmNnXdM&ab_channel=Ot%C3%A1vioMiranda>. Acesso em: 16 Sep. 2021.
+
+[1] Factory Method. Refactoring.guru. Disponível em: <https://refactoring.guru/design-patterns/factory-method>. Acesso em: 20 Sep. 2021.
+{: #ref1} 
