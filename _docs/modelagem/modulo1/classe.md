@@ -22,8 +22,7 @@ Diagrama de Classe
 | 1.3    | 23/08/2021 | Revisão | João Gabriel de Matos |
 | 1.4    | 23/08/2021 | Revisão | Matheus Gabriel |
 | 1.5    | 13/09/2021 | Criação do Diagrama de Classe V2 | Igor Q, Matheus G, Giovanna B |
-| 2.0    | 18/09/2021 | Revisão | João Gabriel de Matos, Kess Jhones|
-
+| 2.0    | 18/09/2021 | Revisão | João Gabriel de Matos, Kess Jhones, Eduardo Picolo |
 
 ## Introdução
 
@@ -51,7 +50,7 @@ Conforme criamos outros artefatos ficou mais perceptível as alterações que de
 
 ## Diagrama de Classe V2
 
-Com os feedbacks da segunda entrega e necessidade do artefatos de padrões de projetos foi necessario algumas mudanças. Como a adição de metodos e cardinalidades em todas as classes. Também transformamos a classe categoria em um ENUM. 
+Com os feedbacks da segunda entrega e necessidade do artefatos de padrões de projetos foi necessario algumas mudanças. Como a adição de metodos e cardinalidades em todas as classes. Também transformamos a classe categoria em um ENUM.
 
 <a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
