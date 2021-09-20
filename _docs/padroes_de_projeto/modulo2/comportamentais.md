@@ -28,7 +28,7 @@ GoFs Comportamentais
 
 ## Observer
 
-Este padrão comportamental permite que defina-se um mecanismo de assinatura para notificar múltiplos objetos sobre eventos que aconteçam com o objeto observado, representando assim uma relação 1:N (um para muitos) entre o objeto observado e os dependentes que o observam.
+Este padrão comportamental permite que defina-se um mecanismo de assinatura para notificar múltiplos objetos sobre eventos que aconteçam com o objeto observado, representando assim uma relação 1:N (um para muitos) entre o objeto observado e os dependentes que o observam [[1]](#ref1).
 
 ### Exemplo
 
@@ -292,10 +292,6 @@ O código acima gera a seguinte saída:
 - Podem existir casos em que fazer herança é mais simples.
 - Aumento considerável no número de classes do projeto.
 
-## Template Method
-
-<hr/>
-
 ## Referências
 
 Strategy. refactoring.guru, “[2015?]”. Disponível em: <https://refactoring.guru/pt-br/design-patterns/strategy>. Acesso em: 12, set 2021.
@@ -306,8 +302,7 @@ Padrão de Projeto: Strategy (Estratégia).thiengo, “[2018?]”. Disponível e
 
 HTTPS://WWW.FACEBOOK.COM/BLOGANDRECELESTINO. [Delphi] Design Patterns GoF - Observer - André Celestino. Disponível em: <http://www.andrecelestino.com/delphi-design-patterns-observer/>. Acesso em: 17 set. 2021.
 
-‌.NET - O padrão de projeto Observer. Disponível em: <http://www.macoratti.net/13/03/net_obs1.htm>. Acesso em: 17 set. 2021.
+.NET - O padrão de projeto Observer. Disponível em: <http://www.macoratti.net/13/03/net_obs1.htm>. Acesso em: 17 set. 2021.
 
-‌Observer. Disponível em: <https://refactoring.guru/pt-br/design-patterns/observer>. Acesso em: 17 set. 2021.
-
-‌
+[1] Observer. Disponível em: <https://refactoring.guru/pt-br/design-patterns/observer>. Acesso em: 17 set. 2021.
+{: #ref1}
