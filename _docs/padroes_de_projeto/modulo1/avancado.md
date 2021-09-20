@@ -32,7 +32,7 @@ GRASPs Avançados
 | 0.8    | 18/09/2021 | Revisão                                     | Roberto M Nóbrega  |
 
 
-## Intrododução
+## Introdução
 
 General Responsability Assignment Software Patterns (GRASP) são diretrizes para atribuição de responsabilidade a classes e objetos em projetos orientados a objetos. É um padrão de projeto baseado em princípios e boas praticas usadas durante a criação do software, que descreve o problema e a solução adotada [[3]](#ref3).
 

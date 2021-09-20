@@ -48,15 +48,19 @@ Uma aplicação web chamada Mychine, permite alugar equipamentos como pequenos t
 |[![Vídeo 1 - Módulo Notação UML – Diagramas Estáticos](/assets/images/entrega2/screenshot_video1.png)](https://www.youtube.com/watch?v=9th4pmXcSyI) | [![Vídeo 2 - Módulo Notação UML – Diagramas Dinâmicos](/assets/images/entrega2/screenshot_video2.png)](https://www.youtube.com/watch?v=rC8qg-thVbA)|
 |[![Vídeo 3 - Módulo Modelagem Ágil](/assets/images/entrega2/screenshot_video3.png)](https://www.youtube.com/watch?v=eQyDNE7EDNM) | [![Vídeo 4 - Iniciativas Extras](/assets/images/entrega2/screenshot_video4.png)](https://www.youtube.com/watch?v=0nEs0w4qyDY)|
 
-<!--
-
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+| | | |
+| - | - | - |
+|![screenshot1](/assets/images/entrega3/screenshot1.png)|![screenshot2](/assets/images/entrega3/screenshot2.png)| ![screenshot3](/assets/images/entrega3/screenshot3.png) |
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+| | | |
+| - | - | - |
+|[![Vídeo 1 - Módulo Padrões de Projeto – GRASP](/assets/images/entrega3/screenshot_video1.png)](https://www.youtube.com/watch?v=hIJkYtlPTBE) | [![Vídeo 2 - Módulo Padrões de Projeto – GoFs](/assets/images/entrega3/screenshot_video2.png)](https://www.youtube.com/watch?v=7BiSi3_FR5Q)|[![Vídeo 3 Módulo Padrões de Projeto - Iniciativas Extras](/assets/images/entrega3/screenshot_video3.png)](https://youtu.be/PhEbTqu5UZY) |
+
+<!--
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
