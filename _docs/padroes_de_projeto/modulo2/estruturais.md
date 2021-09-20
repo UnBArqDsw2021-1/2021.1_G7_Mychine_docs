@@ -16,22 +16,26 @@ GoFs Estruturais
 #### Versionamento
 {: .no_toc }
 
-| Versão | Data       | Comentários                       | Autor(es)                                                       |
-| ------ | ---------- | --------------------------------- | --------------------------------------------------------------- |
-| 0.1    | 09/09/2021 | Abertura do documento             | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
-| 0.2    | 10/09/2021 | Adicionando o Adapter             | Matheus Gabriel                                                 |
-| 1.0    | 10/09/2021 | Revisão                           | Pedro Henrique                                                  |
-| 1.1    | 13/09/2021 | Adicionando Composite             | Samuel Nogueira                                                 |
-| 1.2    | 13/09/2021 | Adicionando referências e revisão | Matheus Gabriel                                                 |
-| 1.3    | 15/09/2021 | Revisão Composite                 | Eduardo Picolo                                                  |
+| Versão | Data       | Comentários                                     | Autor(es)                                                       |
+| ------ | ---------- | ----------------------------------------------- | --------------------------------------------------------------- |
+| 0.1    | 09/09/2021 | Abertura do documento                           | Igor Lima, Samuel Nogueira, Matheus Rodrigues e Roberto Nóbrega |
+| 0.2    | 10/09/2021 | Adicionando o Adapter                           | Matheus Gabriel                                                 |
+| 1.0    | 10/09/2021 | Revisão                                         | Pedro Henrique                                                  |
+| 1.1    | 13/09/2021 | Adicionando Composite                           | Samuel Nogueira                                                 |
+| 1.2    | 13/09/2021 | Adicionando referências e revisão               | Matheus Gabriel                                                 |
+| 1.3    | 15/09/2021 | Revisão Composite                               | Eduardo Picolo                                                  |
+| 1.4    | 16/09/2021 | Adicionando conceito de Decorator e referências | João Gabriel de Matos                                           |
+| 1.5    | 16/09/2021 | Adicionando exemplo de codigo para Decorator    | João Gabriel de Matos                                           |
+| 2.0    | 18/09/2021 | Revisão Decorator                               | Igor Q Lima, Roberto M da Nóbrega                               |
+| 2.1    | 19/09/2021 | Corrgindo referencias                           | João Gabriel de Matos                                           |
+| 2.2    | 19/09/2021 | Adicionando modelagem de Decorator              | João Gabriel de Matos                                           |
+| 3.0    | 19/09/2021 | Revisão Composite e Adapter                     | Giovanna B Bottino                                              |
 
 ## Adapter
 
-### Conceito
-
 Se trata de um padrão de projeto que auxilia na comunicação entre interfaces incompatíveis entre si, de maneira que possibilita que essa interação ocorra por meio de uma classe adaptadora.
 
-Uma analogia frequentemente feita é a com o adaptador de tomada que possibilita a interação entre duas interfaces que são incompatíveis entre si.
+Uma analogia frequentemente feita é a com o adaptador de tomada que possibilita a interação entre duas interfaces que são incompatíveis entre si. [[1]](#ref1)
 
 ### Modelagem
 
@@ -78,11 +82,9 @@ export default dateAdapter;
 
 ## Composite
 
-### Conceito
+O padrão Composite é um padrão estrutural de objetos que tem como intenção compor objetos em estruturas de árvore para representarem hierarquias partes-todo. Permitindo aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.[[2]](#ref2)
 
-O padrão Composite é um padrão estrutural de objetos que tem como intenção comportobjetos em estruturas de árvore para representarem hierarquias partes-todo. Permitindo aos clientes tratarem de maneira uniforme objetos individuais e composições de objetos.
-
-### aplicabilidade
+### Aplicabilidade
 
 Deve ser usado quando:
 
@@ -94,11 +96,12 @@ Deve ser usado quando:
 1. Component - Declara e implementa o comportamento padrão para os objetos na composição, fornecendo uma interface para acessar e gerenciar os seus componentes-filhos.
 2. Leaf - representa objetos-folha, as quais não possuem filhos.
 3. Composite - define o comportamento para componentes que têm filhos, além de armazenar os componentes filhos.
-4. Client - O responsável por manipular objetos na composição atravez da interface Component.
+4. Client - O responsável por manipular objetos na composição através da interface Component.
 
 ### Modelagem
 
 Modelo básico de um Composite
+
 <a href="{{ site.baseurl }}/assets/images/Composite.png" data-toggle="lightbox">
 <img src="{{ site.baseurl }}/assets/images/Composite.png" class="img-fluid" />
 </a>
@@ -106,6 +109,7 @@ Modelo básico de um Composite
 ### Código Exemplo
 
 O padrão **Composite** pode ser utilizado back-end do projeto para generalizar a forma como os Produtos são armazenados. No exemplo de código abaixo um classe abstrata `Product` é criada e herdada por `SimpleProduct` e `CompositeProduct`. `SimpleProduct` representa um produto simples que contem os atributos descritos na classe. Já `CompositeProduct` representa uma coleção de `SimpleProducts` e `CompositeProducts`. abaixo temos o diagrama do esquema de composite do exemplo.
+
 <a href="{{ site.baseurl }}/assets/images/ProductComposite.svg" data-toggle="lightbox">
 <img src="{{ site.baseurl }}/assets/images/Composite.png" class="img-fluid" />
 </a>
@@ -219,14 +223,76 @@ main();
 
 ## Decorator
 
+É um padrão de projeto usado quando se deseja alterar o comportamento de um objeto, mas se prefere evitar as inconveniências do uso de herança (não poder alterar o comportamento de um objeto durante o tempo de execução — podendo apenas substitui-lo por outro criado de outra subclasse, e normalmente não ser possivel uma classe herdar o comportamento de múltiplas outras). Neste modelo se resolve este problema com o uso de "envoltórios", sendo um objeto que implementa a mesma interface que o objeto alvo e delega para ele todos os pedidos/chamadas que recebe, mas fazendo alguma alteração antes ou após passar o pedido para o alvo.[[3]](#ref3)
+
+### Modelagem
+
+<a href="{{ site.baseurl }}/assets/images/AdapterDiagrama.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/modelo-decorator.svg" class="img-fluid" />
+</a>
+
+### Código exemplo
+
+Um exemplo de possivel uso de decorators, seria alterar o comportamento do metodo 'validate' da classe 'Address', quando o endereço ja se encontrar validado.
+
+```typescript
+
+function validation(){
+  return ( target: any,propertyKey: string,propertyDescriptor: PropertyDescriptor,)=>{
+    if(!target["isValidated"]){
+      descriptor.value.apply(this);
+    }
+
+  }
+};
+
+class Address{
+
+  street:String;
+  city:String;
+  state:String;
+  cep:Number;
+  number:Number;
+  complement:String;
+  isValidated:Boolean;
+
+  constructor(street,city,state,cep,number,complement,isValidated){
+    this.street=street;
+    this.city=city;
+    this.state=state;
+    this.cep=cep;
+    this.number=number;
+    this.complement=complement;
+    this.isValidated=isValidated;
+    validate();
+
+}
+  @validation
+  validate(){
+    //Validation logic
+    ...
+  }
+  
+}
+```
+
 <hr/>
 
 ## Referências
 
 Gamma, Erich. Padrões de projeto: soluções reutilizáveis de software orientado a objetos. 2007. Open WorldCat, http://site.ebrary.com/id/10824586.
 
-JavaScript Composite Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/composite. Acessado 14 de setembro de 2021.
+[1] JavaScript Adapter Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/adapter. Acessado 15 de setembro de 2021.
+{: #ref1}
 
-JavaScript Composite Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/adapter. Acessado 15 de setembro de 2021.
+Refactoring Guru - Adapter. https://refactoring.guru/pt-br/design-patterns/adapter. Acessado 15 de setembro de 2021.
 
-Refactoring Guru - Adapter. https://refactoring.guru/pt-br/design-patterns/catalog. Acessado 15 de setembro de 2021.
+[2] JavaScript Composite Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/composite. Acessado 14 de setembro de 2021.
+{: #ref2}
+
+JavaScript Decorator Design Pattern - Dofactory. https://www.dofactory.com/javascript/design-patterns/decorator. Acessado 16 de setembro de 2021.
+
+[3] Refactoring Guru - Decorator. https://refactoring.guru/pt-br/design-patterns/decorator. Acessado 16 de setembro de 2021.
+{: #ref3}
+
+Typescript Handbook - Decorators. https://www.typescriptlang.org/docs/handbook/decorators.html. Acessado 16 de setembro de 2021.
