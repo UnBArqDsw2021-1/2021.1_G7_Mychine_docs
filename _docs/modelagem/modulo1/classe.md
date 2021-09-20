@@ -22,7 +22,7 @@ Diagrama de Classe
 | 1.3    | 23/08/2021 | Revisão | João Gabriel de Matos |
 | 1.4    | 23/08/2021 | Revisão | Matheus Gabriel |
 | 1.5    | 13/09/2021 | Criação do Diagrama de Classe V2 | Igor Q, Matheus G, Giovanna B |
-| 2.0    | 18/09/2021 | Revisão | João Gabriel de Matos |
+| 2.0    | 18/09/2021 | Revisão | João Gabriel de Matos, Kess Jhones|
 
 
 ## Introdução
