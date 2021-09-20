@@ -14,24 +14,24 @@ Reunião 12
 | Versão | Data       | Comentários           | Autor(es)                   |
 | ------ | ---------- | --------------------- | --------------------------- |
 | 0.1    | 20/09/2021 | Abertura do documento | Matheus Gabriel A Rodrigues |
+| 1.0    | 20/09/2021 | Revisão               | Eduardo Picolo              |
 
-__Data de realização:__ 08/09/2021
+**Data de realização:** 08/09/2021
 
 ## Participantes
 
-- [X] Eduardo Pícolo
-- [X] Giovanna Bottino
-- [X] Igor Q. Lima
-- [X] João Matos
-- [X] Kess Jhones
-- [X] Matheus Gabriel
-- [X] Pedro Henrique Vieira
-- [X] Roberto Nóbrega
-- [X] Samuel Nogueira
+- [x] Eduardo Pícolo
+- [x] Giovanna Bottino
+- [x] Igor Q. Lima
+- [x] João Matos
+- [x] Kess Jhones
+- [x] Matheus Gabriel
+- [x] Pedro Henrique Vieira
+- [x] Roberto Nóbrega
+- [x] Samuel Nogueira
 
 ## Pauta
 
 - Criação do protótipo de alta fidelidade utilizando o figma
 - Definição da logo do projeto
 - Escolha de templates base para a aplicação
-
