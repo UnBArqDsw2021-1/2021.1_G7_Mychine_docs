@@ -24,7 +24,8 @@ GoFs Criacionais
 | 1.2    | 15/09/2021 | Adicionando Abstract Factory           | Roberto Martins da Nóbrega, Samuel Nogueira Bacelar |
 | 2.0    | 15/09/2021 | Revisão de conteúdo                    | Igor Q Lima, Samuel Nogueira Bacelar                |
 | 2.1    | 15/09/2021 | Adicionando as referências de Abstract Factory | Roberto Martins da Nóbrega|
-| 2.1    | 15/09/2021 | Adicionando Factory Method | Kess Jhones |
+| 2.2    | 20/09/2021 | Adicionando Factory Method | Kess Jhones |
+| 2.3    | 20/09/2021 | Revisando Factory Method | Matheus Gabriel, João Gabriel e Eduardo Picolo|
 
 
 ## Abstract Factory
