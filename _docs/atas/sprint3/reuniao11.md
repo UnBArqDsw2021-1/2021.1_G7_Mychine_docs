@@ -14,7 +14,7 @@ Reunião 11
 | Versão | Data       | Comentários           | Autor(es)                   |
 | ------ | ---------- | --------------------- | --------------------------- |
 | 0.1    | 20/09/2021 | Abertura do documento | Matheus Gabriel A Rodrigues |
-| 1.0    | 20/09/2021 | Revisão               | Eduardo Picolo              |
+| 1.0    | 20/09/2021 | Revisão               | Eduardo Picolo, Samuel Nogueira              |
 
 **Data de realização:** 30/08/2021
 
