@@ -24,6 +24,7 @@ GoFs Comportamentais
 | 1.1    | 13/09/2021 | Revisão Strategy                             | Matheus Gabriel e Igor Queiroz |
 | 1.2    | 17/09/2021 | Adicionando conteúdo sobre o padrão observer | Roberto Martins da Nóbrega     |
 | 1.3    | 13/09/2021 | Revisão Observer                             | Igor Q Lima                    |
+| 1.4    | 19/09/2021 | Revisão Observer                             | Matheus Gabriel e Kess Jhones  |
 
 ## Observer
 
