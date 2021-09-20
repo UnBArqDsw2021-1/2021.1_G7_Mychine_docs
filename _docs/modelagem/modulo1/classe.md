@@ -11,19 +11,18 @@ Diagrama de Classe
 
 #### Versionamento
 
-| Versão | Data       | Comentários                              | Autor(es)                                                            |
-| ------ | ---------- | ---------------------------------------- | -------------------------------------------------------------------- |
-| 0.1    | 19/08/2021 | Abertura do documento                    | Igor Q Lima                                                          |
-| 0.2    | 19/08/2021 | Criação do Diagrama de Classe Preliminar | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N                      |
-| 0.3    | 20/08/2021 | Criação do Diagrama de Classe            | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N, Giovanna B, Roberto |
-| 1.0    | 20/08/2021 | Revisão                                  | João Gabriel de Matos                                                |
-| 1.1    | 23/08/2021 | Revisão                                  | Kess Jhones                                                          |
-| 1.2    | 23/08/2021 | Adicionado legenda                       | Kess Jhones                                                          |
-| 1.3    | 23/08/2021 | Revisão                                  | João Gabriel de Matos                                                |
-| 1.4    | 23/08/2021 | Revisão                                  | Matheus Gabriel                                                      |
-| 1.5    | 13/09/2021 | Criação do Diagrama de Classe V2         | Igor Q, Matheus G, Giovanna B                                        |
-| 1.6    | 15/09/2021 | Revisão                                  | Eduardo Picolo                                                       |
-| 1.7    | 18/09/2021 | Revisão                                  | João Gabriel de Matos                                                |
+| Versão | Data       | Comentários                              | Autor(es)                                       |
+| ------ | ---------- | ---------------------------------------- | ----------------------------------------------- |
+| 0.1    | 19/08/2021 | Abertura do documento                    | Igor Q Lima                                     |
+| 0.2    | 19/08/2021 | Criação do Diagrama de Classe Preliminar | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N |
+| 0.3    | 20/08/2021 | Criação do Diagrama de Classe | Igor Q, Pedro H, Matheus G, Eduardo P, Samuel N, Giovanna B, Roberto |
+| 1.0    | 20/08/2021 | Revisão | João Gabriel de Matos |
+| 1.1    | 23/08/2021 | Revisão | Kess Jhones |
+| 1.2    | 23/08/2021 | Adicionado legenda | Kess Jhones |
+| 1.3    | 23/08/2021 | Revisão | João Gabriel de Matos |
+| 1.4    | 23/08/2021 | Revisão | Matheus Gabriel |
+| 1.5    | 13/09/2021 | Criação do Diagrama de Classe V2 | Igor Q, Matheus G, Giovanna B |
+| 2.0    | 18/09/2021 | Revisão | João Gabriel de Matos, Kess Jhones, Eduardo Picolo |
 
 ## Introdução
 
