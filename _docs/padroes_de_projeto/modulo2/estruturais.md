@@ -29,6 +29,7 @@ GoFs Estruturais
 | 2.0    | 18/09/2021 | Revisão Decorator                               | Igor Q Lima, Roberto M da Nóbrega                               |
 | 2.1    | 19/09/2021 | Corrgindo referencias                           | João Gabriel de Matos                                           |
 | 2.2    | 19/09/2021 | Adicionando modelagem de Decorator              | João Gabriel de Matos                                           |
+| 3.0    | 19/09/2021 | Revisão Composite e Adapter                     | Giovanna B Bottino                                              |
 
 ## Adapter
 
