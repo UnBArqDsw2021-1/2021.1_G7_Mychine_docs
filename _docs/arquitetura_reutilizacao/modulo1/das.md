@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GRASPs Avançados
+title: Documento de Arquitetura
 grand_parent: Arquitetura de Software & Reutilização
 parent: Módulo Estilos e Padrões Arquiteturais
 nav_order: 1
