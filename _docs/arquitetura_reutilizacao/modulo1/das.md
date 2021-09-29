@@ -19,8 +19,13 @@ Documento de Arquitetura
 | Versão | Data       | Comentários                                 | Autor(es)          |
 | ------ | ---------- | ------------------------------------------- | ------------------ |
 | 0.1    | 29/09/2021 | Abertura do documento                       | Giovanna B Bottino |
+| 0.1    | 29/09/2021 | Adiciona introdução                         | Giovanna B Bottino |
 
 ## 1. Introdução
+
+O documento de Arquitetura de Software fornece uma visão geral de todo a arquitetura do sistema de software. Deve ser usado para a documentação e comunicação entre os participantes do projeto sobre questões arquiteturais [[2]](#ref). 
+
+Esse documento tem como objetivo fornecer a arquitetura do projeto Mychine. Mychine é uma aplicação web que visa ser uma plataforma de que facilite o aluguel de equipamentos para construção civil. A seguir pode encontrar uma visão arquitetural de caso de uso, lógica e outras. Assim poderemos representar sobre diferentes perpectivas e comunicar as decisões arquiteturais que foram tomadas.
 
 ### 1.1 Finalidade
 
@@ -29,6 +34,12 @@ Documento de Arquitetura
 ### 1.3 Definições, Acrônimos e Abreviações
 
 ### 1.4  Referências Bibliográficas
+
+[1] SERRANO, Milene. DAS, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 29 de setembro de 2021.
+{: #ref1}
+
+[2] SERRANO, Milene. Template - DAS, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 29 de setembro de 2021.
+{: #ref2}
 
 ### 1.5 Visão Geral
 
