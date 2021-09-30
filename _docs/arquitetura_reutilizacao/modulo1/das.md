@@ -22,6 +22,7 @@ Documento de Arquitetura
 | 0.2    | 29/09/2021 | Adiciona introdução          | Giovanna B Bottino                              |
 | 0.2.1  | 29/09/2021 | Adiciona finalidade          | Roberto Martins da Nóbrega e Giovanna B Bottino |
 | 0.2.2  | 30/09/2021 | Adiciona escopo              | Roberto Martins da Nóbrega e Giovanna B Bottino |
+| 0.2.3  | 30/09/2021 | Adiciona acrônimos           | Roberto Martins da Nóbrega e Giovanna B Bottino |
 
 ## 1. Introdução
 
@@ -44,6 +45,13 @@ A aplicação permite que o cliente consulte as categorias de equipamentos, seus
 Esse documento de arquitetura descreve como a aplicação funciona, quais são os requisitos para o funcionamento correto, quais são as restrições do sistema, as tecnologias utilizadas e etc. Serve de guia ao abordar os principais pontos desenvolvidos na arquitetura do projeto [[1]](#ref). 
 
 ### 1.3 Definições, Acrônimos e Abreviações
+
+| Sigla  | Descrição                                                                  |
+| ------ | -------------------------------------------------------------------------- |
+| DAS    | Documento de Arquitetura de Software                                       |
+| MVC    | Model-View-Controller(Modelo-Visão-Controle)                               |
+| UML    | Unified Modeling Language(Linguagem de modelagem unificada)                |
+| REST   | Representational State Transfer(Transferência Representacional de Estado)  |
 
 ### 1.4  Referências Bibliográficas
 
