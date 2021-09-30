@@ -19,7 +19,8 @@ Documento de Arquitetura
 | Versão | Data       | Comentários                                 | Autor(es)          |
 | ------ | ---------- | ------------------------------------------- | ------------------ |
 | 0.1    | 29/09/2021 | Abertura do documento                       | Giovanna B Bottino |
-| 0.1    | 29/09/2021 | Adiciona introdução                         | Giovanna B Bottino |
+| 0.2    | 29/09/2021 | Adiciona introdução                         | Giovanna B Bottino |
+| 0.3    | 29/09/2021 | Adiciona finalidade                         | Roberto Martins da Nóbrega e Giovanna B Bottino |
 
 ## 1. Introdução
 
@@ -28,6 +29,10 @@ O documento de Arquitetura de Software fornece uma visão geral de todo a arquit
 Esse documento tem como objetivo fornecer a arquitetura do projeto Mychine. Mychine é uma aplicação web que visa ser uma plataforma de que facilite o aluguel de equipamentos para construção civil. A seguir pode encontrar uma visão arquitetural de caso de uso, lógica e outras. Assim poderemos representar sobre diferentes perpectivas e comunicar as decisões arquiteturais que foram tomadas.
 
 ### 1.1 Finalidade
+
+Este documento tem como finalidade especificar e documentar as decisões arquiteturais do software Mychine, usando diferentes visões arquiteturais para detalhar diferentes aspectos do sistema.
+
+Está estruturado de forma que iniciamos com uma introdução geral, em seguida explicamos a representação arquitetural, as metas e restrições de arquitetura, os requisitos de software e outros objetivos importantes. Explicamos cada visão utilizada nesse projeto para avançar com a descrição do tamanho e do desempenho. Finalizamos com as características de qualidade do projeto [[2]](#ref).
 
 ### 1.2 Escopo
 
