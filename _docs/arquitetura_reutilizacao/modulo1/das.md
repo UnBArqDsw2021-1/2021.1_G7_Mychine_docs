@@ -23,6 +23,7 @@ Documento de Arquitetura
 | 0.2.1  | 29/09/2021 | Adiciona finalidade          | Roberto Martins da Nóbrega e Giovanna B Bottino |
 | 0.2.2  | 30/09/2021 | Adiciona escopo              | Roberto Martins da Nóbrega e Giovanna B Bottino |
 | 0.2.3  | 30/09/2021 | Adiciona acrônimos           | Roberto Martins da Nóbrega e Giovanna B Bottino |
+| 0.2.4  | 30/09/2021 | Adiciona visão geral         | Roberto Martins da Nóbrega e Giovanna B Bottino |
 
 ## 1. Introdução
 
@@ -63,6 +64,22 @@ Esse documento de arquitetura descreve como a aplicação funciona, quais são o
 
 ### 1.5 Visão Geral
 
+O projeto trata de uma aplicação web que tem como objetivo ser uma plataforma de que facilite o aluguel de equipamentos para construção civil, tendo como principal diferencial o gerenciamento da agenda dos equipamentos diretamente na plataforma. Para isso o projeto contará com uma solução web responsiva disponível para diversas plataformas. Utilizando Node Js e o framework React Js.
+
+O documento de arquitetura está organizado em tópicos da seguinte maneira:
+
+- Introdução: fornece uma visão geral de todo o Documento de Arquitetura de Software. Inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software.
+- Representação Arquitetural: descreve qual arquitetura de software é para o sistema atual e como ela é representada. Das Visualizações de Caso de Uso, Lógica, de Processo, de Implantação e de Implementação, enumera as visualizações que são necessárias e, para cada visualização, explica quais tipos de elementos de modelo ela contém.
+- Metas Arquiteturais e Restrições: descreve os requisitos e objetivos de software que têm algum impacto significativo na arquitetura; por exemplo, proteção, segurança, privacidade, uso de um produto de prateleira, portabilidade, distribuição e reutilização. Ele também captura as restrições especiais que podem ser aplicadas: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura de equipe, cronograma, código legado e assim por diante.
+- Visão de Caso de Uso: lista casos de uso ou cenários do modelo de caso de uso se eles representam alguma funcionalidade central significativa do sistema final, ou se eles têm uma grande cobertura arquitetônica - eles exercem muitos elementos arquitetônicos ou se enfatizam ou ilustram um específico, ponto delicado da arquitetura.
+- Visão Lógica: descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua decomposição em subsistemas e pacotes. E para cada pacote significativo, sua decomposição em classes e utilitários de classe. Apresenta classes significativas do ponto de vista da arquitetura e descrever suas responsabilidades, bem como alguns relacionamentos, operações e atributos muito importantes.
+- Visão de Processos: descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados ​​(agrupamentos de processos leves). Organize a seção por grupos de processos que se comunicam ou interagem. Descreve os principais modos de comunicação entre os processos, como passagem de mensagens, interrupções e encontros.
+- Visão de Deploy: descreve uma ou mais configurações de rede física (hardware) nas quais o software é implantado e executado. É uma visão do modelo de implantação. No mínimo para cada configuração deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto a ponto, e assim por diante).
+- Visão de Implementação: descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação e quaisquer componentes arquitetonicamente significativos.
+- Visão de dados: descrição da perspectiva de armazenamento de dados persistentes do sistema.
+- Tamanho e Desempenho: descrição das principais características de dimensionamento do software que afetam a arquitetura, bem como as restrições de desempenho de destino.
+- Qualidade: descrição de como a arquitetura do software contribui para todos os recursos (exceto funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características tiverem um significado especial, como implicações de segurança, proteção ou privacidade, elas devem ser claramente delineadas].
+
 ## 2. Representação Arquitetural
 
 ## 3. Metas Arquiteturais e Restrições
@@ -87,7 +104,7 @@ Esse documento de arquitetura descreve como a aplicação funciona, quais são o
 
 ## 8.2 Camadas
 
-## 9. Visualização de dados
+## 9. Visão de dados
 
 ## 10. Tamanho e desempenho
 
