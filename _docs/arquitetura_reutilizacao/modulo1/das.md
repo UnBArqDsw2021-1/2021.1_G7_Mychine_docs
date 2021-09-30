@@ -16,14 +16,15 @@ Documento de Arquitetura
 #### Versionamento
 {: .no_toc }
 
-| Versão | Data       | Comentários                  | Autor(es)                                       |
-| ------ | ---------- | ---------------------------- | ----------------------------------------------- |
-| 0.1    | 29/09/2021 | Abertura do documento        | Giovanna B Bottino                              |
-| 0.2    | 29/09/2021 | Adiciona introdução          | Giovanna B Bottino                              |
-| 0.2.1  | 29/09/2021 | Adiciona finalidade          | Roberto Martins da Nóbrega e Giovanna B Bottino |
-| 0.2.2  | 30/09/2021 | Adiciona escopo              | Roberto Martins da Nóbrega e Giovanna B Bottino |
-| 0.2.3  | 30/09/2021 | Adiciona acrônimos           | Roberto Martins da Nóbrega e Giovanna B Bottino |
-| 0.2.4  | 30/09/2021 | Adiciona visão geral         | Roberto Martins da Nóbrega e Giovanna B Bottino |
+| Versão | Data       | Comentários                          | Autor(es)                                                                        |
+| ------ | ---------- | ------------------------------------ | -------------------------------------------------------------------------------- |
+| 0.1    | 29/09/2021 | Abertura do documento                | Giovanna B Bottino                                                               |
+| 0.2    | 29/09/2021 | Adiciona introdução                  | Giovanna B Bottino                                                               |
+| 0.2.1  | 29/09/2021 | Adiciona finalidade                  | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
+| 0.2.2  | 30/09/2021 | Adiciona escopo                      | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
+| 0.2.3  | 30/09/2021 | Adiciona acrônimos                   | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
+| 0.2.4  | 30/09/2021 | Adiciona visão geral                 | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
+| 0.2.5  | 30/09/2021 | Adiciona Tecnologias                 | Samuel Nogueira, Matheus Gabriel, Pedro Henrique e Giovanna B Bottino            |
 
 ## 1. Introdução
 
@@ -90,6 +91,20 @@ O documento de arquitetura está organizado em tópicos da seguinte maneira:
 - Qualidade: descrição de como a arquitetura do software contribui para todos os recursos (exceto funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características tiverem um significado especial, como implicações de segurança, proteção ou privacidade, elas devem ser claramente delineadas] [[4]](#ref).
 
 ## 2. Representação Arquitetural
+
+### 2.1 Tecnologias
+
+#### Front e Back
+
+NextJS: oferece a melhor experiência de desenvolvedor com todos os recursos para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota sem precisar de nenhuma configuração necessária. Uma estrutura da web de desenvolvimento front-end React de código aberto [[3]](#ref).
+
+#### Banco de Dados
+
+MySQL: um Sistema de Gerenciamento de Banco de Dados baseado na linguagem SQL [[2]](#ref).
+
+#### Virtualização
+
+Docker: O Docker ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possivel isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref).
 
 ## 3. Metas Arquiteturais e Restrições
 
