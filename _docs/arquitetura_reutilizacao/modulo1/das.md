@@ -25,6 +25,7 @@ Documento de Arquitetura
 | 0.2.3  | 30/09/2021 | Adiciona acrônimos                   | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
 | 0.2.4  | 30/09/2021 | Adiciona visão geral                 | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
 | 0.2.5  | 30/09/2021 | Adiciona Tecnologias                 | Samuel Nogueira, Matheus Gabriel, Pedro Henrique e Giovanna B Bottino            |
+| 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural  | Pedro Henrique e Giovanna B Bottino            |
 
 ## 1. Introdução
 
@@ -91,6 +92,12 @@ O documento de arquitetura está organizado em tópicos da seguinte maneira:
 - Qualidade: descrição de como a arquitetura do software contribui para todos os recursos (exceto funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características tiverem um significado especial, como implicações de segurança, proteção ou privacidade, elas devem ser claramente delineadas] [[4]](#ref).
 
 ## 2. Representação Arquitetural
+
+O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra como o usuário irá interagir com a arquitetura monolitica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
+
+<a href="{{ site.baseurl }}/assets/images/representacao-arquitetural.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.png" class="img-fluid" />
+</a>
 
 ### 2.1 Tecnologias
 
