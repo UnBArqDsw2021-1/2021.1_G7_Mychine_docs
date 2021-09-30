@@ -16,11 +16,12 @@ Documento de Arquitetura
 #### Versionamento
 {: .no_toc }
 
-| Versão | Data       | Comentários                                 | Autor(es)          |
-| ------ | ---------- | ------------------------------------------- | ------------------ |
-| 0.1    | 29/09/2021 | Abertura do documento                       | Giovanna B Bottino |
-| 0.2    | 29/09/2021 | Adiciona introdução                         | Giovanna B Bottino |
-| 0.3    | 29/09/2021 | Adiciona finalidade                         | Roberto Martins da Nóbrega e Giovanna B Bottino |
+| Versão | Data       | Comentários                  | Autor(es)                                       |
+| ------ | ---------- | ---------------------------- | ----------------------------------------------- |
+| 0.1    | 29/09/2021 | Abertura do documento        | Giovanna B Bottino                              |
+| 0.2    | 29/09/2021 | Adiciona introdução          | Giovanna B Bottino                              |
+| 0.2.1  | 29/09/2021 | Adiciona finalidade          | Roberto Martins da Nóbrega e Giovanna B Bottino |
+| 0.2.2  | 30/09/2021 | Adiciona escopo              | Roberto Martins da Nóbrega e Giovanna B Bottino |
 
 ## 1. Introdução
 
@@ -35,6 +36,12 @@ Este documento tem como finalidade especificar e documentar as decisões arquite
 Está estruturado de forma que iniciamos com uma introdução geral, em seguida explicamos a representação arquitetural, as metas e restrições de arquitetura, os requisitos de software e outros objetivos importantes. Explicamos cada visão utilizada nesse projeto para avançar com a descrição do tamanho e do desempenho. Finalizamos com as características de qualidade do projeto [[2]](#ref).
 
 ### 1.2 Escopo
+
+Mychine é uma aplicação que visa facilitar o gerenciamento de uma empresa de aluguel de equipamentos para construção civil. Nessa aplicação é possivel fazer cadastro e agendar o aluguel de equipamentos.
+
+A aplicação permite que o cliente consulte as categorias de equipamentos, seus respectivos preços, os dias disponiveis e agende um aluguel.
+
+Esse documento de arquitetura descreve como a aplicação funciona, quais são os requisitos para o funcionamento correto, quais são as restrições do sistema, as tecnologias utilizadas e etc. Serve de guia ao abordar os principais pontos desenvolvidos na arquitetura do projeto [[1]](#ref). 
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
