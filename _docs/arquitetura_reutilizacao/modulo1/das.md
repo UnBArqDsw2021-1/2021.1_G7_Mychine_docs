@@ -122,6 +122,8 @@ Docker: ajuda os desenvolvedores a dar vida a suas ideias, conquistando a comple
 
 ## 3. Metas Arquiteturais e Restrições
 
+As metas arquiteturais e restrições servem para descrever os requisitos e objetivos de software que têm algum impacto significativo na arquitetura e as restrições que são aplicadas [[4]](#ref). Temos as restrições de idioma, conectividade, prazo e tecnologia. Para as metas temos portabilidade, usabilidade, manutenibilidade e escalabilidade. 
+
 ### 3.1 - Restrições
 
 | Restrição     | Descrição                                                                  |
