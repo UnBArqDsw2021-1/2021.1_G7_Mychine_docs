@@ -16,18 +16,19 @@ Documento de Arquitetura
 #### Versionamento
 {: .no_toc }
 
-| Versão | Data       | Comentários                          | Autor(es)                                                                        |
-| ------ | ---------- | ------------------------------------ | -------------------------------------------------------------------------------- |
-| 0.1    | 29/09/2021 | Abertura do documento                | Giovanna B Bottino                                                               |
-| 0.2    | 29/09/2021 | Adiciona introdução                  | Giovanna B Bottino                                                               |
-| 0.2.1  | 29/09/2021 | Adiciona finalidade                  | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
-| 0.2.2  | 30/09/2021 | Adiciona escopo                      | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
-| 0.2.3  | 30/09/2021 | Adiciona acrônimos                   | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
-| 0.2.4  | 30/09/2021 | Adiciona visão geral                 | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
-| 0.2.5  | 30/09/2021 | Adiciona Tecnologias                 | Samuel Nogueira, Matheus Gabriel, Pedro Henrique e Giovanna B Bottino            |
-| 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural  | Pedro Henrique e Giovanna B Bottino                                              |
-| 0.3    | 30/09/2021 | Adiciona Metas e Restrições          | Samuel Nogueira e Giovanna B Bottino                                             |
-| 0.4    | 01/10/2021 | Adiciona Visão de Casos de Uso       | Igor Lima e Giovanna B Bottino                                             |
+| Versão | Data       | Comentários                             | Autor(es)                                                                      |
+| ------ | ---------- | --------------------------------------- | ------------------------------------------------------------------------------ |
+| 0.1    | 29/09/2021 | Abertura do documento                   | Giovanna B Bottino                                                             |
+| 0.2    | 29/09/2021 | Adiciona introdução                     | Giovanna B Bottino                                                             |
+| 0.2.1  | 29/09/2021 | Adiciona finalidade                     | Roberto Martins da Nóbrega e Giovanna B Bottino                                |
+| 0.2.2  | 30/09/2021 | Adiciona escopo                         | Roberto Martins da Nóbrega e Giovanna B Bottino                                |
+| 0.2.3  | 30/09/2021 | Adiciona acrônimos                      | Roberto Martins da Nóbrega e Giovanna B Bottino                               | 
+| 0.2.4  | 30/09/2021 | Adiciona visão geral                    | Roberto Martins da Nóbrega e Giovanna B Bottino                                |
+| 0.2.5  | 30/09/2021 | Adiciona Tecnologias                    | Samuel Nogueira, Matheus Gabriel, Pedro Henrique e Giovanna B Bottino          |
+| 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural     | Pedro Henrique e Giovanna B Bottino                                            |
+| 0.3    | 30/09/2021 | Adiciona Metas e Restrições             | Samuel Nogueira e Giovanna Bottino                                             |
+| 0.4    | 01/10/2021 | Adiciona Visão de Casos de Uso          | Igor Lima e Giovanna B Bottino                                                 |
+| 0.4.1  | 01/10/2021 | Adiciona Especificação dos Casos de Uso | Igor Lima e Giovanna B tino                                                    |
 
 ## 1. Introdução
 
