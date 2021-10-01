@@ -100,6 +100,8 @@ O diagrama a seguir apresenta de forma geral como o software final irá trabalha
   <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.png" class="img-fluid" />
 </a>
 
+##### Feito por: Pedro Henrique e Giovanna B Bottino
+
 ### 2.1 Tecnologias
 
 #### Front e Back
