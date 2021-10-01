@@ -186,6 +186,68 @@ Para o nosso projeto, criamos 3 diagramas para o usuário usuario, admin e clien
 
 ### 4.1 Especificação dos Casos de Uso
 
+#### Atores
+- **Admin**: São os funcionários da empresa responsáveis por manter os produtos e suas informações.
+- **Cliente**: São os clientes da empresa, interessados e responsáveis por visualizar e alugar produtos. 
+- **Usuário**: São a junção do ator admin e cliente, ações que ambos funcionários e clientes são capazes de fazer.
+
+#### Casos de Uso
+
+- **UC01 - Realizar Cadastro** ação realizada pelo usuário para ter possibildide de acesso a funcionalidades do sistema.
+
+  - Atores: Usuário 
+  - Requisitos: RF1
+
+- **UC02 - Realizar Login** ação realizada pelo usuário para ter acesso a funcionalidades do sistema.
+
+  - Atores: Usuário
+  - Requisitos: RF1
+
+- **UC03 - Recuperar Senha** ação realizada pelo usuário para ter controle do acesso a funcionalidades do sistema.
+
+  - Atores: Usuário
+  - Requisitos: RF3
+
+- **UC04 - Gerenciar perfil** ação realizada pelo usuário para gerenciar o proprio perfil no sistema.
+
+  - Atores: Usuário
+  - Requisitos: RF3
+
+- **UC05 - Criar produto** ação realizada pelo admin para criar produto no sistema.
+
+  - Atores: Admin
+  - Requisitos: RF7
+
+- **UC06 - Editar Produto** ação realizada pelo admin para editar produto no sistema.
+
+  - Atores: Admin
+  - Requisitos: RF11
+
+- **UC07 - Excluir Produto**  ação realizada pelo admin para excluir produto no sistema.
+
+  - Atores: Admin
+  - Requisitos: RF11
+
+- **UC08 - Visualizar produtos**  ação realizada pelo cliente para visualizar o painel de produtos no sistema.
+
+  - Atores: Cliente
+  - Requisitos: RF4
+
+- **UC09 - Visualizar Produto** ação realizada pelo cliente para visualizar o produto desejado no sistema.
+
+  - Atores: Cliente
+  - Requisitos: RF4
+
+- **UC10 - Manter carrinho** ação realizada pelo cliente para adicionar ou retirar o produto no sistema.
+
+  - Atores: Cliente 
+  - Requisitos: RF8, RF9, RF10
+
+- **UC11 - Alugar produto** ação realizada pelo cliente para alugar o produto no sistema.
+
+  - Atores: Cliente
+  - Requisitos: RF5,RF6
+
 ## 5. Visão Lógica
 
 ### 5.1 Visão geral
