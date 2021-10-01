@@ -106,6 +106,8 @@ O diagrama a seguir apresenta de forma geral como o software final irá trabalha
 
 ### 2.1 Tecnologias
 
+Para o Front e Back utilizamos de NextJS, para o banco de dados MySQL e para virtualização usamos docker e docker-compose. Podemos visualizar uma descrição das tecnologias a seguir.
+
 #### Front e Back
 
 NextJS: oferece a melhor experiência de desenvolvedor com todos os recursos para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota sem precisar de nenhuma configuração necessária. Uma estrutura da web de desenvolvimento front-end React de código aberto [[3]](#ref).
@@ -116,7 +118,7 @@ MySQL: um Sistema de Gerenciamento de Banco de Dados baseado na linguagem SQL [[
 
 #### Virtualização
 
-Docker: O Docker ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possivel isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref).
+Docker: ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possivel isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref).
 
 ## 3. Metas Arquiteturais e Restrições
 
