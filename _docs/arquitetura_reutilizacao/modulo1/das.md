@@ -27,6 +27,7 @@ Documento de Arquitetura
 | 0.2.5  | 30/09/2021 | Adiciona Tecnologias                 | Samuel Nogueira, Matheus Gabriel, Pedro Henrique e Giovanna B Bottino            |
 | 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural  | Pedro Henrique e Giovanna B Bottino                                              |
 | 0.3    | 30/09/2021 | Adiciona Metas e Restrições          | Samuel Nogueira e Giovanna B Bottino                                             |
+| 0.4    | 01/10/2021 | Adiciona Visão de Casos de Uso       | Igor Lima e Giovanna B Bottino                                             |
 
 ## 1. Introdução
 
@@ -98,8 +99,8 @@ A representação arquitetural serve para descrever qual arquitetura de software
 
 O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra que o usuário irá interagir com a arquitetura monolitica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
 
-<a href="{{ site.baseurl }}/assets/images/representacao-arquitetural.png" data-toggle="lightbox">
-  <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.png" class="img-fluid" />
+<a href="{{ site.baseurl }}/assets/images/representacao-arquitetural.svg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.svg"/>
 </a>
 
 ##### Feito por: Pedro Henrique e Giovanna B Bottino
@@ -143,6 +144,45 @@ As metas arquiteturais e restrições servem para descrever os requisitos e obje
 | Escalabilidade   | Deve ser possível a evolução e manutenção do software                      |
 
 ## 4. Visão de Casos de Uso
+
+Na visão de casos de uso iremos lista casos de uso que representam alguma funcionalidade central significativa do sistema final. Isso é, descrever cenários para o sistema. 
+
+Os casos de uso usados no projeto estão listados abaixo.
+
+- UC01 - Realizar Cadastro
+- UC02 - Realizar Login
+- UC03 - Recuperar Senha
+- UC04 - Gerenciar perfil
+- UC05 - Criar produto
+- UC06 - Editar Produto
+- UC07 - Excluir Produto
+- UC08 - Visualizar produtos
+- UC09 - Visualizar Produto
+- UC10 - Manter carrinho
+- UC11 - Alugar produto
+
+Para o nosso projeto, criamos 3 diagramas para o usuário usuario, admin e cliente. 
+
+<a href="{{ site.baseurl }}/assets/images/casos-uso/caso-uso-user.svg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/casos-uso/caso-uso-user.svg"/>
+</a>
+
+##### Feito por: Igor Lima e Giovanna B Bottino
+
+
+<a href="{{ site.baseurl }}/assets/images/casos-uso/caso-uso-admin.svg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/casos-uso/caso-uso-admin.svg"/>
+</a>
+
+##### Feito por: Igor Lima e Giovanna B Bottino
+
+
+<a href="{{ site.baseurl }}/assets/images/casos-uso/caso-uso-cliente.svg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/casos-uso/caso-uso-cliente.svg"/>
+</a>
+
+##### Feito por: Igor Lima e Giovanna B Bottino
+
 
 ### 4.1 Especificação dos Casos de Uso
 
