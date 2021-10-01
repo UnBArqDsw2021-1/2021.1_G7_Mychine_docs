@@ -106,7 +106,7 @@ O diagrama a seguir apresenta de forma geral como o software final irá trabalha
 
 ### 2.1 Tecnologias
 
-Para o Front e Back utilizamos de NextJS, para o banco de dados MySQL e para virtualização usamos docker e docker-compose. Podemos visualizar uma descrição das tecnologias a seguir.
+Para o Front e Back utilizamos de NextJS, para o banco de dados MySQL e para virtualização usamos docker e docker-compose.  A escolha dessas tecnologias foi baseada nos benefícios da curva de aprendizado e experiência da equipe. Podemos visualizar uma descrição das tecnologias a seguir.
 
 #### Front e Back
 
