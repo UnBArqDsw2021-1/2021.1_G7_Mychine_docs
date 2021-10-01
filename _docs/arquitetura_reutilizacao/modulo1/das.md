@@ -94,7 +94,9 @@ O documento de arquitetura está organizado em tópicos da seguinte maneira:
 
 ## 2. Representação Arquitetural
 
-O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra como o usuário irá interagir com a arquitetura monolitica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
+A representação arquitetural serve para descrever qual arquitetura de software é para o sistema atual e como ela é representada.  Com isso podemos ter uma sobre todo processo que envolve todas essas camadas de software [[4]](#ref).
+
+O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra que o usuário irá interagir com a arquitetura monolitica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
 
 <a href="{{ site.baseurl }}/assets/images/representacao-arquitetural.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.png" class="img-fluid" />
