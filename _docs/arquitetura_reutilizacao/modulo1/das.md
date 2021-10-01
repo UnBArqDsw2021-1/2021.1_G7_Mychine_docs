@@ -29,6 +29,7 @@ Documento de Arquitetura
 | 0.3    | 30/09/2021 | Adiciona Metas e Restrições             | Samuel Nogueira e Giovanna Bottino                                             |
 | 0.4    | 01/10/2021 | Adiciona Visão de Casos de Uso          | Igor Lima e Giovanna B Bottino                                                 |
 | 0.4.1  | 01/10/2021 | Adiciona Especificação dos Casos de Uso | Igor Lima e Giovanna B tino                                                    |
+| 0.4.2  | 01/10/2021 | Adiciona Visão do Processo              | Giovanna B, Matheus, Igor Lima, Samuel, Pedro, Eduardo Picolo e Kess Jhones     |
 
 ## 1. Introdução
 
@@ -87,7 +88,7 @@ O documento de arquitetura está organizado em tópicos da seguinte maneira:
 - Metas Arquiteturais e Restrições: descreve os requisitos e objetivos de software que têm algum impacto significativo na arquitetura; por exemplo, proteção, segurança, privacidade, uso de um produto de prateleira, portabilidade, distribuição e reutilização. Ele também captura as restrições especiais que podem ser aplicadas: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura de equipe, cronograma, código legado e assim por diante [[4]](#ref).
 - Visão de Caso de Uso: lista casos de uso ou cenários do modelo de caso de uso se eles representam alguma funcionalidade central significativa do sistema final, ou se eles têm uma grande cobertura arquitetônica - eles exercem muitos elementos arquitetônicos ou se enfatizam ou ilustram um específico, ponto delicado da arquitetura [[4]](#ref).
 - Visão Lógica: descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua decomposição em subsistemas e pacotes. E para cada pacote significativo, sua decomposição em classes e utilitários de classe. Apresenta classes significativas do ponto de vista da arquitetura e descrever suas responsabilidades, bem como alguns relacionamentos, operações e atributos muito importantes [[4]](#ref).
-- Visão de Processos: descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados ​​(agrupamentos de processos leves). Organize a seção por grupos de processos que se comunicam ou interagem. Descreve os principais modos de comunicação entre os processos, como passagem de mensagens, interrupções e encontros [[4]](#ref).
+- Visão de Processos: descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados ​​(agrupamentos de processos leves). Os principais modos de comunicação entre os processos, como passagem de mensagens, interrupções e encontros [[4]](#ref).
 - Visão de Deploy: descreve uma ou mais configurações de rede física (hardware) nas quais o software é implantado e executado. É uma visão do modelo de implantação. No mínimo para cada configuração deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto a ponto, e assim por diante) [[4]](#ref).
 - Visão de Implementação: descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação e quaisquer componentes arquitetonicamente significativos [[4]](#ref).
 - Visão de dados: descrição da perspectiva de armazenamento de dados persistentes do sistema [[4]](#ref).
@@ -256,6 +257,28 @@ Para o nosso projeto, criamos 3 diagramas para o usuário usuario, admin e clien
 ### 5.2  Pacotes de projeto com significado arquitetônico
 
 ## 6. Visão do Processo
+
+A visão do processo decompõe o sistema em processos leves, apresenta os principais modos de comunicação, como passagem de mensagens, interrupções e encontros [[4]](#ref). Sabendo disso, utilizamos do diagrama de sequência para ilustrar os principais fluxos de comunicações do sistema. Isso porque é uma UML que explica dinamicamente o ciclo de vida do sistema em desenvolvimento. A seguir, temos os diagramas de painel de produtos e login. 
+### 6.1 Diagrama de sequência 
+#### Realizar Login/Logout V1
+
+O diagrama de sequência do Login/Logout de clientes apresenta a seguência que o ator usuário faz para realizar login e logout na plataforma.
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" class="img-fluid" />
+</a>
+
+##### Feito por: Kess Jhones
+
+#### Feed de Produtos V1
+
+O diagrama de sequência do feed de produtos apresenta a sequência que o ator usuário faz para listar todos os produtos, o usuário tem a opção de filtrar ou ordenar os produtos. 
+
+<a href="{{ site.baseurl }}/assets/images/sequencia/feed.png" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/sequencia/feed.png" class="img-fluid" />
+</a>
+
+##### Feito por: Giovanna B, Matheus Gabriel, Igor Q. Lima, Samuel Nogueira, Pedro e Eduardo Picolo
 
 ## 7. Visão de implantação
 
