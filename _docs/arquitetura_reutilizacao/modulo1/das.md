@@ -25,7 +25,8 @@ Documento de Arquitetura
 | 0.2.3  | 30/09/2021 | Adiciona acrônimos                   | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
 | 0.2.4  | 30/09/2021 | Adiciona visão geral                 | Roberto Martins da Nóbrega e Giovanna B Bottino                                  |
 | 0.2.5  | 30/09/2021 | Adiciona Tecnologias                 | Samuel Nogueira, Matheus Gabriel, Pedro Henrique e Giovanna B Bottino            |
-| 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural  | Pedro Henrique e Giovanna B Bottino            |
+| 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural  | Pedro Henrique e Giovanna B Bottino                                              |
+| 0.3    | 30/09/2021 | Adiciona Metas e Restrições          | Samuel Nogueira e Giovanna B Bottino                                             |
 
 ## 1. Introdução
 
@@ -114,6 +115,24 @@ MySQL: um Sistema de Gerenciamento de Banco de Dados baseado na linguagem SQL [[
 Docker: O Docker ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possivel isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref).
 
 ## 3. Metas Arquiteturais e Restrições
+
+### 3.1 - Restrições
+
+| Restrição     | Descrição                                                                  |
+| ------------- | -------------------------------------------------------------------------- |
+| Idioma        | A interface deve ser voltada para a linguagem Português-Brasil.            | 
+| Conectividade | Para utilizar o software é necessário ter internet                         | 
+| Prazo         | Deve ser concluído até o final da disciplina.                              | 
+| Tecnologias   | Deve ser utilizado usando de NextJS, MySQL e Docker                        | 
+
+### 3.2 - Metas
+
+| Meta             | Descrição                                                                  |
+| ---------------- | -------------------------------------------------------------------------- |
+| Portabilidade    | Deve ser possível utilizar a plataforma em qualquer navegador web          | 
+| Usabilidade      | O software deve possuir alta aprendibilidade e inteligibilidade            | 
+| Manutenibilidade | Deve permitir manutenção e melhorias sem grande custo                      | 
+| Escalabilidade   | Deve ser possível a evolução e manutenção do software                      |
 
 ## 4. Visão de Casos de Uso
 
