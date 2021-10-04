@@ -22,7 +22,7 @@ Documento de Arquitetura
 | 0.2    | 29/09/2021 | Adiciona introdução                     | Giovanna B Bottino                                                             |
 | 0.2.1  | 29/09/2021 | Adiciona finalidade                     | Roberto Martins da Nóbrega e Giovanna B Bottino                                |
 | 0.2.2  | 30/09/2021 | Adiciona escopo                         | Roberto Martins da Nóbrega e Giovanna B Bottino                                |
-| 0.2.3  | 30/09/2021 | Adiciona acrônimos                      | Roberto Martins da Nóbrega e Giovanna B Bottino                               | 
+| 0.2.3  | 30/09/2021 | Adiciona acrônimos                      | Roberto Martins da Nóbrega e Giovanna B Bottino                                |
 | 0.2.4  | 30/09/2021 | Adiciona visão geral                    | Roberto Martins da Nóbrega e Giovanna B Bottino                                |
 | 0.2.5  | 30/09/2021 | Adiciona Tecnologias                    | Samuel Nogueira, Matheus Gabriel, Pedro Henrique e Giovanna B Bottino          |
 | 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural     | Pedro Henrique e Giovanna B Bottino                                            |
@@ -34,12 +34,13 @@ Documento de Arquitetura
 | 0.5.1  | 03/10/2021 | Adiciona Visão geral da Visão lógica    | Matheus e Giovanna                                                             |
 | 0.5.2  | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 | 0.6    | 03/10/2021 | Adiciona Diagrama de Componentes        | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
+| 0.6.1  | 03/10/2021 | Correções ortográficas                  | Igor Q Lima, Kess Jhones e Pedro Henrique                                      |
 
 ## 1. Introdução
 
 O documento de Arquitetura de Software fornece uma visão geral de todo a arquitetura do sistema de software. Deve ser usado para a documentação e comunicação entre os participantes do projeto sobre questões arquiteturais [[5]](#ref). 
 
-Esse documento tem como objetivo fornecer a arquitetura do projeto Mychine. Mychine é uma aplicação web que visa ser uma plataforma de que facilite o aluguel de equipamentos para construção civil. A seguir pode encontrar uma visão arquitetural de caso de uso, lógica e outras. Assim poderemos representar sobre diferentes perpectivas e comunicar as decisões arquiteturais que foram tomadas.
+Esse documento tem como objetivo fornecer a arquitetura do projeto Mychine. Mychine é uma aplicação web que visa ser uma plataforma de que facilite o aluguel de equipamentos para construção civil. A seguir pode encontrar uma visão arquitetural de caso de uso, lógica e outras. Assim poderemos representar sobre diferentes perspectivas e comunicar as decisões arquiteturais que foram tomadas.
 
 ### 1.1 Finalidade
 
@@ -49,9 +50,9 @@ Está estruturado de forma que iniciamos com uma introdução geral, em seguida 
 
 ### 1.2 Escopo
 
-Mychine é uma aplicação que visa facilitar o gerenciamento de uma empresa de aluguel de equipamentos para construção civil. Nessa aplicação é possivel fazer cadastro e agendar o aluguel de equipamentos.
+Mychine é uma aplicação que visa facilitar o gerenciamento de uma empresa de aluguel de equipamentos para construção civil. Nessa aplicação é possível fazer cadastro e agendar o aluguel de equipamentos.
 
-A aplicação permite que o cliente consulte as categorias de equipamentos, seus respectivos preços, os dias disponiveis e agende um aluguel.
+A aplicação permite que o cliente consulte as categorias de equipamentos, seus respectivos preços, os dias disponíveis e agende um aluguel.
 
 Esse documento de arquitetura descreve como a aplicação funciona, quais são os requisitos para o funcionamento correto, quais são as restrições do sistema, as tecnologias utilizadas e etc. Serve de guia ao abordar os principais pontos desenvolvidos na arquitetura do projeto [[4]](#ref). 
 
@@ -103,7 +104,7 @@ O documento de arquitetura está organizado em tópicos da seguinte maneira:
 
 A representação arquitetural serve para descrever qual arquitetura de software é para o sistema atual e como ela é representada.  Com isso podemos ter uma sobre todo processo que envolve todas essas camadas de software [[4]](#ref).
 
-O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra que o usuário irá interagir com a arquitetura monolitica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
+O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra que o usuário irá interagir com a arquitetura monolítica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
 
 <a href="{{ site.baseurl }}/assets/images/representacao-arquitetural.svg" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.svg"/>
@@ -125,7 +126,7 @@ MySQL: um Sistema de Gerenciamento de Banco de Dados baseado na linguagem SQL [[
 
 #### Virtualização
 
-Docker: ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possivel isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref).
+Docker: ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possível isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref).
 
 ## 3. Metas Arquiteturais e Restrições
 
@@ -199,7 +200,7 @@ Para o nosso projeto, criamos 3 diagramas para o usuário usuario, admin e clien
 
 #### Casos de Uso
 
-- **UC01 - Realizar Cadastro** ação realizada pelo usuário para ter possibildide de acesso a funcionalidades do sistema.
+- **UC01 - Realizar Cadastro** ação realizada pelo usuário para ter possibilidade de acesso a funcionalidades do sistema.
 
   - Atores: Usuário 
   - Requisitos: RF1
@@ -214,7 +215,7 @@ Para o nosso projeto, criamos 3 diagramas para o usuário usuario, admin e clien
   - Atores: Usuário
   - Requisitos: RF3
 
-- **UC04 - Gerenciar perfil** ação realizada pelo usuário para gerenciar o proprio perfil no sistema.
+- **UC04 - Gerenciar perfil** ação realizada pelo usuário para gerenciar o próprio perfil no sistema.
 
   - Atores: Usuário
   - Requisitos: RF3
@@ -294,7 +295,7 @@ A visão do processo decompõe o sistema em processos leves, apresenta os princi
 
 #### Realizar Login/Logout V1
 
-O diagrama de sequência do Login/Logout de clientes apresenta a seguência que o ator usuário faz para realizar login e logout na plataforma.
+O diagrama de sequência do Login/Logout de clientes apresenta a sequência que o ator usuário faz para realizar login e logout na plataforma.
 
 <a href="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/sequencia/login_logout.png" class="img-fluid" />
@@ -314,7 +315,7 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 
 ## 7. Visão de implantação
 
-A visão de implantaçao descreve as configurações de rede física nas quais o o projeto é implantado e executado [[4]](#ref).
+A visão de implantação descreve as configurações de rede física nas quais o o projeto é implantado e executado [[4]](#ref).
 
 Em nosso projeto escolhemos a ferramenta FERRAMENTA, um serviço que DESCRICAO. 
 
