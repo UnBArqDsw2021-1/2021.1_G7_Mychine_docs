@@ -33,7 +33,7 @@ Documento de Arquitetura
 | 0.5    | 03/10/2021 | Adiciona Introdução Visão lógica        | Matheus e Giovanna                                                             |
 | 0.5.1  | 03/10/2021 | Adiciona Visão geral da Visão lógica    | Matheus e Giovanna                                                             |
 | 0.5.2  | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
-| 0.6    | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
+| 0.6    | 03/10/2021 | Adiciona Diagrama de Componentes        | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 
 ## 1. Introdução
 
@@ -316,9 +316,19 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 
 ## 8. Visão de implementação
 
-## 8.1 Visão geral
+A visão de implementação apresenta a estrutura decomposta em componentes arquitetonicamente significativos. Descreve a estrutura geral de implementação o software em camadas e subsistemas no modelo de implementação [[4]](#ref).  
 
-## 8.2 Camadas
+Usaremos o Diagrama de Componentes para representar a em componentes arquitetonicamente significativos. Apresentamos a estrutura de implementação como organização dos arquivos, dependências e pacotes em diferentes camadas e subcamadas. Uma melhor explicação do diagrama pode ser encontrado na sessão de Diagrama de Componentes do projeto.
+
+A versão 1 é a mais recente.
+
+#### Diagrama de componentes V1
+
+<a href="{{ site.baseurl }}/assets/images/diagrama-de-componentes.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagrama-de-componentes.svg" class="img-fluid" />
+</a>
+
+##### Feito por: Samuel Nogueira, João Gabriel.
 
 ## 9. Visão de dados
 
