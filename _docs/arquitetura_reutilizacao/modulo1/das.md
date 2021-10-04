@@ -314,6 +314,10 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 
 ## 7. Visão de implantação
 
+A visão de implantaçao descreve as configurações de rede física nas quais o o projeto é implantado e executado [[4]](#ref).
+
+Em nosso projeto escolhemos a ferramenta FERRAMENTA, um serviço que DESCRICAO. 
+
 ## 8. Visão de implementação
 
 A visão de implementação apresenta a estrutura decomposta em componentes arquitetonicamente significativos. Descreve a estrutura geral de implementação o software em camadas e subsistemas no modelo de implementação [[4]](#ref).  
@@ -370,4 +374,8 @@ A visão de dados descreve como o sistema persiste informações. Usaremos o ME-
 
 ## 10. Tamanho e desempenho
 
+Em Tamanho e desempenho iremos apresentar as principais características de dimensionamento do software, bem como as restrições de desempenho de destino [[4]](#ref).
+
 ## 11. Qualidade
+
+Para finalizar iremos avaliar a qualidade, verificar a extensibilidade, a confiabilidade, a portabilidade [[4]](#ref). 
