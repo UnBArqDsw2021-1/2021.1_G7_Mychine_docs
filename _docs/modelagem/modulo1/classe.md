@@ -58,6 +58,16 @@ Com os feedbacks da segunda entrega e necessidade do artefatos de padrões de pr
 
 ##### Feito por Igor Q, Matheus G, Giovanna B
 
+## Diagrama de Classe V3
+
+Com o desenvolvimento do projeto foi necessario retornar com a classe categoria e retirar o ENUM.
+
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV3.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV3.svg">
+</a>
+
+##### Feito por Pedro Henrique, Giovanna B
+
 ## Referência
 
 [1] The Unified Modeling Language. Disponível em: <https://www.uml-diagrams.org/class-diagrams-overview.html>. Acesso em: 19 de agosto de 2021.

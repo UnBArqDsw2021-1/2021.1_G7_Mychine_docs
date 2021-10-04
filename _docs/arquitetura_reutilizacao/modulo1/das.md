@@ -59,9 +59,8 @@ Esse documento de arquitetura descreve como a aplicação funciona, quais são o
 | Sigla  | Descrição                                                                  |
 | ------ | -------------------------------------------------------------------------- |
 | DAS    | Documento de Arquitetura de Software                                       |
-| MVC    | Model-View-Controller(Modelo-Visão-Controle)                               |
 | UML    | Unified Modeling Language(Linguagem de modelagem unificada)                |
-| REST   | Representational State Transfer(Transferência Representacional de Estado)  |
+| ME-R   | Modelo Entidade-Relacionamento                                             |
 
 ### 1.4  Referências Bibliográficas
 
@@ -261,15 +260,15 @@ Dentro das visões de arquitetura temos a visão lógica. Essa visão descreve a
 
 Usaremos o Diagrama de Classes para representar a decomposição em classes. Apresentamos os principais objetos e interações. Uma melhor explicação do diagrama pode ser encontrado na sessão de Diagrama de Classes do projeto.
 
-A versão 2 é a mais recente.
+A versão 3 é a mais recente.
 
-#### Diagrama de Classe V2
+#### Diagrama de Classe V3
 
-<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
-    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV3.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV3.svg">
 </a>
 
-##### Feito por Igor Q, Matheus G, Giovanna B
+##### Feito por  Pedro Henrique, Giovanna B
 
 ### 5.2  Pacotes de projeto com significado arquitetônico
 
