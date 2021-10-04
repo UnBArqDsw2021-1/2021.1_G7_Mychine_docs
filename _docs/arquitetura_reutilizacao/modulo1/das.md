@@ -31,6 +31,7 @@ Documento de Arquitetura
 | 0.4.1  | 01/10/2021 | Adiciona Especificação dos Casos de Uso | Igor Lima e Giovanna B tino                                                    |
 | 0.4.2  | 01/10/2021 | Adiciona Visão do Processo              | Giovanna B, Matheus, Igor Lima, Samuel, Pedro, Eduardo Picolo e Kess Jhones    |
 | 0.5    | 03/10/2021 | Adiciona Introdução Visão lógica        | Matheus e Giovanna                                                             |
+| 0.5.1  | 03/10/2021 | Adiciona Visão geral da Visão lógica    | Matheus e Giovanna                                                             |
 
 ## 1. Introdução
 
@@ -253,9 +254,21 @@ Para o nosso projeto, criamos 3 diagramas para o usuário usuario, admin e clien
 
 ## 5. Visão Lógica
 
-Dentro das visões de arquitetura temos a visão lógica. Essa visão descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como por exemplo sua decomposição em classes e em subsistemas e pacotes. Assim fornece um resumo de como o sistema é estruturado [[4]](#ref).
+Dentro das visões de arquitetura temos a visão lógica. Essa visão descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como por exemplo sua decomposição em classes, em subsistemas e em pacotes. Assim fornece um resumo de como o sistema é estruturado [[4]](#ref).
 
 ### 5.1 Visão geral
+
+Usaremos o Diagrama de Classes para representar a decomposição em classes. Apresentamos os principais objetos e interações. Uma melhor explicação do diagrama pode ser encontrado na sessão de Diagrama de Classes do projeto.
+
+A versão 2 é a mais recente.
+
+#### Diagrama de Classe V2
+
+<a href="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaClasses/diagramaDeClasseV2.svg">
+</a>
+
+##### Feito por Igor Q, Matheus G, Giovanna B
 
 ### 5.2  Pacotes de projeto com significado arquitetônico
 
