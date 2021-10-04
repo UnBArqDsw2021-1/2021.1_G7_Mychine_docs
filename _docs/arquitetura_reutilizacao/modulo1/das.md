@@ -32,6 +32,7 @@ Documento de Arquitetura
 | 0.4.2  | 01/10/2021 | Adiciona Visão do Processo              | Giovanna B, Matheus, Igor Lima, Samuel, Pedro, Eduardo Picolo e Kess Jhones    |
 | 0.5    | 03/10/2021 | Adiciona Introdução Visão lógica        | Matheus e Giovanna                                                             |
 | 0.5.1  | 03/10/2021 | Adiciona Visão geral da Visão lógica    | Matheus e Giovanna                                                             |
+| 0.5.2  | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 
 ## 1. Introdução
 
@@ -271,6 +272,18 @@ A versão 2 é a mais recente.
 ##### Feito por Igor Q, Matheus G, Giovanna B
 
 ### 5.2  Pacotes de projeto com significado arquitetônico
+
+Usaremos o Diagrama de Pacotes para representar a decomposição em pacotes. Apresentamos as principais as interações lógicas entre os módulos do sistema, de maneira simplificada como a aplicação se comunica. Uma melhor explicação do diagrama pode ser encontrado na sessão de Diagrama de Pacotes do projeto.
+
+A versão 1 é a mais recente.
+
+#### Diagrama de Pacotes V1
+
+<a href="{{ site.baseurl }}/assets/images/diagramaDePacotes.svg" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/diagramaDePacotes.svg">
+</a>
+
+##### Feito por: João Gabriel de Matos, Samuel Nogueira.
 
 ## 6. Visão do Processo
 
