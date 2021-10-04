@@ -33,6 +33,7 @@ Documento de Arquitetura
 | 0.5    | 03/10/2021 | Adiciona Introdução Visão lógica        | Matheus e Giovanna                                                             |
 | 0.5.1  | 03/10/2021 | Adiciona Visão geral da Visão lógica    | Matheus e Giovanna                                                             |
 | 0.5.2  | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
+| 0.6    | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 
 ## 1. Introdução
 
@@ -287,7 +288,9 @@ A versão 1 é a mais recente.
 ## 6. Visão do Processo
 
 A visão do processo decompõe o sistema em processos leves, apresenta os principais modos de comunicação, como passagem de mensagens, interrupções e encontros [[4]](#ref). Sabendo disso, utilizamos do diagrama de sequência para ilustrar os principais fluxos de comunicações do sistema. Isso porque é uma UML que explica dinamicamente o ciclo de vida do sistema em desenvolvimento. A seguir, temos os diagramas de painel de produtos e login. 
+
 ### 6.1 Diagrama de sequência 
+
 #### Realizar Login/Logout V1
 
 O diagrama de sequência do Login/Logout de clientes apresenta a seguência que o ator usuário faz para realizar login e logout na plataforma.
@@ -317,6 +320,43 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 ## 8.2 Camadas
 
 ## 9. Visão de dados
+
+A visão de dados descreve como o sistema persiste informações. Usaremos o ME-R e o DE-R para representar nossas entidades, atributos e relacionamentos de dados [[4]](#ref). 
+
+### 9.1 ME-R
+
+#### Entidades
+
+- USER
+- CATEGORY
+- PRODUCT
+
+#### Atributos
+
+- USER (<u>userId</u>, email, password, name, phone, cpf, isAdm, createdAt, updatedAt, {address(cep, city, state, street, number, complement)})
+
+- CATEGORY (<u>categoryId</u>, name, description)
+
+- PRODUCT (<u>productId</u>, name, description, lastMaintenance, price, status, image, createdAt, updatedAt)
+
+#### Relacionamentos
+
+- USER - rent - PRODUCT
+  - Um USER pode alugar um ou vários PRODUCT mas cada PRODUCT pode ser alugado por um e apenas um USER por vez.
+  - Cardinalidade: 1:N
+
+- PRODUCT - has - CATEGORY
+  - Um PRODUCT possui uma e apenas uma CATEGORY mas CATEGORY pode pertencer a nenhum, um ou vários PRODUCT.
+  - Cardinalidade: N:1
+
+### 9.2 DE-R
+O diagrama entidade-relacionamento possui 7 (sete) entidades, 5 (cinco) relacionamentos, 1 (uma) generalização e 2 (duas) especializações. Vide abaixo na figura 10.
+
+<a href="{{ site.baseurl }}/assets/images/DER.svg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/DER.svg" width="500px">
+</a>
+
+##### Feito por: Pedro Henrique, Roberto Nóbrega e Igor Lima
 
 ## 10. Tamanho e desempenho
 
