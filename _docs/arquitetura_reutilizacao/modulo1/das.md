@@ -62,6 +62,7 @@ Esse documento de arquitetura descreve como a aplicação funciona, quais são o
 | DAS    | Documento de Arquitetura de Software                                       |
 | UML    | Unified Modeling Language(Linguagem de modelagem unificada)                |
 | ME-R   | Modelo Entidade-Relacionamento                                             |
+| DE-R   | Diagrama Entidade Relacionamento                                           |
 
 ### 1.4  Referências Bibliográficas
 
@@ -350,7 +351,6 @@ A visão de dados descreve como o sistema persiste informações. Usaremos o ME-
   - Cardinalidade: N:1
 
 ### 9.2 DE-R
-O diagrama entidade-relacionamento possui 7 (sete) entidades, 5 (cinco) relacionamentos, 1 (uma) generalização e 2 (duas) especializações. Vide abaixo na figura 10.
 
 <a href="{{ site.baseurl }}/assets/images/DER.svg" data-toggle="lightbox">
   <img src="{{ site.baseurl }}/assets/images/DER.svg" width="500px">
