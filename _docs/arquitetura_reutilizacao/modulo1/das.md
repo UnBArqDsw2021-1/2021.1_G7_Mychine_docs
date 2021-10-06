@@ -35,6 +35,7 @@ Documento de Arquitetura
 | 0.5.2  | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 | 0.6    | 03/10/2021 | Adiciona Diagrama de Componentes        | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 | 0.6.1  | 03/10/2021 | Correções ortográficas                  | Igor Q Lima, Kess Jhones e Pedro Henrique                                      || 0.7    | 05/10/2021 | Adiciona Visão de implantação           | João Gabriel de Matos e Giovanna B Bottino                                     |
+| 0.8    | 05/10/2021 | Adiciona Tamanho e desempenho           | João Gabriel de Matos e Giovanna B Bottino                                     |
 
 ## 1. Introdução
 
@@ -380,7 +381,20 @@ A visão de dados descreve como o sistema persiste informações. Usaremos o ME-
 
 ## 10. Tamanho e desempenho
 
-Em Tamanho e desempenho iremos apresentar as principais características de dimensionamento do software, bem como as restrições de desempenho de destino [[4]](#ref4).
+Em Tamanho e desempenho iremos apresentar as principais características de dimensionamento do software, bem como as restrições de desempenho de destino [[4]](#ref4). Em nosso caso, estamos usando AWS RDS na versão gratuita que possui as seguintes configurações [[6]](#ref6). 
+
+- db.t2.micro
+- 1 vCPUs
+- 1 GiB RAM
+- 20 GiB
+
+Caso a aplicação exija mais é possivel a aumento para a versão paga. 
+
+O sistema foi desenvolvido com foco na otimização de resposta às requisições, por isso é esperado que o desempenho atenda às expectativas e à testes de Stress.
+
+### 10.1 Requisitos Mínimos
+- Possuir conexão com a internet;
+- Navegador Web com suporte a HTML 5, CSS e JavaScript;
 
 ## 11. Qualidade
 
