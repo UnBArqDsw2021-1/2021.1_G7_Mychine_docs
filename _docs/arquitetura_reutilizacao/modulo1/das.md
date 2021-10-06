@@ -28,17 +28,17 @@ Documento de Arquitetura
 | 0.2.6  | 30/09/2021 | Adiciona Representação Arquitetural     | Pedro Henrique e Giovanna B Bottino                                            |
 | 0.3    | 30/09/2021 | Adiciona Metas e Restrições             | Samuel Nogueira e Giovanna Bottino                                             |
 | 0.4    | 01/10/2021 | Adiciona Visão de Casos de Uso          | Igor Lima e Giovanna B Bottino                                                 |
-| 0.4.1  | 01/10/2021 | Adiciona Especificação dos Casos de Uso | Igor Lima e Giovanna B tino                                                    |
+| 0.4.1  | 01/10/2021 | Adiciona Especificação dos Casos de Uso | Igor Lima e Giovanna B Bottino                                                 |
 | 0.4.2  | 01/10/2021 | Adiciona Visão do Processo              | Giovanna B, Matheus, Igor Lima, Samuel, Pedro, Eduardo Picolo e Kess Jhones    |
 | 0.5    | 03/10/2021 | Adiciona Introdução Visão lógica        | Matheus e Giovanna                                                             |
 | 0.5.1  | 03/10/2021 | Adiciona Visão geral da Visão lógica    | Matheus e Giovanna                                                             |
 | 0.5.2  | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 | 0.6    | 03/10/2021 | Adiciona Diagrama de Componentes        | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
-| 0.6.1  | 03/10/2021 | Correções ortográficas                  | Igor Q Lima, Kess Jhones e Pedro Henrique                                      |
+| 0.6.1  | 03/10/2021 | Correções ortográficas                  | Igor Q Lima, Kess Jhones e Pedro Henrique                                      || 0.7    | 05/10/2021 | Adiciona Visão de implantação           | João Gabriel de Matos e Giovanna B Bottino                                     |
 
 ## 1. Introdução
 
-O documento de Arquitetura de Software fornece uma visão geral de todo a arquitetura do sistema de software. Deve ser usado para a documentação e comunicação entre os participantes do projeto sobre questões arquiteturais [[5]](#ref). 
+O documento de Arquitetura de Software fornece uma visão geral de todo a arquitetura do sistema de software. Deve ser usado para a documentação e comunicação entre os participantes do projeto sobre questões arquiteturais [[5]](#ref5). 
 
 Esse documento tem como objetivo fornecer a arquitetura do projeto Mychine. Mychine é uma aplicação web que visa ser uma plataforma de que facilite o aluguel de equipamentos para construção civil. A seguir pode encontrar uma visão arquitetural de caso de uso, lógica e outras. Assim poderemos representar sobre diferentes perspectivas e comunicar as decisões arquiteturais que foram tomadas.
 
@@ -46,7 +46,7 @@ Esse documento tem como objetivo fornecer a arquitetura do projeto Mychine. Mych
 
 Este documento tem como finalidade especificar e documentar as decisões arquiteturais do software Mychine, usando diferentes visões arquiteturais para detalhar diferentes aspectos do sistema.
 
-Está estruturado de forma que iniciamos com uma introdução geral, em seguida explicamos a representação arquitetural, as metas e restrições de arquitetura, os requisitos de software e outros objetivos importantes. Explicamos cada visão utilizada nesse projeto para avançar com a descrição do tamanho e do desempenho. Finalizamos com as características de qualidade do projeto [[5]](#ref).
+Está estruturado de forma que iniciamos com uma introdução geral, em seguida explicamos a representação arquitetural, as metas e restrições de arquitetura, os requisitos de software e outros objetivos importantes. Explicamos cada visão utilizada nesse projeto para avançar com a descrição do tamanho e do desempenho. Finalizamos com as características de qualidade do projeto [[5]](#ref5).
 
 ### 1.2 Escopo
 
@@ -54,7 +54,7 @@ Mychine é uma aplicação que visa facilitar o gerenciamento de uma empresa de 
 
 A aplicação permite que o cliente consulte as categorias de equipamentos, seus respectivos preços, os dias disponíveis e agende um aluguel.
 
-Esse documento de arquitetura descreve como a aplicação funciona, quais são os requisitos para o funcionamento correto, quais são as restrições do sistema, as tecnologias utilizadas e etc. Serve de guia ao abordar os principais pontos desenvolvidos na arquitetura do projeto [[4]](#ref). 
+Esse documento de arquitetura descreve como a aplicação funciona, quais são os requisitos para o funcionamento correto, quais são as restrições do sistema, as tecnologias utilizadas e etc. Serve de guia ao abordar os principais pontos desenvolvidos na arquitetura do projeto [[4]](#ref4). 
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
@@ -64,23 +64,28 @@ Esse documento de arquitetura descreve como a aplicação funciona, quais são o
 | UML    | Unified Modeling Language(Linguagem de modelagem unificada)                |
 | ME-R   | Modelo Entidade-Relacionamento                                             |
 | DE-R   | Diagrama Entidade Relacionamento                                           |
+| AWS    | Amazon Web Services                                                        |
+| RDS    | Amazon Relational Database Service                                         |
 
 ### 1.4  Referências Bibliográficas
 
 [1] DOCKER, About Docker. Disponível em: [https://www.docker.com/company](https://www.docker.com/company)
-{: #ref3}
-
-[2] MYSQL, About MySQL. Disponível em: [https://www.mysql.com/](https://www.mysql.com/)
-{: #ref4}
-
-[3] NEXT, The React Framework for Production. Disponível em: [https://nextjs.org/](https://nextjs.org/)
-{: #ref4}
-
-[4] SERRANO, Milene. DAS, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 29 de setembro de 2021.
 {: #ref1}
 
-[5] SERRANO, Milene. Template - DAS, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 29 de setembro de 2021.
+[2] MYSQL, About MySQL. Disponível em: [https://www.mysql.com/](https://www.mysql.com/)
 {: #ref2}
+
+[3] NEXT, The React Framework for Production. Disponível em: [https://nextjs.org/](https://nextjs.org/)
+{: #ref3}
+
+[4] SERRANO, Milene. DAS, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 29 de setembro de 2021.
+{: #ref4}
+
+[5] SERRANO, Milene. Template - DAS, 2021. Material apresentado na Disciplina de Arquitetura e Desenho de Software do curso de engenharia de software da UnB, FGA. Acesso em: 29 de setembro de 2021.
+{: #ref5}
+
+[6] AWS, About AWS RDS. Disponível em: [https://aws.amazon.com/pt/rds/](https://aws.amazon.com/pt/rds/)
+{: #ref6}
 
 ### 1.5 Visão Geral
 
@@ -88,21 +93,21 @@ O projeto trata de uma aplicação web que tem como objetivo ser uma plataforma 
 
 O documento de arquitetura está organizado em tópicos da seguinte maneira:
 
-- Introdução: fornece uma visão geral de todo o Documento de Arquitetura de Software. Inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software  [[4]](#ref).
-- Representação Arquitetural: descreve qual arquitetura de software é para o sistema atual e como ela é representada. Das Visualizações de Caso de Uso, Lógica, de Processo, de Implantação e de Implementação, enumera as visualizações que são necessárias e, para cada visualização, explica quais tipos de elementos de modelo ela contém [[4]](#ref).
-- Metas Arquiteturais e Restrições: descreve os requisitos e objetivos de software que têm algum impacto significativo na arquitetura; por exemplo, proteção, segurança, privacidade, uso de um produto de prateleira, portabilidade, distribuição e reutilização. Ele também captura as restrições especiais que podem ser aplicadas: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura de equipe, cronograma, código legado e assim por diante [[4]](#ref).
-- Visão de Caso de Uso: lista casos de uso ou cenários do modelo de caso de uso se eles representam alguma funcionalidade central significativa do sistema final, ou se eles têm uma grande cobertura arquitetônica - eles exercem muitos elementos arquitetônicos ou se enfatizam ou ilustram um específico, ponto delicado da arquitetura [[4]](#ref).
-- Visão Lógica: descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua decomposição em subsistemas e pacotes. E para cada pacote significativo, sua decomposição em classes e utilitários de classe. Apresenta classes significativas do ponto de vista da arquitetura e descreve suas responsabilidades, bem como alguns relacionamentos, operações e atributos muito importantes [[4]](#ref).
-- Visão de Processos: descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados ​​(agrupamentos de processos leves). Os principais modos de comunicação entre os processos, como passagem de mensagens, interrupções e encontros [[4]](#ref).
-- Visão de Deploy: descreve uma ou mais configurações de rede física (hardware) nas quais o software é implantado e executado. É uma visão do modelo de implantação. No mínimo para cada configuração deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto a ponto, e assim por diante) [[4]](#ref).
-- Visão de Implementação: descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação e quaisquer componentes arquitetonicamente significativos [[4]](#ref).
-- Visão de dados: descrição da perspectiva de armazenamento de dados persistentes do sistema [[4]](#ref).
-- Tamanho e Desempenho: descrição das principais características de dimensionamento do software que afetam a arquitetura, bem como as restrições de desempenho de destino [[4]](#ref).
-- Qualidade: descrição de como a arquitetura do software contribui para todos os recursos (exceto funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características tiverem um significado especial, como implicações de segurança, proteção ou privacidade, elas devem ser claramente delineadas] [[4]](#ref).
+- Introdução: fornece uma visão geral de todo o Documento de Arquitetura de Software. Inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e a visão geral do Documento de Arquitetura de Software  [[4]](#ref4).
+- Representação Arquitetural: descreve qual arquitetura de software é para o sistema atual e como ela é representada. Das Visualizações de Caso de Uso, Lógica, de Processo, de Implantação e de Implementação, enumera as visualizações que são necessárias e, para cada visualização, explica quais tipos de elementos de modelo ela contém [[4]](#ref4).
+- Metas Arquiteturais e Restrições: descreve os requisitos e objetivos de software que têm algum impacto significativo na arquitetura; por exemplo, proteção, segurança, privacidade, uso de um produto de prateleira, portabilidade, distribuição e reutilização. Ele também captura as restrições especiais que podem ser aplicadas: estratégia de design e implementação, ferramentas de desenvolvimento, estrutura de equipe, cronograma, código legado e assim por diante [[4]](#ref4).
+- Visão de Caso de Uso: lista casos de uso ou cenários do modelo de caso de uso se eles representam alguma funcionalidade central significativa do sistema final, ou se eles têm uma grande cobertura arquitetônica - eles exercem muitos elementos arquitetônicos ou se enfatizam ou ilustram um específico, ponto delicado da arquitetura [[4]](#ref4).
+- Visão Lógica: descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como sua decomposição em subsistemas e pacotes. E para cada pacote significativo, sua decomposição em classes e utilitários de classe. Apresenta classes significativas do ponto de vista da arquitetura e descreve suas responsabilidades, bem como alguns relacionamentos, operações e atributos muito importantes [[4]](#ref4).
+- Visão de Processos: descreve a decomposição do sistema em processos leves (threads simples de controle) e processos pesados ​​(agrupamentos de processos leves). Os principais modos de comunicação entre os processos, como passagem de mensagens, interrupções e encontros [[4]](#ref4).
+- Visão de Deploy: descreve uma ou mais configurações de rede física (hardware) nas quais o software é implantado e executado. É uma visão do modelo de implantação. No mínimo para cada configuração deve indicar os nós físicos (computadores, CPUs) que executam o software e suas interconexões (barramento, LAN, ponto a ponto, e assim por diante) [[4]](#ref4).
+- Visão de Implementação: descreve a estrutura geral do modelo de implementação, a decomposição do software em camadas e subsistemas no modelo de implementação e quaisquer componentes arquitetonicamente significativos [[4]](#ref4).
+- Visão de dados: descrição da perspectiva de armazenamento de dados persistentes do sistema [[4]](#ref4).
+- Tamanho e Desempenho: descrição das principais características de dimensionamento do software que afetam a arquitetura, bem como as restrições de desempenho de destino [[4]](#ref4).
+- Qualidade: descrição de como a arquitetura do software contribui para todos os recursos (exceto funcionalidade) do sistema: extensibilidade, confiabilidade, portabilidade e assim por diante. Se essas características tiverem um significado especial, como implicações de segurança, proteção ou privacidade, elas devem ser claramente delineadas] [[4]](#ref4).
 
 ## 2. Representação Arquitetural
 
-A representação arquitetural serve para descrever qual arquitetura de software é para o sistema atual e como ela é representada.  Com isso podemos ter uma sobre todo processo que envolve todas essas camadas de software [[4]](#ref).
+A representação arquitetural serve para descrever qual arquitetura de software é para o sistema atual e como ela é representada.  Com isso podemos ter uma sobre todo processo que envolve todas essas camadas de software [[4]](#ref4).
 
 O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra que o usuário irá interagir com a arquitetura monolítica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
 
@@ -118,19 +123,19 @@ Para o Front e Back utilizamos de NextJS, para o banco de dados MySQL e para vir
 
 #### Front e Back
 
-NextJS: oferece a melhor experiência de desenvolvedor com todos os recursos para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota sem precisar de nenhuma configuração necessária. Uma estrutura da web de desenvolvimento front-end React de código aberto [[3]](#ref).
+NextJS: oferece a melhor experiência de desenvolvedor com todos os recursos para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota sem precisar de nenhuma configuração necessária. Uma estrutura da web de desenvolvimento front-end React de código aberto [[3]](#ref3).
 
 #### Banco de Dados
 
-MySQL: um Sistema de Gerenciamento de Banco de Dados baseado na linguagem SQL [[2]](#ref).
+MySQL: um Sistema de Gerenciamento de Banco de Dados baseado na linguagem SQL [[2]](#ref2).
 
 #### Virtualização
 
-Docker: ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possível isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref).
+Docker: ajuda os desenvolvedores a dar vida a suas ideias, conquistando a complexidade do desenvolvimento de aplicativos. Usa de virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. É possível isolar os contêineres são uns dos outros que agrupam suas soluções [[1]](#ref1).
 
 ## 3. Metas Arquiteturais e Restrições
 
-As metas arquiteturais e restrições servem para descrever os requisitos e objetivos de software que têm algum impacto significativo na arquitetura e as restrições que são aplicadas [[4]](#ref). Temos as restrições de idioma, conectividade, prazo e tecnologia. Para as metas temos portabilidade, usabilidade, manutenibilidade e escalabilidade. 
+As metas arquiteturais e restrições servem para descrever os requisitos e objetivos de software que têm algum impacto significativo na arquitetura e as restrições que são aplicadas [[4]](#ref4). Temos as restrições de idioma, conectividade, prazo e tecnologia. Para as metas temos portabilidade, usabilidade, manutenibilidade e escalabilidade. 
 
 ### 3.1 - Restrições
 
@@ -257,7 +262,7 @@ Para o nosso projeto, criamos 3 diagramas para o usuário usuario, admin e clien
 
 ## 5. Visão Lógica
 
-Dentro das visões de arquitetura temos a visão lógica. Essa visão descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como por exemplo sua decomposição em classes, em subsistemas e em pacotes. Assim fornece um resumo de como o sistema é estruturado [[4]](#ref).
+Dentro das visões de arquitetura temos a visão lógica. Essa visão descreve as partes significativas do ponto de vista da arquitetura do modelo de design, como por exemplo sua decomposição em classes, em subsistemas e em pacotes. Assim fornece um resumo de como o sistema é estruturado [[4]](#ref4).
 
 ### 5.1 Visão geral
 
@@ -289,7 +294,7 @@ A versão 1 é a mais recente.
 
 ## 6. Visão do Processo
 
-A visão do processo decompõe o sistema em processos leves, apresenta os principais modos de comunicação, como passagem de mensagens, interrupções e encontros [[4]](#ref). Sabendo disso, utilizamos do diagrama de sequência para ilustrar os principais fluxos de comunicações do sistema. Isso porque é uma UML que explica dinamicamente o ciclo de vida do sistema em desenvolvimento. A seguir, temos os diagramas de painel de produtos e login. 
+A visão do processo decompõe o sistema em processos leves, apresenta os principais modos de comunicação, como passagem de mensagens, interrupções e encontros [[4]](#ref4). Sabendo disso, utilizamos do diagrama de sequência para ilustrar os principais fluxos de comunicações do sistema. Isso porque é uma UML que explica dinamicamente o ciclo de vida do sistema em desenvolvimento. A seguir, temos os diagramas de painel de produtos e login. 
 
 ### 6.1 Diagrama de sequência 
 
@@ -315,13 +320,13 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 
 ## 7. Visão de implantação
 
-A visão de implantação descreve as configurações de rede física nas quais o o projeto é implantado e executado [[4]](#ref).
+A visão de implantação descreve as configurações de rede física nas quais o o projeto é implantado e executado [[4]](#ref4).
 
-Em nosso projeto escolhemos a ferramenta FERRAMENTA, um serviço que DESCRICAO. 
+Em nosso projeto escolhemos a ferramenta Amazon Relational Database Service, um serviço que oferece um serviço gratuito que é redimensionável e automatiza tarefas como provisionamento de hardware, configuração de bancos de dados, aplicação de patches e backups. O Amazon RDS está disponível em vários tipos de instância de banco de dados – com otimização para memória, performance ou E/S – em nosso projeto iremos utilizar para o MySQL Server [[6]](#ref6).
 
 ## 8. Visão de implementação
 
-A visão de implementação apresenta a estrutura decomposta em componentes arquitetonicamente significativos. Descreve a estrutura geral de implementação o software em camadas e subsistemas no modelo de implementação [[4]](#ref).  
+A visão de implementação apresenta a estrutura decomposta em componentes arquitetonicamente significativos. Descreve a estrutura geral de implementação o software em camadas e subsistemas no modelo de implementação [[4]](#ref4).  
 
 Usaremos o Diagrama de Componentes para representar a em componentes arquitetonicamente significativos. Apresentamos a estrutura de implementação como organização dos arquivos, dependências e pacotes em diferentes camadas e subcamadas. Uma melhor explicação do diagrama pode ser encontrado na sessão de Diagrama de Componentes do projeto.
 
@@ -337,7 +342,7 @@ A versão 1 é a mais recente.
 
 ## 9. Visão de dados
 
-A visão de dados descreve como o sistema persiste informações. Usaremos o ME-R e o DE-R para representar nossas entidades, atributos e relacionamentos de dados [[4]](#ref). 
+A visão de dados descreve como o sistema persiste informações. Usaremos o ME-R e o DE-R para representar nossas entidades, atributos e relacionamentos de dados [[4]](#ref4). 
 
 ### 9.1 ME-R
 
@@ -375,8 +380,8 @@ A visão de dados descreve como o sistema persiste informações. Usaremos o ME-
 
 ## 10. Tamanho e desempenho
 
-Em Tamanho e desempenho iremos apresentar as principais características de dimensionamento do software, bem como as restrições de desempenho de destino [[4]](#ref).
+Em Tamanho e desempenho iremos apresentar as principais características de dimensionamento do software, bem como as restrições de desempenho de destino [[4]](#ref4).
 
 ## 11. Qualidade
 
-Para finalizar iremos avaliar a qualidade, verificar a extensibilidade, a confiabilidade, a portabilidade [[4]](#ref). 
+Para finalizar iremos avaliar a qualidade, verificar a extensibilidade, a confiabilidade, a portabilidade [[4]](#ref4). 
