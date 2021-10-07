@@ -20,6 +20,7 @@ Reutilização de Software
 |0.1    |03/10/2021| Abertura do documento Reutilização | Giovanna B Bottino                      |
 |0.2    |06/10/2021| Adiciona introdução                | Samuel Nogueira e    Giovanna B Bottino |
 |0.3    |06/10/2021| Adiciona Framework Front           | Samuel Nogueira e    Giovanna B Bottino |
+|0.3.1  |06/10/2021| Adiciona bibliotecas Front         | Samuel Nogueira e    Giovanna B Bottino |
 
 ## Reutilização de Sotware
 
@@ -39,6 +40,10 @@ Next.js é um framework para React, oferece a melhor experiência de desenvolved
 
 ### Bibliotecas
 
+#### Axios
+
+Axios é um cliente HTTP baseado em Promises para fazer requisições. Essa biblioteca intercepta requisições e respostas, cancela requisições, transforma os dados em JSON e possui uma configuração reutilizável. Foi usada para a comunicação com o backend [[4]](#ref4)..
+
 ## Back-End
 
 ## Docker
@@ -57,3 +62,6 @@ Next.js é um framework para React, oferece a melhor experiência de desenvolved
 
 [3] NEXT, The React Framework for Production. Disponível em: <https://nextjs.org/> . Acesso em: 06 de outubro de 2021.
 {: #ref3}
+
+[4] AXIOS, Getting Started. Disponível em: <https://axios-http.com/docs/intro> . Acesso em: 06 de outubro de 2021.
+{: #ref4}
