@@ -19,9 +19,10 @@ Reutilização de Software
 |-------|----------|------------------------------------|-----------------------------------------|
 |0.1    |03/10/2021| Abertura do documento Reutilização | Giovanna B Bottino                      |
 |0.2    |06/10/2021| Adiciona introdução                | Samuel Nogueira e    Giovanna B Bottino |
-|0.3    |06/10/2021| Adiciona Framework Front           | Samuel Nogueira e    Giovanna B Bottino |
-|0.3.1  |06/10/2021| Adiciona bibliotecas Front         | Samuel Nogueira e    Giovanna B Bottino |
-|0.3.2  |06/10/2021| Adiciona imagens exemplo Front     | Samuel Nogueira e    Giovanna B Bottino |
+|0.3    |06/10/2021| Adiciona Framework                 | Samuel Nogueira e    Giovanna B Bottino |
+|0.3.1  |06/10/2021| Adiciona bibliotecas               | Samuel Nogueira e    Giovanna B Bottino |
+|0.3.2  |06/10/2021| Adiciona imagens exemplo framework e bibliotecas | Samuel Nogueira e    Giovanna B Bottino |
+|0.4    |06/10/2021| Reorganiza documento               | Giovanna B Bottino |
 
 ## Reutilização de Sotware
 
@@ -29,12 +30,7 @@ A Reutilização de software é utilizada durante o desenvolvimento para reutili
 
 A seguir iremos apresentar como utilizados da reutilização.
 
-## Front-End
-
-### Framework
-
-#### React
-React é uma biblioteca front-end criada em JavaScript, gratuita e de código aberto. É usada para construir interfaces de usuário, pode ser usada como base no desenvolvimento de aplicativos de página única ou móveis [[2]](#ref2).
+## Framework
 
 #### Next.js
 Next.js é um framework para React, oferece a melhor experiência de desenvolvedor com todos os recursos para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota sem precisar de nenhuma configuração necessária. Uma estrutura da web de desenvolvimento front-end React de código aberto [[3]](#ref3).
@@ -45,25 +41,20 @@ Pode-se observar a utilização através do componente Button.
     <img src="{{ site.baseurl }}/assets/images/reutilizavies/button.png" class="img-fluid" />
 </a>
 
-### Bibliotecas
+## Bibliotecas
 
-#### Axios
+### React
+React é uma biblioteca front-end criada em JavaScript, gratuita e de código aberto. É usada para construir interfaces de usuário, pode ser usada como base no desenvolvimento de aplicativos de página única ou móveis [[2]](#ref2).
 
-Axios é um cliente HTTP baseado em Promises para fazer requisições. Essa biblioteca intercepta requisições e respostas, cancela requisições, transforma os dados em JSON e possui uma configuração reutilizável. Foi usada para a comunicação com o backend [[4]](#ref4).
+### Axios
+
+Axios é um cliente HTTP baseado em Promises para fazer requisições. Essa biblioteca intercepta requisições e respostas, cancela requisições, transforma os dados em JSON e possui uma configuração reutilizável. Foi usada para a comunicação [[4]](#ref4).
 
 Pode-se observar a utilização a seguir. 
 
 <a href="{{ site.baseurl }}/assets/images/reutilizavies/axios.png" data-toggle="lightbox">
     <img src="{{ site.baseurl }}/assets/images/reutilizavies/axios.png" class="img-fluid" />
 </a>
-
-## Back-End
-
-## Docker
-
-## Bibliotecas
-
-## Serviços
 
 ## Referências
 
