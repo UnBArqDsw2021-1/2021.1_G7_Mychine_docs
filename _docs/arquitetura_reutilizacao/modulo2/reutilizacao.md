@@ -23,6 +23,7 @@ Reutilização de Software
 |0.3.1  |06/10/2021| Adiciona bibliotecas               | Samuel Nogueira e    Giovanna B Bottino |
 |0.3.2  |06/10/2021| Adiciona imagens exemplo framework e bibliotecas | Samuel Nogueira e    Giovanna B Bottino |
 |0.4    |06/10/2021| Reorganiza documento               | Giovanna B Bottino |
+|0.5    |07/10/2021| Adiciona Object–relational mapping | Matheus Gabriel e Giovanna B Bottino |
 
 ## Reutilização de Sotware
 
@@ -56,6 +57,18 @@ Pode-se observar a utilização a seguir.
     <img src="{{ site.baseurl }}/assets/images/reutilizavies/axios.png" class="img-fluid" />
 </a>
 
+## Object–relational mapping
+
+### Prisma 
+
+O Prisma é um Object–relational mapping que ajuda desenvolvedores a construir com um kit de ferramentas de banco de dados de código aberto. Possui uma maneira declarativa de definir os modelos de dados do seu aplicativo e suas relações [[5]](#ref5).
+
+Pode-se observar a utilização a seguir. 
+
+<a href="{{ site.baseurl }}/assets/images/reutilizavies/prisma.png" data-toggle="lightbox">
+    <img src="{{ site.baseurl }}/assets/images/reutilizavies/prisma.png" class="img-fluid" />
+</a>
+
 ## Referências
 
 [1] Reutilização de Software - Revista Engenharia de Software Magazine 39. DEVMEDIA. Disponível em: <https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956>. Acesso em: 06 de outubro de 2021.
@@ -69,3 +82,6 @@ Pode-se observar a utilização a seguir.
 
 [4] AXIOS, Getting Started. Disponível em: <https://axios-http.com/docs/intro> . Acesso em: 06 de outubro de 2021.
 {: #ref4}
+
+[5] PRISMA, Next-generation Node.js and TypeScript ORM. Disponível em: <https://www.prisma.io/> . Acesso em: 07 de outubro de 2021.
+{: #ref5}
