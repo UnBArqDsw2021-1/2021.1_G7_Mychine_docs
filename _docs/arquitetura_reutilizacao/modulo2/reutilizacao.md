@@ -19,6 +19,7 @@ Reutilização de Software
 |-------|----------|------------------------------------|-----------------------------------------|
 |0.1    |03/10/2021| Abertura do documento Reutilização | Giovanna B Bottino                      |
 |0.2    |06/10/2021| Adiciona introdução                | Samuel Nogueira e    Giovanna B Bottino |
+|0.3    |06/10/2021| Adiciona Framework Front           | Samuel Nogueira e    Giovanna B Bottino |
 
 ## Reutilização de Sotware
 
@@ -27,6 +28,16 @@ A Reutilização de software é utilizada durante o desenvolvimento para reutili
 A seguir iremos apresentar como utilizados da reutilização.
 
 ## Front-End
+
+### Framework
+
+#### React
+React é uma biblioteca front-end criada em JavaScript, gratuita e de código aberto. É usada para construir interfaces de usuário, pode ser usada como base no desenvolvimento de aplicativos de página única ou móveis [[2]](#ref2).
+
+#### Next.js
+Next.js é um framework para React, oferece a melhor experiência de desenvolvedor com todos os recursos para produção: renderização híbrida estática e de servidor, suporte a TypeScript, agrupamento inteligente, pré-busca de rota sem precisar de nenhuma configuração necessária. Uma estrutura da web de desenvolvimento front-end React de código aberto [[3]](#ref3).
+
+### Bibliotecas
 
 ## Back-End
 
@@ -40,3 +51,9 @@ A seguir iremos apresentar como utilizados da reutilização.
 
 [1] Reutilização de Software - Revista Engenharia de Software Magazine 39. DEVMEDIA. Disponível em: <https://www.devmedia.com.br/reutilizacao-de-software-revista-engenharia-de-software-magazine-39/21956>. Acesso em: 06 de outubro de 2021.
 {: #ref1}
+
+[2] React WIKIPEDIA. Disponível em: <https://en.wikipedia.org/wiki/React_(JavaScript_library)#:~:text=React%20(also%20known%20as%20React,single%2Dpage%20or%20mobile%20applications.>. Acesso em: 06 de outubro de 2021.
+{: #ref1}
+
+[3] NEXT, The React Framework for Production. Disponível em: <https://nextjs.org/> . Acesso em: 06 de outubro de 2021.
+{: #ref3}
