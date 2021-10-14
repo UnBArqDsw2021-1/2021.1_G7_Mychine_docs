@@ -36,6 +36,7 @@ Documento de Arquitetura
 | 0.6    | 03/10/2021 | Adiciona Diagrama de Componentes        | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 | 0.6.1  | 03/10/2021 | Correções ortográficas                  | Igor Q Lima, Kess Jhones e Pedro Henrique                                      || 0.7    | 05/10/2021 | Adiciona Visão de implantação           | João Gabriel de Matos e Giovanna B Bottino                                     |
 | 0.8    | 05/10/2021 | Adiciona Tamanho e desempenho           | João Gabriel de Matos e Giovanna B Bottino                                     |
+| 0.9    | 14/10/2021 | Adiciona qualidade                      | Matheus e Giovanna                                                             |
 
 ## 1. Introdução
 
@@ -86,6 +87,9 @@ Esse documento de arquitetura descreve como a aplicação funciona, quais são o
 {: #ref5}
 
 [6] AWS, About AWS RDS. Disponível em: [https://aws.amazon.com/pt/rds/](https://aws.amazon.com/pt/rds/)
+{: #ref6}
+
+[7] DEVMEDIA, Qualidade de Software - Engenharia de Software. Disponível em: [https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209). Acesso em: 14 de outubro de 2021.
 {: #ref6}
 
 ### 1.5 Visão Geral
@@ -399,3 +403,9 @@ O sistema foi desenvolvido com foco na otimização de resposta às requisiçõe
 ## 11. Qualidade
 
 Para finalizar iremos avaliar a qualidade, verificar a extensibilidade, a confiabilidade, a portabilidade [[4]](#ref4). 
+
+A qualidade de software pode ser interpretada como um conjunto de características a serem satisfeitas. Essas caracteristicas devem atender às necessidades dos usuários. Deve-se levar em conta que esse nível de satisfação nem sempre é alcançado de forma espontânea, por isso deve ser continuamente construído [[7]](#ref7). A seguir podemos ver alguns itens de qualidade que esse projeto alcança. 
+
+* Usabilidade: A interface é simples e de fácil interação, o usuário é capaz de aprender rapidamente como se comporta o sistema. Isso porque ele segue padrões já estabelecidos no mercado.
+* Manutenabilidade: Toda a documentação e programação do projeto foi guardada no repositório do grupo. Isso facilita a manutenibilidade do código.
+* Portabilidade: Utilizamos do ambiente virtual Docker para garantir a portabildiade e criação de novos módulos do sistema. 
