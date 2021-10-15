@@ -60,17 +60,20 @@ Uma aplicação web chamada Mychine, permite alugar equipamentos como pequenos t
 | - | - | - |
 |[![Vídeo 1 - Módulo Padrões de Projeto – GRASP](/assets/images/entrega3/screenshot_video1.png)](https://www.youtube.com/watch?v=hIJkYtlPTBE) | [![Vídeo 2 - Módulo Padrões de Projeto – GoFs](/assets/images/entrega3/screenshot_video2.png)](https://www.youtube.com/watch?v=7BiSi3_FR5Q)|[![Vídeo 3 Módulo Padrões de Projeto - Iniciativas Extras](/assets/images/entrega3/screenshot_video3.png)](https://youtu.be/PhEbTqu5UZY) |
 
-<!--
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+| | | |
+| - | - | - |
+|![screenshot1](/assets/images/entrega4/screenshot1.jpg)|![screenshot2](/assets/images/entrega4/screenshot2.jpg)| ![screenshot3](/assets/images/entrega4/screenshot3.jpg) |
+
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
-Adicione o(s)s vídeo(s) da Entrega Final.
+| | |
+| - | - |
+|[![Vídeo 1 - Módulo Estilos e Padrões Arquiteturais](/assets/images/entrega4/screenshot_video1.png)](https://www.youtube.com/watch?v=hIJkYtlPTBE) | [![Vídeo 2 - Módulo Reutilização de Software](/assets/images/entrega4/screenshot_video2.png)](https://www.youtube.com/watch?v=7BiSi3_FR5Q)|
 
--->
 
 ## Descritivo dos Principais Aspectos Técnicos
 
