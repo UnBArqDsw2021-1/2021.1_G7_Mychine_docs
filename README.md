@@ -72,7 +72,7 @@ Uma aplicação web chamada Mychine, permite alugar equipamentos como pequenos t
 
 | | |
 | - | - |
-|[![Vídeo 1 - Módulo Estilos e Padrões Arquiteturais](/assets/images/entrega4/screenshot_video1.png)](https://www.youtube.com/watch?v=hIJkYtlPTBE) | [![Vídeo 2 - Módulo Reutilização de Software](/assets/images/entrega4/screenshot_video2.png)](https://www.youtube.com/watch?v=7BiSi3_FR5Q)|
+|[![Vídeo 1 - Módulo Estilos e Padrões Arquiteturais](/assets/images/entrega4/screenshot_video1.png)](https://www.youtube.com/watch?v=0De87u8pZLg) | [![Vídeo 2 - Módulo Reutilização de Software](/assets/images/entrega4/screenshot_video2.png)](https://www.youtube.com/watch?v=M7XcdJPwNk8)|
 
 
 ## Descritivo dos Principais Aspectos Técnicos
