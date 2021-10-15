@@ -25,7 +25,7 @@ Reutilização de Software
 |0.4    |06/10/2021| Reorganiza documento               | Giovanna B Bottino |
 |0.5    |07/10/2021| Adiciona Object–relational mapping | Matheus Gabriel e Giovanna B Bottino |
 
-## Reutilização de Sotware
+## Reutilização de Software
 
 A Reutilização de software é utilizada durante o desenvolvimento para reutilizar componentes, objetos, funções, algoritmos, bibliotecas e configurações. Essa abordagem visa agilizar e deixar mais eficiente o desenvolvimento. Reusar significa poder reutilizar partes, ou o todo, de um sistema em um novo software [[1]](#ref1).
 

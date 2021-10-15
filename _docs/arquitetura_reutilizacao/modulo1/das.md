@@ -326,7 +326,7 @@ O diagrama de sequência do feed de produtos apresenta a sequência que o ator u
 
 ## 7. Visão de implantação
 
-A visão de implantação descreve as configurações de rede física nas quais o o projeto é implantado e executado [[4]](#ref4).
+A visão de implantação descreve as configurações de rede física nas quais o projeto é implantado e executado [[4]](#ref4).
 
 Em nosso projeto escolhemos a ferramenta Amazon Relational Database Service, um serviço que oferece um serviço gratuito que é redimensionável e automatiza tarefas como provisionamento de hardware, configuração de bancos de dados, aplicação de patches e backups. O Amazon RDS está disponível em vários tipos de instância de banco de dados – com otimização para memória, performance ou E/S – em nosso projeto iremos utilizar para o MySQL Server [[6]](#ref6).
 
