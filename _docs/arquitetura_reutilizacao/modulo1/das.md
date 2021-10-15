@@ -34,7 +34,8 @@ Documento de Arquitetura
 | 0.5.1  | 03/10/2021 | Adiciona Visão geral da Visão lógica    | Matheus e Giovanna                                                             |
 | 0.5.2  | 03/10/2021 | Adiciona Diagrama de Pacotes            | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
 | 0.6    | 03/10/2021 | Adiciona Diagrama de Componentes        | João Gabriel de Matos, Samuel Nogueira e Giovanna                              |
-| 0.6.1  | 03/10/2021 | Correções ortográficas                  | Igor Q Lima, Kess Jhones e Pedro Henrique                                      || 0.7    | 05/10/2021 | Adiciona Visão de implantação           | João Gabriel de Matos e Giovanna B Bottino                                     |
+| 0.6.1  | 03/10/2021 | Correções ortográficas                  | Igor Q Lima, Kess Jhones e Pedro Henrique                                      |
+| 0.7    | 05/10/2021 | Adiciona Visão de implantação           | João Gabriel de Matos e Giovanna B Bottino                                     |
 | 0.8    | 05/10/2021 | Adiciona Tamanho e desempenho           | João Gabriel de Matos e Giovanna B Bottino                                     |
 | 0.9    | 14/10/2021 | Adiciona qualidade                      | Matheus e Giovanna                                                             |
 
@@ -116,8 +117,8 @@ A representação arquitetural serve para descrever qual arquitetura de software
 
 O diagrama a seguir apresenta de forma geral como o software final irá trabalhar. Mostra que o usuário irá interagir com a arquitetura monolítica em NextJS e banco de dados MySQL, virtualizados pelo Docker.
 
-<a href="{{ site.baseurl }}/assets/images/representacao-arquitetural.svg" data-toggle="lightbox">
-  <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.svg"/>
+<a href="{{ site.baseurl }}/assets/images/representacao-arquitetural.jpg" data-toggle="lightbox">
+  <img src="{{ site.baseurl }}/assets/images/representacao-arquitetural.jpg"/>
 </a>
 
 ##### Feito por: Pedro Henrique e Giovanna B Bottino
